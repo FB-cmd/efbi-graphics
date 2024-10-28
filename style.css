@@ -1,0 +1,113 @@
+:root {
+	--mainColor: #FF8C00;
+	--secondaryColor: #00008C;
+	--textColor: white;
+	--mainColorLight: #e18c0033;
+	--secondaryColorLight: #00008c33;
+}
+
+.line-top {
+	height: 5%;
+	background-color: var(--mainColor);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#logo {
+	height: 90%;
+	width: 30%;
+}
+
+menu {
+	display: flex;
+	background: linear-gradient(0deg, var(--secondaryColor) 5%, var(--mainColor) 5%);
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px;
+	width: 50%;
+	list-style-type: none;
+}
+
+li {
+	color: var(--textColor);
+}
+
+.icon {
+	height: 25px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.phone-infos-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+#contact-btn {
+	height: 30px;
+	width: 100px;
+	outline: none;
+	border: none;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	text-align: center;
+	cursor: pointer;
+}
+
+#banner {
+	width: 80%;
+	margin: 5px auto;
+	height: 30%;
+}
+
+.presentation, .services, .portfolio {
+	padding: 10px;
+	margin: 15px;
+}
+
+.presentation {
+	background-color: var(--mainColorLight);
+}
+
+h1 {
+	color: var(--mainColor);
+	text-align: center;
+}
+
+hr {
+	background-color: var(--secondaryColor);
+	margin: 0 auto;
+	width: 5%;
+	height: 5px;
+	margin-bottom: 15px;
+}
+
+.services-container, .works-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.services-container > div {
+	width: 30%;
+	padding: 10px;
+	background-color: var(--secondaryColorLight);
+}
+
+.works-container > img {
+	width: 30%;
+	padding: 10px;
+	border: 1px solid var(--mainColor);
+	border-radius: 10px;
+}
