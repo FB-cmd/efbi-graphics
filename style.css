@@ -1,3 +1,40 @@
+/* TODO: add automatic horizontal scrolling on photos under portfolio title */
+/* TODO: change some elements font-weight and font-style */
+
+@keyframes hide {
+	0% {
+		transform: translateX(-20px);
+		opacity: .9;
+	}
+
+	50% {
+		transform: translateX(-40px);
+		opacity: .5;
+	}
+
+	100% {
+		transform: translateX(-80px);
+		opacity: 0;
+		display: none;
+	}
+}
+
+@keyframes fancy-in {  
+	0% {
+		transform: translateX(-25vw);
+	}
+
+  	20%, 80% {
+    		transform: none;
+    		opacity: 1;
+  	}
+
+  	100% {
+    		transform: translateX(-90%) scale(.98);
+    		opacity: 0;
+  	}
+}
+
 :root {
 	--mainColor: #FF8C00;
 	--secondaryColor: #00008C;
@@ -6,12 +43,19 @@
 	--secondaryColorLight: #00008c33;
 }
 
+* {
+	font-family: "arpona";
+	font-weight: 400;
+	font-style: normal;
+}
+
 .line-top {
 	height: 5%;
 	background-color: var(--mainColor);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	padding: 10px;
 }
 
 header {
@@ -23,8 +67,8 @@ header {
 }
 
 #logo {
-	height: 90%;
-	width: 30%;
+	height: calc(542px / 6);
+	width: calc(657px / 6);
 }
 
 menu {
@@ -37,14 +81,48 @@ menu {
 	list-style-type: none;
 }
 
+a { 
+	cursor: pointer;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav-sections {
+	position: absolute;
+	display: none;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.subnav:hover .subnav-sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px;
+	list-style-type: none;
+	text-align: left;
+}
+
+.subnav-sections > a:hover {
+	background-color: var(--mainColorLight);
+}
+
 li {
 	color: var(--textColor);
 }
 
 .icon {
-	height: 25px;
-	width: 200px;
+	height: 20px;
+	width: 40px;
 	cursor: pointer;
+}
+
+#email-icon {
+	height: 15px;
+	width: 35px;
 }
 
 .phone-infos-container {
@@ -93,10 +171,16 @@ hr {
 	margin-bottom: 15px;
 }
 
-.services-container, .works-container {
+.services-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+}
+
+.works-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .services-container > div {
@@ -107,7 +191,14 @@ hr {
 
 .works-container > img {
 	width: 30%;
+	height: 500px;
 	padding: 10px;
 	border: 1px solid var(--mainColor);
 	border-radius: 10px;
+	background-color: white;
+}
+
+#work2 {
+	position: relative;
+	margin: 10px;
 }

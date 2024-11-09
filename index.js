@@ -1,6 +1,7 @@
 const phoneInfosContainer = document.querySelector(".phone-infos-container");
 const phoneNumberSpan = document.getElementById("phone-number");
-const phoneNumber = "0635461776";
+const phoneNumber = "+212699379212";
+let counter = 0;
 
 phoneNumberSpan.textContent = phoneNumber;
 phoneInfosContainer.addEventListener("click", async (e) => {

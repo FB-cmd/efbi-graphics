@@ -1,15 +1,18 @@
+<!-- TODO: add automatic horizontal scrolling on photos under portfolio title -->
+
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<title>eFBi-graphics</title>
+		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css">
 		<link rel="stylesheet" href="./reset.css">
 		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
 		<div class="line-top">
-			<a href="mailto:assirouomar@gmail.com" target="_blank">
-				<img class="icon" src="./assets/email-icon.svg" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
+			<a href="mailto:fabirrou@outlook.com" target="_blank">
+				<img class="icon" id="email-icon" src="./assets/email-icon.svg" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
 			</a>
 			<div class="phone-infos-container">
 				<img id="phone-icon" class="icon"  src="./assets/phone-icon.svg" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
@@ -17,15 +20,34 @@
 			</div>
 		</div>
 		<header>
-			<img id="logo" src="./assets/logo.svg" alt="Logo du site">
+			<img id="logo" src="./assets/logo.jpg" alt="Logo du site">
 			<menu>
-				<li>Home</li>
-				<li>Présentation</li>
-				<li>Services</li>
-				<li>Portfolio</li>
-				<li>Tarifs</li>
-				<li>Blog</li>
-				<li>Shopping</li>
+				<a>Home</a>
+				<div id="subnav-1" class="subnav">
+					<a id="subnav-title-1" class="subnav-title">Présentation</a>
+					<nav id="subnav-sections-1" class="subnav-sections">
+						<a>A propos</a>
+						<a>Valeurs</a>
+						<a>Relation client</a>
+						<a>Contact</a>
+					</nav>
+				</div>
+
+				<div id="subnav-2" class="subnav">
+					<a id="subnav-title-2" class="subnav-title">Services</a>
+					<nav id="subnav-sections-2" class="subnav-sections">
+						<a>Mise en page</a>
+						<a>Correction intégrale</a>
+						<a>Suivi de fabrication</a>
+						<a>Création graphique</a>
+						<a>Retouche photos</a>
+					</nav>
+				</div>
+
+				<a>Portfolio</a>
+				<a>Tarifs</a>
+				<a>Blog</a>
+				<a>Shopping</a>
 			</menu>
 			<a>
 				<img class="icon" src="./assets/shopping-basket-icon.svg" alt="Îcone représentant un panier">
@@ -69,9 +91,9 @@
 			<h1>Portfolio</h1>
 			<hr>
 			<div class="works-container">
-				<img alt="work1">
-				<img alt="work2">
-				<img alt="work3">
+				<img id="work1" src="./assets/book-cover-1.jpg" alt="work1">
+				<img id="work2" src="./assets/book-cover-2.jpg" alt="work2">
+				<img id="work3" src="./assets/book-cover-3.jpg" alt="work3">
 			</div>
 		</div>
 
