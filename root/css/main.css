@@ -1,50 +1,4 @@
-/* TODO: add automatic horizontal scrolling on photos under portfolio title */
 /* TODO: change some elements font-weight and font-style */
-
-@keyframes test {
-	from {
-		transform: translateX(0);
-	}
-
-	to {
-		transform: translateX(-1000px);
-	}
-}
-
-@keyframes hide {
-	0% {
-		transform: translateX(-20px);
-		opacity: .9;
-	}
-
-	50% {
-		transform: translateX(-40px);
-		opacity: .5;
-	}
-
-	100% {
-		transform: translateX(-80px);
-		opacity: 0;
-		display: none;
-	}
-}
-
-@keyframes fancy-in {  
-	0% {
-		transform: translateX(-20px);
-		opacity: .1;
-	}
-
-  	20%, 80% {
-		transform: translateX(-40px);
-		opacity: .5;
-  	}
-
-  	100% {
-    		transform: translateX(-80px);
-    		opacity: 1;
-  	}
-}
 
 :root {
 	--mainColor: #FF8C00;
@@ -106,7 +60,7 @@ a {
 .subnav-sections {
 	position: absolute;
 	display: none;
-	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(0, 0, 0, .5);
 }
 
 .subnav:hover .subnav-sections {
@@ -124,8 +78,8 @@ a {
 }
 
 .subnav-sections > a {
-	color: var(--secondaryColor);
-	font-size: .8em;
+	color: var(--textColor);
+	font-size: .9em;
 }
 
 li {
@@ -227,6 +181,20 @@ hr {
 	background-color: var(--secondaryColorLight);
 }
 
+@keyframes translateCards {
+	0% {
+		transform: translateX(0);
+	}
+
+	50% {
+		transform: translateX(-1000px);
+	}
+
+	100% {
+		transform: translateX(1000px);
+	}
+}
+
 .works-container > img {
 	width: 500px;
 	margin: 5px;
@@ -235,5 +203,5 @@ hr {
 	border: 1px solid var(--mainColor);
 	border-radius: 10px;
 	background-color: white;
-	animation: test 20s linear infinite;
+	animation: translateCards 40s linear infinite;
 }
