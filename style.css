@@ -1,6 +1,16 @@
 /* TODO: add automatic horizontal scrolling on photos under portfolio title */
 /* TODO: change some elements font-weight and font-style */
 
+@keyframes test {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-1000px);
+	}
+}
+
 @keyframes hide {
 	0% {
 		transform: translateX(-20px);
@@ -21,17 +31,18 @@
 
 @keyframes fancy-in {  
 	0% {
-		transform: translateX(-25vw);
+		transform: translateX(-20px);
+		opacity: .1;
 	}
 
   	20%, 80% {
-    		transform: none;
-    		opacity: 1;
+		transform: translateX(-40px);
+		opacity: .5;
   	}
 
   	100% {
-    		transform: translateX(-90%) scale(.98);
-    		opacity: 0;
+    		transform: translateX(-80px);
+    		opacity: 1;
   	}
 }
 
@@ -73,12 +84,14 @@ header {
 
 menu {
 	display: flex;
-	background: linear-gradient(0deg, var(--secondaryColor) 5%, var(--mainColor) 5%);
+	background: linear-gradient(0deg, var(--mainColor) 5%, var(--secondaryColor) 5%);
 	align-items: center;
 	justify-content: space-evenly;
+	margin: 5px;
 	padding: 5px;
 	width: 50%;
 	list-style-type: none;
+	color: var(--textColor);
 }
 
 a { 
@@ -110,6 +123,11 @@ a {
 	background-color: var(--mainColorLight);
 }
 
+.subnav-sections > a {
+	color: var(--secondaryColor);
+	font-size: .8em;
+}
+
 li {
 	color: var(--textColor);
 }
@@ -132,9 +150,20 @@ li {
 	cursor: pointer;
 }
 
+.left-side {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.left-side > * {
+	margin: 5px;
+}
+
 #contact-btn {
 	height: 30px;
-	width: 100px;
+	width: 125px;
 	outline: none;
 	border: none;
 	background-color: var(--mainColor);
@@ -144,9 +173,9 @@ li {
 }
 
 #banner {
-	width: 80%;
+	width: 86%;
+	height: 100%;
 	margin: 5px auto;
-	height: 30%;
 }
 
 .presentation, .services, .portfolio {
@@ -177,10 +206,19 @@ hr {
 	justify-content: space-evenly;
 }
 
+.portfolio {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .works-container {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+	max-width: 30%;
+	overflow: hidden;
 }
 
 .services-container > div {
@@ -190,15 +228,12 @@ hr {
 }
 
 .works-container > img {
-	width: 30%;
+	width: 500px;
+	margin: 5px;
 	height: 500px;
 	padding: 10px;
 	border: 1px solid var(--mainColor);
 	border-radius: 10px;
 	background-color: white;
-}
-
-#work2 {
-	position: relative;
-	margin: 10px;
+	animation: test 20s linear infinite;
 }
