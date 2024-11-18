@@ -82,10 +82,6 @@ a {
 	font-size: .9em;
 }
 
-li {
-	color: var(--textColor);
-}
-
 .icon {
 	height: 20px;
 	width: 40px;
@@ -152,6 +148,7 @@ hr {
 	width: 5%;
 	height: 5px;
 	margin-bottom: 15px;
+	border: none;
 }
 
 .services-container {
@@ -177,8 +174,33 @@ hr {
 
 .services-container > div {
 	width: 30%;
+	height: 300px;
 	padding: 10px;
 	background-color: var(--secondaryColorLight);
+}
+
+h2 {
+	text-align: center;
+	color: var(--mainColor);
+	font-size: 1.3em; 
+}
+
+#orange-hr {
+	background-color: var(--mainColor);
+	width: 80%;
+	margin-bottom: 5px;
+	height: 2px;
+}
+
+li {
+	list-style-type: disc;
+	margin: 10px;
+	color: var(--secondaryColor);
+}
+
+#subtitle {
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 @keyframes translateCards {
