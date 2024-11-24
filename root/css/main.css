@@ -128,7 +128,7 @@ a {
 	margin: 5px auto;
 }
 
-.presentation, .services, .portfolio {
+.presentation, .services, .portfolio, .promotion {
 	padding: 10px;
 	margin: 15px;
 }
@@ -140,6 +140,7 @@ a {
 h1 {
 	color: var(--mainColor);
 	text-align: center;
+	font-weight: bold;
 }
 
 hr {
@@ -226,4 +227,39 @@ li {
 	border-radius: 10px;
 	background-color: white;
 	animation: translateCards 40s linear infinite;
+}
+
+.promotion > h1 {
+	margin: 10px;
+}
+
+.promotion > p, #note {
+	color: var(--secondaryColor);
+}
+
+.promotion > p {
+	margin: 10px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#note {
+	text-align: left;
+	font-size: .8em;
+}
+
+footer {
+	background-color: var(--mainColor);
+	height: 50px;
+	align-content: center;
+	text-align: center;
+}
+
+footer > span {
+	color: var(--secondaryColor);
 }
