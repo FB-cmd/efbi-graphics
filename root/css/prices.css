@@ -1,0 +1,13 @@
+:root {
+	--mainColor: #FF8C00;
+	--secondaryColor: #00008C;
+	--textColor: white;
+	--mainColorLight: #e18c0033;
+	--secondaryColorLight: #00008c33;
+}
+
+* {
+	font-family: "arpona";
+	font-weight: 400;
+	font-style: normal;
+}
