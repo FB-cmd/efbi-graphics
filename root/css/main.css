@@ -272,6 +272,12 @@ li {
 	animation: translateCards 40s linear infinite;
 }
 
+.promotion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .promotion > h1 {
 	margin: 10px;
 }
@@ -293,7 +299,7 @@ strong {
 }
 
 #note {
-	text-align: left;
+	color: var(--mainColor);
 	font-size: 0.8em;
 }
 
