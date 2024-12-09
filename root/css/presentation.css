@@ -1,0 +1,196 @@
+:root {
+	--mainColor: #FF8C00;
+	--secondaryColor: #00008C;
+	--textColor: white;
+	--mainColorLight: #e18c0033;
+	--secondaryColorLight: #00008c33;
+}
+
+* {
+	font-family: "arpona";
+	font-weight: 400;
+	font-style: normal;
+}
+
+.line-top {
+	height: 5%;
+	background-color: var(--mainColor);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+header {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#logo {
+	height: calc(542px / 6);
+	width: calc(657px / 6);
+}
+
+menu {
+	display: flex;
+	background: linear-gradient(0deg, var(--mainColor) 5%, var(--secondaryColor) 5%);
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 5px;
+	padding: 5px;
+	width: 50%;
+	list-style-type: none;
+	color: var(--textColor);
+}
+
+a:link { 
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+a:visited { 
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+a:active { 
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+a:hover { 
+	color: var(--textColor);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav-sections {
+	position: absolute;
+	display: none;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.subnav:hover .subnav-sections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px;
+	list-style-type: none;
+	text-align: left;
+}
+
+.subnav-sections > a:hover {
+	background-color: var(--mainColorLight);
+}
+
+.subnav-sections > a {
+	color: var(--textColor);
+	font-size: .9em;
+}
+
+.icon {
+	height: 20px;
+	width: 40px;
+	cursor: pointer;
+}
+
+#email-icon {
+	height: 15px;
+	width: 35px;
+}
+
+.phone-infos-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.left-side {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.left-side > * {
+	margin: 5px;
+}
+
+#contact-btn {
+	height: 30px;
+	width: 125px;
+	outline: none;
+	border: none;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	text-align: center;
+	cursor: pointer;
+}
+
+h1 {
+	color: var(--mainColor);
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.about, .values, .client-relation {
+	width: 92%;
+	margin: 15px;
+	margin-top: 75px;
+	padding-left: 100px;
+}
+
+.content {
+	background-color: var(--secondaryColor);
+	padding: 20px;
+	margin: 10px auto;
+}
+
+.content > * {
+	color: var(--textColor);
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 15px;
+}
+
+strong {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+li {
+	margin: 0 10px 0 10px;
+}
+
+.notes {
+	margin-top: 20px;
+	font-size: .8em;
+}
+
+.notes > * {
+	color: var(--textColor);
+	font-style: italic;
+}
+
+footer {
+	background-color: var(--mainColor);
+	height: 50px;
+	align-content: center;
+	text-align: center;
+	margin-top: 120px;
+}
+
+footer > span {
+	color: var(--secondaryColor);
+}
