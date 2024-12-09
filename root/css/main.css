@@ -1,8 +1,8 @@
 /* TODO: change some elements font-weight and font-style */
 
 :root {
-	--mainColor: #FF8C00;
-	--secondaryColor: #00008C;
+	--mainColor: #ff8c00;
+	--secondaryColor: #00008c;
 	--textColor: white;
 	--mainColorLight: #e18c0033;
 	--secondaryColorLight: #00008c33;
@@ -48,22 +48,22 @@ menu {
 	color: var(--textColor);
 }
 
-a:link { 
+a:link {
 	color: var(--textColor);
 	text-decoration: none;
 }
 
-a:visited { 
+a:visited {
 	color: var(--textColor);
 	text-decoration: none;
 }
 
-a:active { 
+a:active {
 	color: var(--textColor);
 	text-decoration: none;
 }
 
-a:hover { 
+a:hover {
 	color: var(--textColor);
 	text-decoration: none;
 	cursor: pointer;
@@ -77,7 +77,7 @@ a:hover {
 .subnav-sections {
 	position: absolute;
 	display: none;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .subnav:hover .subnav-sections {
@@ -96,7 +96,7 @@ a:hover {
 
 .subnav-sections > a {
 	color: var(--textColor);
-	font-size: .9em;
+	font-size: 0.9em;
 }
 
 .icon {
@@ -145,7 +145,10 @@ a:hover {
 	margin: 5px auto;
 }
 
-.presentation, .services, .portfolio, .promotion {
+.presentation,
+.services,
+.portfolio,
+.promotion {
 	padding: 10px;
 	margin: 15px;
 }
@@ -159,7 +162,8 @@ a:hover {
 	margin: 15px auto;
 }
 
-.presentation > ul > li, .presentation > p > * {
+.presentation > ul > li,
+.presentation > p > * {
 	color: var(--secondaryColor);
 	font-style: italic;
 }
@@ -222,7 +226,7 @@ hr {
 h2 {
 	text-align: center;
 	color: var(--mainColor);
-	font-size: 1.3em; 
+	font-size: 1.3em;
 }
 
 #orange-hr {
@@ -272,7 +276,8 @@ li {
 	margin: 10px;
 }
 
-.promotion > p, #note {
+.promotion > p,
+#note {
 	color: var(--secondaryColor);
 }
 
@@ -289,7 +294,7 @@ strong {
 
 #note {
 	text-align: left;
-	font-size: .8em;
+	font-size: 0.8em;
 }
 
 footer {
@@ -297,6 +302,7 @@ footer {
 	height: 50px;
 	align-content: center;
 	text-align: center;
+	margin-top: 120px;
 }
 
 footer > span {
