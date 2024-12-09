@@ -238,7 +238,9 @@ h2 {
 
 li {
 	list-style-type: disc;
-	margin: 10px;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
 	color: var(--secondaryColor);
 }
 
