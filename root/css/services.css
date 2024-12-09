@@ -144,7 +144,8 @@ h1 {
 }
 
 .layout,
-.correction {
+.correction,
+.graphics {
 	width: 92%;
 	margin: 15px;
 	margin-top: 75px;
