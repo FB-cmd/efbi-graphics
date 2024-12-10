@@ -283,7 +283,7 @@ li {
 
 .new-year > * {
 	width: 1000px;
-	border: 1px solid var(--mainColor);
+	border: 1px solid var(--secondaryColor);
 	border-radius: 10px;
 }
 
