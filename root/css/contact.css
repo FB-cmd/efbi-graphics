@@ -136,6 +136,45 @@ a:hover {
 	text-align: center;
 	cursor: pointer;
 }
+.profiles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.profiles > * {
+	width: 40%;
+}
+.welcome {
+	margin: 15px auto;
+	padding: 15px;
+	width: 70%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.welcome > * {
+	color: var(--secondaryColor);
+	font-size: 1.3em;
+	margin: 10px auto;
+}
+strong {
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+	font-size: 2em;
+	color: var(--mainColor);
+	margin-bottom: 50px;
+}
+.right {
+	text-align: right;
+}
+.italic {
+	font-style: italic;
+}
 footer {
 	background-color: var(--mainColor);
 	height: 50px;
