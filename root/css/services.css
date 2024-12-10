@@ -172,6 +172,31 @@ h1 {
 	font-size: 1em;
 	font-weight: bold;
 }
+.promotion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+}
+.promotion > h1 {
+	margin: 10px;
+}
+.promotion > p,
+#note {
+	color: var(--secondaryColor);
+}
+
+.promotion > p {
+	margin: 10px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 1.4em;
+}
 footer {
 	background-color: var(--mainColor);
 	height: 50px;
