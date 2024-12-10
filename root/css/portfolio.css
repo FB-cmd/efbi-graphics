@@ -140,6 +140,7 @@ a:hover {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 15px;
 }
 
 .gallery > * {
