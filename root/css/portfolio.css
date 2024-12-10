@@ -136,6 +136,30 @@ a:hover {
 	text-align: center;
 	cursor: pointer;
 }
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery > * {
+	width: 20%;
+	height: 500px;
+	margin: 15px;
+	border: 1px solid var(--mainColor);
+	border-radius: 10px;
+	flex-grow: 1;
+}
+
+#cover-23 {
+	margin: 15px auto;
+	max-width: 1000px;
+}
+
+#cover-22, #cover-23 {
+	width: 70%;
+}
+
 footer {
 	background-color: var(--mainColor);
 	height: 50px;
