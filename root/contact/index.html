@@ -127,13 +127,16 @@
 
 		<form>
 			<h2>Nom complet</h2>
+			<div class="container container-1">
 				<label for="first-name">Prénom</label>
 				<input type="text" id="first-name">
+			</div>
 				<br>
+			<div class="container container-1">
 				<label for="last-name">Nom</label>
 				<input type="text" id="last-name">
+			</div>
 
-				<br>
 
 			<h2>Statut</h2>
 				<input type="radio" id="company" value="Entreprise"name="status">
@@ -149,14 +152,16 @@
 
 
 			<h2>Informations de contact</h2>
-
+			<div class="container container-2">
 				<label for="email">Email</label>
 				<input type="text" id="email">
+			</div>
 				<br>
-				<label for="phone-number">Numéro de téléphone</label>
-				<input type="text" id="phone-number">
+			<div class="container container-2">
+				<label for="phone-number-field">Numéro de téléphone</label>
+				<input type="text" id="phone-number-field">
+			</div>
 
-				<br>
 			
 			<h2>Nature de publication</h2>
 				<input type="radio" id="book" value="Livre" name="publication-type">
@@ -171,11 +176,13 @@
 				<label for="other-2">Autre</label><br>
 
 
+			<div class="container container-3">
 			<h2>
 				<label for="file-format">Format</label>
 			</h2>
 				<input type="text" id="file-format">
-				<br>
+			</div>
+
 
 			<h2>Type de manuscrit</h2>
 				<input type="radio" id="raw-text" value="Texte brut"name="manuscript-type">
@@ -194,35 +201,6 @@
   				<input type="checkbox" id="images-process" value="Traitement d'images"name="prestation-type">
 				<label for="images-process">Traitement d'images</label><br>
 
-				<br>
-
-			<h2>
-				<label for="pages-number">Nombre de pages</label>
-			</h2>
-				<input type="text" id="pages-number">
-
-				<br>
-
-			<h2>
-				<label for="tables-number">Nombre de tableaux</label>
-			</h2>
-				<input type="text" id="tables-number">
-
-				<br>
-
-			<h2>
-				<label for="images-number">Nombre d'images</label>
-			</h2>
-				<input type="text" id="images-number">
-
-				<br>
-
-			<h2>
-				<label for="last-date">Délai accordé</label>
-			</h2>
-				<input type="date" id="last-date">
-
-				<br>
 
 			<h2>Maquette</h2>
 				<input type="radio" id="original" value="Originale" name="model">
@@ -230,7 +208,38 @@
   				<input type="radio" id="model-given" value="Modèle fourni"name="model">
 				<label for="model-given">Modèle fourni</label><br>
 
-				<br>
+
+			<div class="container container-4">
+			<h2>
+				<label for="pages-number">Nombre de pages</label>
+			</h2>
+				<input type="text" id="pages-number">
+			</div>
+
+
+			<div class="container container-4">
+			<h2>
+				<label for="tables-number">Nombre de tableaux</label>
+			</h2>
+				<input type="text" id="tables-number">
+			</div>
+
+
+			<div class="container container-4">
+			<h2>
+				<label for="images-number">Nombre d'images</label>
+			</h2>
+				<input type="text" id="images-number">
+			</div>
+
+
+			<div class="container container-4">
+			<h2>
+				<label for="last-date">Délai accordé</label>
+			</h2>
+				<input type="date" id="last-date">
+			</div>
+
 
 			<h2>
 				<label for="message">Message</label>
