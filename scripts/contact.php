@@ -25,6 +25,6 @@ echo "La demande a bien été reçue!";
 
 sleep(5);
 
-header("https://fbcreations.org/contact");
+header("Location: https://fbcreations.org/contact");
 die();
 ?>
