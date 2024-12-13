@@ -1,0 +1,103 @@
+hr {
+	width: 70%;
+	height: 1px;
+	background-color: var(--mainColor);
+	border: none;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 80px;
+	color: var(--secondaryColor);
+}
+
+.align-with-welcome {
+	margin: 15px auto;
+	padding: 15px;
+	width: 70%;
+}
+
+form > * {
+	margin: 5px;
+	color: var(--secondaryColor);
+}
+
+h2 {
+	font-size: 1.3em;
+	margin: 30px 0 15px 0;
+}
+
+form {
+	margin: 10px;
+}
+
+
+.section {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.section > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.section > div > input {
+	margin-top: 10px;
+}
+
+input[type="text"] {
+	width: 200px;
+	border: 1px solid var(--secondaryColor);
+	border-radius: 5px;
+	padding: 2px;
+	color: var(--secondaryColor);
+}
+
+input[type="text"]:focus, #message:focus {
+	border: 2px solid var(--secondaryColor);
+	outline: none;
+}
+
+#message {
+	width: 100%;
+	height: 150px;
+	resize: none;
+	border: 1px solid var(--secondaryColor);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.center-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type="submit"] {
+	margin: 20px;
+	height: 50px;
+	width: 100px;
+	color: var(--mainColor);
+	background-color: var(--secondaryColor);
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	opacity: .8;
+}
+
+input[type="submit"]:focus {
+	background-color: black;
+}
+
+
