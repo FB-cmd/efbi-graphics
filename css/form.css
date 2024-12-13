@@ -32,7 +32,6 @@ form {
 	margin: 10px;
 }
 
-
 .section {
 	width: 100%;
 	display: flex;
@@ -47,7 +46,6 @@ form {
 	flex-direction: column;
 }
 
-
 .section > div > input {
 	margin-top: 10px;
 }
@@ -60,7 +58,8 @@ input[type="text"] {
 	color: var(--secondaryColor);
 }
 
-input[type="text"]:focus, #message:focus {
+input[type="text"]:focus,
+#message:focus {
 	border: 2px solid var(--secondaryColor);
 	outline: none;
 }
@@ -93,11 +92,16 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	opacity: .8;
+	opacity: 0.8;
 }
 
 input[type="submit"]:focus {
 	background-color: black;
 }
-
-
+.center {
+	text-align: center;
+	font-size: 2.5em;
+	color: var(--mainColor);
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
