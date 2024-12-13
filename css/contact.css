@@ -141,9 +141,10 @@ strong {
 
 .center {
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: var(--mainColor);
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .right {
