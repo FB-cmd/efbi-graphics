@@ -54,7 +54,7 @@ input[type="text"],
 input[type="number"],
 input[type="email"], 
 input[type="tel"] {
-	width: 200px;
+	width: 250px;
 	border: 1px solid var(--secondaryColor);
 	border-radius: 5px;
 	padding: 2px;
