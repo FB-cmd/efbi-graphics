@@ -50,7 +50,10 @@ form {
 	margin-top: 10px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"],
+input[type="email"], 
+input[type="tel"] {
 	width: 200px;
 	border: 1px solid var(--secondaryColor);
 	border-radius: 5px;
@@ -59,6 +62,9 @@ input[type="text"] {
 }
 
 input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
 #message:focus {
 	border: 2px solid var(--secondaryColor);
 	outline: none;
