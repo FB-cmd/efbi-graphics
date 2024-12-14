@@ -21,10 +21,16 @@ fwrite($myfile, $line8);
 fwrite($myfile, $line9);
 fclose($myfile);
 
-echo "La demande a bien été reçue!";
-
-sleep(5);
-
-header("Location: https://fbcreations.org/contact");
-die();
+echo '<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>eFBi-graphics</title>
+	</head>
+	<body>
+	    <span>Votre demande a bien été reçue !</span>
+	    <br>
+	    <a href="../">Retour à l\'accueil</a>
+	</body>
+</html>';
 ?>
