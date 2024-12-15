@@ -3,7 +3,8 @@ $myfile = fopen("{$_POST["firstName"]}-{$_POST["lastName"]}.txt", "w") or die("U
 
 $line1 = "Nom complet : {$_POST["firstName"]} {$_POST["lastName"]} \n";
 $line2 = "Email : {$_POST["email"]} \n";
-$line3 = "Numéro de téléphone : {$_POST["phoneNumber"]} \n";
+$line3 = "Numéro de téléphone : {$_POST["fullPhoneNumber"]} \n";
+$line4 = "Code du pays : {$_POST["countryCode"]} \n";
 $line5 = "Type de manuscript : {$_POST["manuscriptType"]} \n";
 $line6 = "Nombre de mots : {$_POST["wordNumber"]} \n";
 $line7 = "Nombre d'images : {$_POST["imageNumber"]} \n";
