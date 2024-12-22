@@ -225,10 +225,6 @@ li {
 	50% {
 		transform: translateX(-1000px);
 	}
-
-	100% {
-		transform: translateX(1000px);
-	}
 }
 
 .works-container > img {
