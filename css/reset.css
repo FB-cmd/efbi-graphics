@@ -7,6 +7,11 @@
 	padding: 0;
 }
 
+/* Text remain visible during webfont load */
+@font-face {
+	font-display: swap;
+}
+
 body {
 	height: 100svh;
 	line-height: 1.5;
