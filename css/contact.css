@@ -102,7 +102,7 @@ a:hover {
 	outline: none;
 	border: none;
 	background-color: var(--mainColor);
-	color: var(--textColor);
+	color: var(--secondaryColor);
 	text-align: center;
 	cursor: pointer;
 }
