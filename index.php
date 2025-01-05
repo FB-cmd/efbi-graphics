@@ -1,3 +1,18 @@
+<?php
+// Fix: images links not working
+
+$links = [
+		"Accueil" => "./",
+		"Présentation" => "./présentation/",
+		"Services" => "./services/",
+		"Portfolio" => "./portfolio/",
+		"Tarifs" => "./tarifs/",
+		"Blog" => "./blog/",
+		"Shopping" => "./shopping/",
+	];
+$contactLink = "./contact/";
+
+echo <<<HTML
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -11,33 +26,13 @@
 		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css">
 	</head>
 	<body>
-		<div class="line-top">
-			<a href="mailto:fabirrou@outlook.com" target="_blank">
-				<img class="icon" id="email-icon" src="./assets/icons/email.svg" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
-			</a>
-			<div class="phone-infos-container">
-				<img id="phone-icon" class="icon" src="./assets/icons/phone.svg" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
-				<span id="phone-number"></span>
-			</div>
-		</div>
-		<header>
-			<img id="logo" src="./assets/img/logo.svg" alt="Logo du site">
-			<menu>
-				<a href="./">Accueil</a>
-				<a href="./présentation/">Présentation</a>
-				<a href="./services/">Services</a>
-				<a href="./portfolio/">Portfolio</a>
-				<a href="./tarifs/">Tarifs</a>
-				<a href="./blog/">Blog</a>
-				<a href="./shopping/">Shopping</a>
-			</menu>
-			<div class="left-side">
-				<a href="./contact/">
-					<button id="contact-btn">Contact</button>
-				</a>
-			</div>
-		</header>
-		<img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
+HTML;
+
+require('./scripts/addHeader.php');
+addHeader($links, $contactLink);
+
+echo <<<HTML
+<img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
 		<div class="presentation">
 			<h1>Présentation</h1>
 			<hr>
@@ -178,3 +173,6 @@
 		<script src="./scripts/common.js"></script>
 	</body>
 </html>
+HTML;
+
+?>
