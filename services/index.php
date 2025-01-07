@@ -1,3 +1,18 @@
+<?php
+require('../scripts/addHeader.php');
+
+$linksArr = [
+		"Accueil" => "../",
+		"Présentation" => "../présentation/",
+		"Services" => "./",
+		"Portfolio" => "../portfolio/",
+		"Tarifs" => "../tarifs/",
+		"Blog" => "../blog/",
+		"Shopping" => "../shopping/",
+	];
+$contactLink = "../contact/";
+
+echo <<<HTML
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -12,42 +27,12 @@
 	</head>
 
 	<body>
-		<div class="line-top">
-			<a href="mailto:fabirrou@outlook.com" target="_blank">
-				<img
-					class="icon"
-					id="email-icon"
-					src="../assets/icons/email.svg"
-					alt="Îcone représentant un courrier qui redirige vers mon e-mail" />
-			</a>
-			<div class="phone-infos-container">
-				<img
-					id="phone-icon"
-					class="icon"
-					src="../assets/icons/phone.svg"
-					alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier" />
-				<span id="phone-number"></span>
-			</div>
-		</div>
-		<header>
-			<img id="logo" src="../assets/img/logo.svg" alt="Logo du site" />
-			<menu>
-				<a href="../">Accueil</a>
-				<a href="../présentation">Présentation</a>
-				<a href="./">Services</a>
-				<a href="../portfolio/">Portfolio</a>
-				<a href="../tarifs/">Tarifs</a>
-				<a href="../blog/">Blog</a>
-				<a href="../shopping/">Shopping</a>
-			</menu>
-			<div class="left-side">
-				<a href="../contact/">
-					<button id="contact-btn">Contact</button>
-				</a>
-			</div>
-		</header>
+HTML;
 
-		<div class="layout">
+addHeader($linksArr, $contactLink);
+
+echo <<<HTML
+<div class="layout">
 			<h1>Mise en page et suivi de fabrication</h1>
 			<div class="content">
 				<p>
@@ -196,3 +181,5 @@
 		<script src="../scripts/common.js"></script>
 	</body>
 </html>
+HTML;
+?>

@@ -1,3 +1,18 @@
+<?php
+require('../scripts/addHeader.php');
+
+$linksArr = [
+		"Accueil" => "../",
+		"Présentation" => "../présentation/",
+		"Services" => "../services/",
+		"Portfolio" => "../portfolio/",
+		"Tarifs" => "../tarifs/",
+		"Blog" => "../blog/",
+		"Shopping" => "../shopping",
+	];
+$contactLink = "./";
+
+echo <<<HTML
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -13,41 +28,13 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">
 	</head>
 	<body>
-		<div class="line-top">
-			<a href="mailto:fabirrou@outlook.com" target="_blank">
-				<img
-					class="icon"
-					id="email-icon"
-					src="../assets/icons/email.svg"
-					alt="Îcone représentant un courrier qui redirige vers mon e-mail" />
-			</a>
-			<div class="phone-infos-container">
-				<img
-					id="phone-icon"
-					class="icon"
-					src="../assets/icons/phone.svg"
-					alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier" />
-				<span id="phone-number"></span>
-			</div>
-		</div>
-		<header>
-			<img id="logo" src="../assets/img/logo.svg" alt="Logo du site" />
-			<menu>
-				<a href="../">Accueil</a>
-				<a href="../présentation/">Présentation</a>
-				<a href="../services/">Services</a>
-				<a href="../portfolio/">Portfolio</a>
-				<a href="../tarifs/">Tarifs</a>
-				<a href="../blog/">Blog</a>
-				<a href="../shopping/">Shopping</a>
-			</menu>
-			<div class="left-side">
-				<a href="./">
-					<button id="contact-btn">Contact</button>
-				</a>
-			</div>
-		</header>
-		<div class="profiles">
+
+HTML;
+
+addHeader($linksArr, $contactLink);
+
+echo <<<HTML
+<div class="profiles">
 			<img src="../assets/img/profile-1.jpeg" alt="photo de profil" />
 		</div>
 		<div class="welcome">
@@ -182,3 +169,5 @@
 		<script src="../scripts/contact.js"></script>
 	</body>
 </html>
+HTML;
+?>
