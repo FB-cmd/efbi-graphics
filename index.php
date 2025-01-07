@@ -1,16 +1,4 @@
 <?php
-// Fix: images links not working
-
-$links = [
-		"Accueil" => "./",
-		"Présentation" => "./présentation/",
-		"Services" => "./services/",
-		"Portfolio" => "./portfolio/",
-		"Tarifs" => "./tarifs/",
-		"Blog" => "./blog/",
-		"Shopping" => "./shopping/",
-	];
-$contactLink = "./contact/";
 
 echo <<<HTML
 <!DOCTYPE html>
@@ -28,8 +16,7 @@ echo <<<HTML
 	<body>
 HTML;
 
-require('./scripts/addHeader.php');
-addHeader($links, $contactLink);
+require('./scripts/addHomeHeader.php');
 
 echo <<<HTML
 <img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
