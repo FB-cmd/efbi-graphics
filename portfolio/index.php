@@ -33,7 +33,7 @@ addHeader($linksArr, $contactLink);
 
 echo <<<HTML
 <div class="gallery">
-			<img
+<div class="container">			<img
 				class="cover"
 				id="cover-1"
 				src="../assets/img/books-covers/cover-1.jpg"
@@ -170,6 +170,7 @@ echo <<<HTML
 				id="cover-23"
 				src="../assets/img/books-covers/cover-23.jpg"
 				alt="Couverture d'un travail" />
+		</div>
 		</div>
 
 		<footer>
