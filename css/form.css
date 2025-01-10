@@ -14,8 +14,7 @@ h1 {
 
 .align-with-welcome {
 	margin: 15px auto;
-	padding: 15px;
-	width: 70%;
+	max-width: 90%;
 }
 
 form > * {
@@ -37,6 +36,7 @@ form {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .section > div {
@@ -46,22 +46,17 @@ form {
 	flex-direction: column;
 }
 
-.section > div > input {
-	margin-top: 10px;
-}
-
-.section > div > select {
-	margin-top: 10px;
-}
-
+.section > div > input,
+.section > div > .iti,
 select {
+	margin-top: 10px;
+}
+
+input, select {
 	height: 30px;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"], 
-input[type="tel"],
+input,
 select {
 	width: 250px;
 	border: 1px solid var(--secondaryColor);
@@ -70,12 +65,9 @@ select {
 	color: var(--secondaryColor);
 }
 
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus, 
-input[type="tel"]:focus, 
-select:focus, 
-#message:focus {
+input:focus,
+#message:focus,
+select:focus {
 	border: 2px solid var(--secondaryColor);
 	outline: none;
 }

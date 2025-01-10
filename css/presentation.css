@@ -6,10 +6,8 @@ h1 {
 }
 
 .about, .values, .client-relation {
-	width: 92%;
-	margin: 15px;
-	margin-top: 75px;
-	padding-left: 100px;
+	max-width: 92%;
+	margin: 15px auto;
 }
 
 .content {
