@@ -12,11 +12,6 @@ h1 {
 	color: var(--secondaryColor);
 }
 
-.align-with-welcome {
-	margin: 15px auto;
-	max-width: 90%;
-}
-
 form > * {
 	margin: 5px;
 	color: var(--secondaryColor);
@@ -28,7 +23,11 @@ h2 {
 }
 
 form {
-	margin: 10px;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .section {
@@ -46,10 +45,8 @@ form {
 	flex-direction: column;
 }
 
-.section > div > input,
-.section > div > .iti,
-select {
-	margin-top: 10px;
+label {
+	margin: 10px;
 }
 
 input, select {

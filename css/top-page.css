@@ -30,6 +30,7 @@ header {
 }
 
 #logo {
+	margin: 10px;
 	height: calc(542px / 6);
 	width: calc(657px / 6);
 }
