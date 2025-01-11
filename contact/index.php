@@ -87,7 +87,6 @@ echo <<<HTML
 
 		<h1>Formulaire de contact</h1>
 
-		<div class="align-with-welcome">
 			<form action="../scripts/contact.php" method="POST">
 				<h2>Informations de contact</h2>
 				<div class="section" id="section-1">
@@ -157,7 +156,6 @@ echo <<<HTML
 					<input type="submit" value="Envoyer" />
 				</div>
 			</form>
-		</div>
 
 
 		<footer>
