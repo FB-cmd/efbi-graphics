@@ -37,6 +37,7 @@ h1 {
 	align-items: center;
 	flex-direction: column;
 	margin-top: 100px;
+	margin-bottom: 20px;
 }
 .promotion > h1 {
 	margin: 10px;
