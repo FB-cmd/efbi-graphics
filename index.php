@@ -158,6 +158,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="./scripts/common.js"></script>
+		<script src="./scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

@@ -35,6 +35,14 @@ header {
 	width: calc(657px / 6);
 }
 
+#menu-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 50%;
+}
+
 menu {
 	display: flex;
 	background: linear-gradient(0deg, var(--mainColor) 5%, var(--secondaryColor) 5%);
@@ -42,9 +50,13 @@ menu {
 	justify-content: space-evenly;
 	margin: 5px;
 	padding: 5px;
-	width: 50%;
 	list-style-type: none;
 	color: var(--textColor);
+	min-width: 100%;
+}
+
+menu > * {
+	margin: 5px;
 }
 
 a:link {
@@ -106,4 +118,41 @@ a:hover {
 	color: var(--secondaryColor);
 	text-align: center;
 	cursor: pointer;
+}
+
+#show-menu-icon {
+	height: 50x;
+	width: 50px;
+}
+
+#activate-menu-btn {
+	background: transparent;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#activate-menu-btn > * {
+	display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+#activate-menu-btn > * {
+	display: block;
+}
+
+	menu {
+		flex-direction: column;
+		min-width: 150px;
+		display: none;
+		background: var(--secondaryColor);
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	menu {
+		display: flex !important;
+	}
 }
