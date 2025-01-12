@@ -9,7 +9,7 @@
 }
 
 .content {
-	background-color: var(--mainColorLight);
+	background-color: var(--secondaryColorLight);
 	padding: 20px;
 	margin: 15px;
 	width: 70%;
