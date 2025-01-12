@@ -1,9 +1,16 @@
+body {
+	min-height: 100svh;
+	display: flex;
+	flex-direction: column;
+}
+
 footer {
+
 	background-color: var(--mainColor);
 	height: 50px;
 	align-content: center;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: auto;
 	width: 100%;
 }
 
