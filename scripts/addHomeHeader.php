@@ -25,7 +25,6 @@ echo <<<HTML
 				<div id="menu-container">
 				<button id="activate-menu-btn">
 				<img src="../assets/icons/show-menu.svg" id="show-menu-icon">
-				<span id="menu-title">Menu</span>
 				</button>
 			<menu>
 HTML;
