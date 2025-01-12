@@ -172,3 +172,15 @@ strong {
 	color: var(--mainColor);
 	font-size: 0.8em;
 }
+
+@media screen and (max-width: 1200px) {
+	.services-container {
+		flex-direction: column;
+	}
+
+	.services-container > div {
+		max-width: 90%;
+		margin: 10px;
+	}
+}
+
