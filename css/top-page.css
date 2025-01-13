@@ -23,7 +23,6 @@
 
 header {
 	height: 15%;
-	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -154,5 +153,22 @@ a:hover {
 @media only screen and (min-width: 1000px) {
 	menu {
 		display: flex !important;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	header {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	#logo {
+		display: none;
+	}
+
+	header {
+		max-width: 100%;
 	}
 }
