@@ -2,6 +2,8 @@
 	
 function addHeader(array $linksArr, $contactLink) {
 echo <<<HTML
+	<script defer src="../scripts/responsive-menu.js"></script>
+
 	<div class="line-top">
 			<a href="mailto:fabirrou@outlook.com" target="_blank">
 				<img class="icon" id="email-icon" src="../assets/icons/email.svg" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
