@@ -1,7 +1,7 @@
 .gallery {  
 	display: grid;
-  grid-template-columns: repeat(3, 25% 1px) 20%;
-  grid-template-rows: repeat(7, 500px 1px);
+  grid-template-columns: repeat(3, 1fr 1px) 1fr;
+  grid-template-rows: repeat(7, 50% 1px);
   grid-auto-columns: 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
@@ -19,6 +19,7 @@
     ". . lastcover lastcover lastcover lastcover lastcover"
     "hr6 hr6 hr6 hr6 hr6 hr6 hr6"
     "newYearCard newYearCard newYearCard newYearCard newYearCard newYearCard newYearCard";
+    max-width: 100%;
 }
 
 .gallery > img {
