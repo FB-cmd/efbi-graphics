@@ -1,7 +1,7 @@
 .gallery {  
 	display: grid;
   grid-template-columns: repeat(3, 25% 1px) 20%;
-  grid-template-rows: repeat(8, 500px 1px);
+  grid-template-rows: repeat(6, 500px 1px);
   grid-auto-columns: 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
