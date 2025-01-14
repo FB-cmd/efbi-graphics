@@ -165,6 +165,11 @@ echo <<<HTML
 				src="../assets/img/books-covers/cover-22.jpg"
 				alt="Couverture d'un travail" />
 			<hr class="horizontal" id="hr6"/>
+			<img
+				class="cover"
+				id="new-year-card"
+				src="../assets/img/books-covers/cover-23.jpg"
+				alt="Couverture d'un travail" />
 		</div>
 
 		<footer>

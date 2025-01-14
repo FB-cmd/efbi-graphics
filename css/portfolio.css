@@ -1,7 +1,7 @@
 .gallery {  
 	display: grid;
   grid-template-columns: repeat(3, 25% 1px) 20%;
-  grid-template-rows: repeat(6, 500px 1px);
+  grid-template-rows: repeat(7, 500px 1px);
   grid-auto-columns: 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
@@ -16,8 +16,9 @@
     "hr4 hr4 hr4 hr4 hr4 hr4 hr4"
     ". . . . . . ."
     "hr5 hr5 hr5 hr5 hr5 hr5 hr5"
-    ". . bigimg bigimg bigimg bigimg bigimg"
-    "hr6 hr6 hr6 hr6 hr6 hr6 hr6";
+    ". . lastcover lastcover lastcover lastcover lastcover"
+    "hr6 hr6 hr6 hr6 hr6 hr6 hr6"
+    "newYearCard newYearCard newYearCard newYearCard newYearCard newYearCard newYearCard";
 }
 
 .gallery > img {
@@ -37,7 +38,8 @@
 
 #hr6 { grid-area: hr6; }
 
-#cover-22 { grid-area: bigimg; }
+#cover-22 { grid-area: lastcover; }
+#new-year-card { grid-area: newYearCard; }
 
 .horizontal {
 	background-color: var(--mainColor);
