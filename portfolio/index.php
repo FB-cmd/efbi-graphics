@@ -33,7 +33,7 @@ addHeader($linksArr, $contactLink);
 
 echo <<<HTML
 <div class="gallery">
-<div class="container">			<img
+<img
 				class="cover"
 				id="cover-1"
 				src="../assets/img/books-covers/cover-1.jpg"
@@ -56,7 +56,7 @@ echo <<<HTML
 				id="cover-4"
 				src="../assets/img/books-covers/cover-4.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
+			<hr class="horizontal" id="hr1"/>
 			<img
 				class="cover"
 				id="cover-5"
@@ -80,7 +80,7 @@ echo <<<HTML
 				id="cover-8"
 				src="../assets/img/books-covers/cover-8.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
+			<hr class="horizontal" id="hr2"/>
 			<img
 				class="cover"
 				id="cover-9"
@@ -104,7 +104,7 @@ echo <<<HTML
 				id="cover-12"
 				src="../assets/img/books-covers/cover-12.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
+			<hr class="horizontal" id="hr3"/>
 			<img
 				class="cover"
 				id="cover-13"
@@ -128,7 +128,7 @@ echo <<<HTML
 				id="cover-16"
 				src="../assets/img/books-covers/cover-16.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
+			<hr class="horizontal" id="hr4"/>
 			<img
 				class="cover"
 				id="cover-17"
@@ -152,7 +152,7 @@ echo <<<HTML
 				id="cover-20"
 				src="../assets/img/books-covers/cover-20.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
+			<hr class="horizontal" id="hr5"/>
 			<img
 				class="cover"
 				id="cover-21"
@@ -164,13 +164,7 @@ echo <<<HTML
 				id="cover-22"
 				src="../assets/img/books-covers/cover-22.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" />
-			<img
-				class="cover"
-				id="cover-23"
-				src="../assets/img/books-covers/cover-23.jpg"
-				alt="Couverture d'un travail" />
-		</div>
+			<hr class="horizontal" id="hr6"/>
 		</div>
 
 		<footer>
