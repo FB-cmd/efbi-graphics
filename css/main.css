@@ -38,7 +38,7 @@
 }
 
 h1 {
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	text-align: center;
 	font-weight: bold;
 }
@@ -84,12 +84,12 @@ hr {
 
 h2 {
 	text-align: center;
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	font-size: 1.3em;
 }
 
 #orange-hr {
-	background-color: var(--mainColor);
+	background-color: var(--thirdColor);
 	max-width: 80%;
 	margin-bottom: 5px;
 	min-height: 2px;
@@ -169,7 +169,7 @@ strong {
 }
 
 #note {
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	font-size: 0.8em;
 }
 
