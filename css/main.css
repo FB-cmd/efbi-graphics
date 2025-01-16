@@ -4,7 +4,9 @@
 	margin: 5px auto;
 }
 
-.presentation,
+.presentation { margin-top: 15px }
+
+.presentation-text,
 .services,
 .portfolio,
 .promotion {
@@ -12,7 +14,7 @@
 	margin: 15px;
 }
 
-.presentation {
+.presentation-text {
 	background-color: var(--secondaryColorLight);
 	text-align: justify;
 	text-justify: inter-word;
@@ -21,17 +23,17 @@
 	margin: 15px auto;
 }
 
-.presentation > ul > li,
-.presentation > p > * {
+.presentation-text > ul > li,
+.presentation-text > p > * {
 	color: var(--secondaryColor);
 	font-style: italic;
 }
 
-.presentation > ul > li {
+.presentation-text > ul > li {
 	margin: 0 10px 0 10px;
 }
 
-.presentation > p > span > strong {
+.presentation-text > p > span > strong {
 	font-size: 1em;
 	font-weight: bold;
 	font-style: italic;
