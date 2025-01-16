@@ -48,7 +48,7 @@ h1 {
 hr {
 	background-color: var(--secondaryColor);
 	margin: 0 auto;
-	max-width: 5%;
+	width: 10%;
 	min-height: 5px;
 	margin-bottom: 15px;
 	border: none;
