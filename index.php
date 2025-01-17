@@ -20,9 +20,11 @@ require('./scripts/addHomeHeader.php');
 
 echo <<<HTML
 <img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
+		
 		<div class="presentation">
 			<h1>Présentation</h1>
 			<hr>
+		<div class="presentation-text">
 			<p>
 				<span>Ma passion pour le livre commence depuis très longtemps. La découverte du monde de la lecture dès l’enfance au travers des histoires, bandes dessinées et livres illustrés, me laissait toujours fascinée devant le pouvoir des caractères imprimés et des mots stylisés à animer l’imaginaire.</span>
 				<br>
@@ -45,6 +47,7 @@ echo <<<HTML
 			<p>
 			<span><strong>eFBi Graphics<sup>&copy;</sup></strong> vous invite à vivre une expérience riche et valorisante par la création collaborative de votre publication, et vous accompagne tout au long du processus de fabrication pour un rendu optimal.</span>
 			</p>
+		</div>
 		</div>
 
 
@@ -158,7 +161,6 @@ echo <<<HTML
 		</footer>
 
 		<script src="./scripts/common.js"></script>
-		<script src="./scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

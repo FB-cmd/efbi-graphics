@@ -16,7 +16,7 @@
 }
 
 h1 {
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	text-align: center;
 	font-weight: bold;
 }
@@ -45,7 +45,7 @@ strong {
 	font-size: 0.8em;
 }
 
-.notes > * {
-	color: var(--mainColor);
+.notes > span {
+	color: var(--thirdColor);
 	font-style: italic;
 }

@@ -4,7 +4,9 @@
 	margin: 5px auto;
 }
 
-.presentation,
+.presentation { margin-top: 15px }
+
+.presentation-text,
 .services,
 .portfolio,
 .promotion {
@@ -12,7 +14,7 @@
 	margin: 15px;
 }
 
-.presentation {
+.presentation-text {
 	background-color: var(--secondaryColorLight);
 	text-align: justify;
 	text-justify: inter-word;
@@ -21,24 +23,24 @@
 	margin: 15px auto;
 }
 
-.presentation > ul > li,
-.presentation > p > * {
+.presentation-text > ul > li,
+.presentation-text > p > * {
 	color: var(--secondaryColor);
 	font-style: italic;
 }
 
-.presentation > ul > li {
+.presentation-text > ul > li {
 	margin: 0 10px 0 10px;
 }
 
-.presentation > p > span > strong {
+.presentation-text > p > span > strong {
 	font-size: 1em;
 	font-weight: bold;
 	font-style: italic;
 }
 
 h1 {
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	text-align: center;
 	font-weight: bold;
 }
@@ -46,7 +48,7 @@ h1 {
 hr {
 	background-color: var(--secondaryColor);
 	margin: 0 auto;
-	max-width: 5%;
+	width: 10%;
 	min-height: 5px;
 	margin-bottom: 15px;
 	border: none;
@@ -84,12 +86,13 @@ hr {
 
 h2 {
 	text-align: center;
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	font-size: 1.3em;
+	font-weight: bold;
 }
 
 #orange-hr {
-	background-color: var(--mainColor);
+	background-color: var(--thirdColor);
 	max-width: 80%;
 	margin-bottom: 5px;
 	min-height: 2px;
@@ -169,7 +172,7 @@ strong {
 }
 
 #note {
-	color: var(--mainColor);
+	color: var(--thirdColor);
 	font-size: 0.8em;
 }
 
