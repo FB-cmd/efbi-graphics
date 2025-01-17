@@ -19,8 +19,6 @@ h1 {
 
 .content > * {
 	color: var(--textColor);
-	text-align: justify;
-	text-justify: inter-word;
 }
 
 .content > p {
