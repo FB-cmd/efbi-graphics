@@ -165,10 +165,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 380px) {
-	#logo {
-		display: none;
-	}
-
 	header {
 		max-width: 100%;
 	}
