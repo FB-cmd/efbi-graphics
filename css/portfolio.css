@@ -10,7 +10,7 @@
 	max-height: 500px;
 	object-fit: fill;
 	margin: 0 auto;
-	width: 300px;
+	max-width: 300px;
 	flex-grow: 2;
 }
 
