@@ -15,11 +15,11 @@
 }
 
 #cover-22  {
-	width: 50%;
+	max-width: 70%;
 }
 
 #new-year-card {
-	width: 100%;
+	max-width: 60%;
 }
 
 .horizontal {
