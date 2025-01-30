@@ -24,4 +24,6 @@ $stylesheets = [
 	"../css/top-page.css",
 	"../css/footer.css",
 ];
+
+$faviconLink = "../assets/icons/favicon.svg";
 ?>

@@ -23,8 +23,9 @@ $stylesheets= [
 	"./css/top-page.css",
 	"./css/footer.css",
 ];
+$faviconLink = "./assets/icons/favicon.svg";
 
-addHead("", $stylesheets);
+addHead("", $faviconLink, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML

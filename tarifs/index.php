@@ -5,7 +5,7 @@ require('../scripts/links.php');
 $linksArr["Tarifs"] = "./";
 $stylesheets["mainStyle"] = "../css/prices.css";
 
-addHead("Tarifs", $stylesheets);
+addHead("Tarifs", $faviconLink, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

@@ -1,5 +1,5 @@
 <?php
-function addHead($page, array $stylesheets) {
+function addHead($page, $faviconLink, array $stylesheets) {
 	$title= "eFBi-graphics";
 
 	echo <<<HTML
@@ -26,11 +26,9 @@ function addHead($page, array $stylesheets) {
 		HTML;
 	endforeach;
 
-	foreach ($scripts as $script):
-		echo <<<HTML
-			<script defer scr="{$script}"></script>
-		HTML;
-	endforeach;
+	echo <<<HTML
+		<link rel="icon" type="image/svg+xml" href="{$faviconLink}">
+	HTML;
 
 	echo <<<HTML
 		</head>

@@ -5,7 +5,7 @@ require('../scripts/links.php');
 $linksArr["Shopping"] = "./";
 $stylesheets["mainStyle"] = "../css/shopping.css";
 
-addHead("Shopping", $stylesheets);
+addHead("Shopping", $faviconLink, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
