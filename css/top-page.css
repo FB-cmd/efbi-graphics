@@ -125,8 +125,7 @@ a:hover {
 
 #virtual-contact-btn {
 	display: none;
-	background-color: var(--mainColor);
-	color: var(--secondaryColor);
+	color: var(--thirdColor);
 }
 
 #show-menu-icon {
