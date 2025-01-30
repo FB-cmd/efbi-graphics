@@ -38,6 +38,7 @@ HTML;
 	endforeach;
 
 echo <<<HTML
+<a id="virtual-contact-btn" href=$contactLink>Contact</a>
 </menu>
 </div>
 			<div class="left-side">

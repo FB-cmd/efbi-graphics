@@ -123,6 +123,12 @@ a:hover {
 	cursor: pointer;
 }
 
+#virtual-contact-btn {
+	display: none;
+	background-color: var(--mainColor);
+	color: var(--secondaryColor);
+}
+
 #show-menu-icon {
 	height: 50px;
 	width: 150px;
@@ -157,5 +163,31 @@ a:hover {
 @media only screen and (min-width: 1000px) {
 	menu {
 		display: flex !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.left-side {
+		display: none;
+	}
+
+	header {
+		justify-content: space-between;
+	}
+
+	#logo {
+		margin: 5px;
+	}
+
+	#menu-container {
+		width: 100%;
+	}
+
+	#contact-btn {
+		display: none;
+	}
+
+	#virtual-contact-btn {
+		display: block;
 	}
 }
