@@ -128,17 +128,14 @@ li {
 	animation: translateCards 40s linear infinite;
 }
 
-.new-year {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.new-year > * {
-	max-width: 50%;
+#new-year-card {
+	min-width: 50%;
+	width: 1000px;
+	margin: 5px auto;
+	min-height: 200px;
 	border: 1px solid var(--secondaryColor);
 	border-radius: 10px;
+	object-fit: fill;
 }
 
 .promotion {

@@ -141,9 +141,7 @@ echo <<<HTML
 			</div>
 		</div>
 
-		<div class="new-year">
-			<img src="./assets/img/books-covers/cover-23.jpg" alt="carte de voeux vous souhaitant une bonne année 2025">
-		</div>
+			<img src="./assets/img/books-covers/cover-23.jpg" id="new-year-card" alt="carte de voeux vous souhaitant une bonne année 2025">
 
 		<div class="promotion">
 			<h1>Envie de concrétiser votre projet de publication ?</h1>
