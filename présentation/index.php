@@ -5,8 +5,8 @@ require('../scripts/links.php');
 $linksArr["Présentation"] = "./";
 $stylesheets["mainStyle"] = "../css/presentation.css";
 
-addHead("Présentation", $stylesheets, $scripts);
-addHeader($linksArr, $contactLink, $assets, $scripts);
+addHead("Présentation", $stylesheets);
+addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="about">
@@ -181,6 +181,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="../scripts/common.js"></script>
+		<script src="../scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

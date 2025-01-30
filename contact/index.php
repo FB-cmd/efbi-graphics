@@ -6,8 +6,8 @@ $contactLink = "./";
 $stylesheets["mainStyle"] = "../css/contact.css";
 $stylesheets["phoneInputStyle"] = "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css";
 
-addHead("Contact", $stylesheets, $scripts);
-addHeader($linksArr, $contactLink, $assets, $scripts);
+addHead("Contact", $stylesheets);
+addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="profiles">
@@ -139,6 +139,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="../scripts/common.js"></script>
+		<script src="../scripts/responsive-menu.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
 		<script src="../scripts/contact.js"></script>
 	</body>

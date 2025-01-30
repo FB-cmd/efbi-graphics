@@ -6,8 +6,8 @@ require('../scripts/links.php');
 $linksArr["Services"] = "./";
 $stylesheets["mainStyle"] = "../css/services.css";
 
-addHead("Services", $stylesheets, $scripts);
-addHeader($linksArr, $contactLink, $assets, $scripts);
+addHead("Services", $stylesheets);
+addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="layout">
@@ -157,6 +157,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="../scripts/common.js"></script>
+		<script src="../scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

@@ -17,7 +17,6 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
 ];
-$scripts = [ "./scripts/responsive-menu.js" ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
 	"./css/reset.css",
@@ -25,7 +24,7 @@ $stylesheets= [
 	"./css/footer.css",
 ];
 
-addHead("", $stylesheets, $scripts);
+addHead("", $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
@@ -169,6 +168,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="./scripts/common.js"></script>
+		<script src="./scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

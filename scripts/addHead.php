@@ -1,5 +1,5 @@
 <?php
-function addHead($page, array $stylesheets, array $scripts) {
+function addHead($page, array $stylesheets) {
 	$title= "eFBi-graphics";
 
 	echo <<<HTML

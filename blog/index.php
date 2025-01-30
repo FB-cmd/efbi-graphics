@@ -5,8 +5,8 @@ require('../scripts/links.php');
 $linksArr["Blog"] = "./";
 $stylesheets["mainStyle"] = "../css/blog.css";
 
-addHead("Blog", $stylesheets, $scripts);
-addHeader($linksArr, $contactLink, $assets, $scripts);
+addHead("Blog", $stylesheets);
+addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="soon">
@@ -18,6 +18,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="../scripts/common.js"></script>
+		<script src="../scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;

@@ -18,7 +18,6 @@ $assets = [
 	"../assets/icons/show-menu.svg",
 ];
 
-$scripts = [ "../scripts/responsive-menu.js" ];
 $stylesheets = [
 	"mainStyle" => "",
 	"../css/reset.css",

@@ -6,8 +6,8 @@ $linksArr["Portfolio"] = "./";
 $stylesheets["mainStyle"] = "../css/portfolio.css";
 
 
-addHead("Portfolio", $stylesheets, $scripts);
-addHeader($linksArr, $contactLink, $assets, $scripts);
+addHead("Portfolio", $stylesheets);
+addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="gallery">
@@ -155,6 +155,7 @@ echo <<<HTML
 		</footer>
 
 		<script src="../scripts/common.js"></script>
+		<script src="../scripts/responsive-menu.js"></script>
 	</body>
 </html>
 HTML;
