@@ -1,4 +1,5 @@
 <?php
+require("./scripts/addHead.php");
 require("./scripts/addHeader.php");
 
 $links = [
@@ -17,24 +18,15 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/show-menu.svg",
 ];
 $scripts = [ "./scripts/responsive-menu.js" ];
+$stylesheets= [ 
+	"mainStyle" => "./css/main.css",
+	"./css/reset.css",
+	"./css/top-page.css",
+	"./css/footer.css",
+];
 
-echo <<<HTML
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>eFBi-graphics</title>
-		<link rel="stylesheet" href="./css/reset.css">
-		<link rel="stylesheet" href="./css/top-page.css">
-		<link rel="stylesheet" href="./css/main.css">
-		<link rel="stylesheet" href="./css/footer.css">
-		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css">
-	</head>
-	<body>
-HTML;
-
-addHeader($links, $contactLink, $assets, $scripts);
+addHead("", $stylesheets, $scripts);
+addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
 <img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">

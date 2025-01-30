@@ -11,11 +11,18 @@ $linksArr = [
 
 $contactLink = "../contact/";
 
-$assets = [ "../assets/icons/email.svg",
+$assets = [ 
+	"../assets/icons/email.svg",
 	"../assets/icons/phone.svg",
 	"../assets/img/logo.svg",
 	"../assets/icons/show-menu.svg",
 ];
 
 $scripts = [ "../scripts/responsive-menu.js" ];
+$stylesheets = [
+	"mainStyle" => "",
+	"../css/reset.css",
+	"../css/top-page.css",
+	"../css/footer.css",
+];
 ?>
