@@ -125,7 +125,7 @@ echo <<<HTML
 					</div>
 
 					<div>
-						<label for="word-number">Nombre de mots</label>
+						<label for="word-number">Nombre de pages</label>
 						<input type="number" min="0" name="wordNumber" id="word-number"required/ />
 					</div>
 
