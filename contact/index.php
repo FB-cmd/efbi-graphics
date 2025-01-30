@@ -1,27 +1,12 @@
 <?php
+require("../scripts/addHead.php");
 require('../scripts/addHeader.php');
 require('../scripts/links.php');
 $contactLink = "./";
+$stylesheets["mainStyle"] = "../css/contact.css";
+$stylesheets["phoneInputStyle"] = "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css";
 
-echo <<<HTML
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>eFBi-graphics | Contact</title>
-		<link rel="stylesheet" href="../css/reset.css" />
-		<link rel="stylesheet" href="../css/top-page.css">
-		<link rel="stylesheet" href="../css/contact.css" />
-		<link rel="stylesheet" href="../css/form.css" />
-		<link rel="stylesheet" href="../css/footer.css" />
-		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">
-	</head>
-	<body>
-
-HTML;
-
+addHead("Contact", $stylesheets, $scripts);
 addHeader($linksArr, $contactLink, $assets, $scripts);
 
 echo <<<HTML

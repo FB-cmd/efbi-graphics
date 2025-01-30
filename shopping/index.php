@@ -1,26 +1,11 @@
 <?php
+require("../scripts/addHead.php");
 require('../scripts/addHeader.php');
 require('../scripts/links.php');
 $linksArr["Shopping"] = "./";
+$stylesheets["mainStyle"] = "../css/shopping.css";
 
-echo <<<HTML
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>eFBI-graphics | Shopping</title>
-		<link rel="stylesheet" href="../css/reset.css" />
-		<link rel="stylesheet" href="../css/top-page.css">
-		<link rel="stylesheet" href="../css/shopping.css" />
-		<link rel="stylesheet" href="../css/footer.css" />
-		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css" />
-	</head>
-
-	<body>
-
-HTML;
-
+addHead("Shopping", $stylesheets, $scripts);
 addHeader($linksArr, $contactLink, $assets, $scripts);
 
 echo <<<HTML
