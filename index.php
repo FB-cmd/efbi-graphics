@@ -1,4 +1,22 @@
 <?php
+require("./scripts/addHeader.php");
+
+$links = [
+	"Accueil" => "./",
+	"Présentation" => "./présentation/",
+	"Services" => "./services/",
+	"Portfolio" => "./portfolio/",
+	"Tarifs" => "./tarifs/",
+	"Blog" => "./blog/",
+	"Shopping" => "./shopping/",
+];
+$contactLink = "./contact/";
+$assets = [ "./assets/icons/email.svg",
+	"./assets/icons/phone.svg",
+	"./assets/img/logo.svg",
+	"./assets/icons/show-menu.svg",
+];
+$scripts = [ "./scripts/responsive-menu.js" ];
 
 echo <<<HTML
 <!DOCTYPE html>
@@ -16,7 +34,7 @@ echo <<<HTML
 	<body>
 HTML;
 
-require('./scripts/addHomeHeader.php');
+addHeader($links, $contactLink, $assets, $scripts);
 
 echo <<<HTML
 <img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">

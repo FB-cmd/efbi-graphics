@@ -1,23 +1,29 @@
 <?php
 	
-function addHeader(array $linksArr, $contactLink) {
+function addHeader(array $linksArr, $contactLink, array $assets, array $scripts) {
+	foreach($scripts as $script):
+		echo <<<HTML
+			<script defer src="${script}"></script>
+		HTML;
+	endforeach;
+
 echo <<<HTML
-	<script defer src="../scripts/responsive-menu.js"></script>
+
 
 	<div class="line-top">
 			<a href="mailto:fabirrou@outlook.com" target="_blank">
-				<img class="icon" id="email-icon" src="../assets/icons/email.svg" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
+				<img class="icon" id="email-icon" src="${assets[0]}" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
 			</a>
 			<div class="phone-infos-container">
-				<img id="phone-icon" class="icon" src="../assets/icons/phone.svg" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
+				<img id="phone-icon" class="icon" src="${assets[1]}" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
 				<span id="phone-number"></span>
 			</div>
 		</div>
 		<header>
-			<img id="logo" src="../assets/img/logo.svg" alt="Logo du site">
+			<img id="logo" src="${assets[2]}" alt="Logo du site">
 				<div id="menu-container">
 				<button id="activate-menu-btn">
-				<img src="../assets/icons/show-menu.svg" id="show-menu-icon">
+				<img src="${assets[3]}" id="show-menu-icon">
 				</button>
 			<menu>
 HTML;
@@ -44,8 +50,6 @@ echo <<<HTML
 HTML;
 
 }
-
-
 ?>
 
 

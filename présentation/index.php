@@ -1,16 +1,7 @@
 <?php
 require('../scripts/addHeader.php');
-
-$linksArr = [
-		"Accueil" => "../",
-		"Présentation" => "./",
-		"Services" => "../services/",
-		"Portfolio" => "../portfolio/",
-		"Tarifs" => "../tarifs/",
-		"Blog" => "../blog/",
-		"Shopping" => "../shopping/",
-	];
-$contactLink = "../contact/";
+require('../scripts/links.php');
+$linksArr["Présentation"] = "./";
 
 echo <<<HTML
 <!DOCTYPE html>
@@ -30,7 +21,7 @@ echo <<<HTML
 
 HTML;
 
-addHeader($linksArr, $contactLink);
+addHeader($linksArr, $contactLink, $assets, $scripts);
 
 echo <<<HTML
 <div class="about">
