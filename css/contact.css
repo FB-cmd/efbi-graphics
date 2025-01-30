@@ -1,15 +1,7 @@
-.profiles {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	width: 100%;
-	margin-top: 100px;
-	margin-bottom: 30px;
-}
-
-.profiles > * {
-	width: 40%;
+#profile-img {
+	min-width: 40%;
+	width: 1000px;
+	margin: 100px auto 30px auto;
 }
 
 .welcome {

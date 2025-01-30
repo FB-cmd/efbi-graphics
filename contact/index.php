@@ -35,7 +35,7 @@ addHeader($linksArr, $contactLink);
 
 echo <<<HTML
 <div class="profiles">
-			<img src="../assets/img/profile-1.jpeg" alt="photo de profil" />
+			<img src="../assets/img/profile-1.jpeg" id="profile-img" alt="photo de profil" />
 		</div>
 		<div class="welcome">
 			<p><strong>Chère cliente, Cher client,</strong></p>
