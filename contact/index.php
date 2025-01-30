@@ -31,7 +31,7 @@ echo <<<HTML
 		<div class="welcome">
 			<p><strong>Chère cliente, Cher client,</strong></p>
 			<p>
-				Je suis Fatima, la responsable de fabrication de votre futur projet de publication !
+				Je suis Fatima, la responsable de fabrication de votre futur projet de publication&nbsp;!
 			</p>
 			<p>
 				Je suis là, à votre entière disposition, pour entamer ensemble une conception
@@ -66,10 +66,10 @@ echo <<<HTML
 				pour échanger sur votre projet.
 			</p>
 			<div class="center">
-				<p><strong>Une offre spéciale vous attend !</strong></p>
+				<p><strong>Une offre spéciale vous attend&nbsp;!</strong></p>
 			</div>
 			<div class="right">
-				<p>A très bientôt !</p>
+				<p>A très bientôt&nbsp;!</p>
 				<p class="italic">Fatima</p>
 			</div>
 		</div>

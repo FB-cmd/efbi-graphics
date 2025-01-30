@@ -124,7 +124,7 @@ echo <<<HTML
 						de la publication. Cela concerne la modification récurrente de certains mots
 						ou expressions erronés, la gestion rapide des espaces de ponctuation, etc.
 						Ces petites manipulations nous accordent une économie de temps et d'effort
-						considérable !
+						considérable&nbsp;!
 					</p>
 					<p>
 						<strong>eFBi Graphics<sup>&copy;</sup></strong> vous offre la possibilité de
@@ -151,18 +151,18 @@ echo <<<HTML
 					Notre passion pour ce métier nous pousse à concevoir de temps en temps des projets à intérêt personnel (notamment des dessins à caractère ethnique ou culturel, d'autres créations vectorielles) que nous comptons mettre en vente ultérieurement sous le menu Shopping.  
 				</p>
 				<p>
-					<strong>eFBi Graphics<sup>&copy;</sup></strong> vous appelle à collaborer pour embellir vos supports de communication et soutenir la créativité humaine face à la profusion des solutions de l'IA !
+					<strong>eFBi Graphics<sup>&copy;</sup></strong> vous appelle à collaborer pour embellir vos supports de communication et soutenir la créativité humaine face à la profusion des solutions de l'IA&nbsp;!
 				</p>
 			</div>
 		</div>
 		<div class="promotion">
-			<h1>Envie de concrétiser votre projet de publication ?</h1>
+			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
 			<p>
-				<span>Désirez-vous mettre en valeur votre prochaine publication ou votre support de communication avec un style visuel raffiné et une présentation originale ?</span>
+				<span>Désirez-vous mettre en valeur votre prochaine publication ou votre support de communication avec un style visuel raffiné et une présentation originale&nbsp;?</span>
 				<br>
 				<span>Réservez votre place au plus vite et bénéficiez de <strong>10% de remise*</strong> sur votre première commande sur le site.</span>
 			</p>
-			<span id="note">* Applicable sur le montant total de la prestation. Offre valable jusqu’au 31 janvier 2025.</span>
+			<span id="note">* Applicable sur le montant total de la prestation. Offre valable jusqu’au 31 mars 2025.</span>
 		</div>
 
 		<footer>

@@ -28,18 +28,18 @@ echo <<<HTML
 			<hr />
 			<div class="content">
 				<ul>
-					<li>Texte brut : <strong>2 &#8364; / page</strong></li>
+					<li>Texte brut&nbsp;: <strong>2&nbsp;&#8364;&nbsp;/&nbsp;page</strong></li>
 					<li>
-						Texte illustré (création tableau, retouche image) :
-						<strong>4 &#8364; / page</strong>
+						Texte illustré (création tableau, retouche image)&nbsp;:
+						<strong>4&nbsp;&#8364;&nbsp;/&nbsp;page</strong>
 					</li>
-					<li>Maquette originale de couverture : <strong>100 &#8364;</strong></li>
-					<li>Maquette de couverture (modèle fourni) : <strong>60 &#8364;</strong></li>
-					<li>Plusieurs modèles de couverture : <strong>30 &#8364; / modèle</strong></li>
-					<li>Affiche publicitaire : <strong>100 &#8364;</strong>*</li>
+					<li>Maquette originale de couverture&nbsp;: <strong>100&nbsp;&#8364;</strong></li>
+					<li>Maquette de couverture (modèle fourni)&nbsp;: <strong>60&nbsp;&#8364;</strong></li>
+					<li>Plusieurs modèles de couverture&nbsp;: <strong>30 &#8364;&nbsp;/&nbsp;modèle</strong></li>
+					<li>Affiche publicitaire&nbsp;: <strong>100&nbsp;&#8364;</strong>*</li>
 					<li>
-						Brochure, dépliant, programme de congrès, flyer :
-						<strong>100 &#8364;</strong>*
+						Brochure, dépliant, programme de congrès, flyer&nbsp;:
+						<strong>100&nbsp;&#8364;</strong>*
 					</li>
 				</ul>
 				<div class="notes">
@@ -57,18 +57,18 @@ echo <<<HTML
 			<div class="content">
 				<ul>
 					<li>
-						Relecture professionnelle et correction des manuscrits :
-						<strong>2-5 &#8364; / page</strong>
+						Relecture professionnelle et correction des manuscrits&nbsp;:
+						<strong>2-5&nbsp;&#8364;&nbsp;/&nbsp;page</strong>
 					</li>
 					<li>
-						Intégration des corrections reçues (modifications mineures) :
-						<strong>1 &#8364; / page</strong>*
+						Intégration des corrections reçues (modifications mineures)&nbsp;:
+						<strong>1&nbsp;&#8364;&nbsp;/&nbsp;page</strong>*
 					</li>
 					<li>
 						Intégration des corrections reçues (modifications importantes, rajouts de
-						texte) : <strong>3-5 &#8364; / page</strong>*
+						texte)&nbsp;: <strong>3-5&nbsp;&#8364;&nbsp;/&nbsp;page</strong>*
 					</li>
-					<li>Suivi de fabrication : <strong>60 &#8364;</strong>**</li>
+					<li>Suivi de fabrication&nbsp;: <strong>60&nbsp;&#8364;</strong>**</li>
 				</ul>
 				<div class="notes">
 					<span>* À l’ordre de 3 retours maximum.</span>
@@ -88,12 +88,12 @@ echo <<<HTML
 			<div class="content">
 				<ul>
 					<li>
-						Création graphique (illustration, schéma, graphique) :
-						<strong>20 &#8364;</strong>
+						Création graphique (illustration, schéma, graphique)&nbsp;:
+						<strong>20&nbsp;&#8364;</strong>
 					</li>
-					<li>Création logo : <strong>100 &#8364;</strong>*</li>
-					<li>Dessin vectoriel : <strong>50-100 &#8364;</strong>*</li>
-					<li>Retouches photo/image : <strong>2-3 &#8364;</strong>**</li>
+					<li>Création logo&nbsp;: <strong>100&nbsp;&#8364;</strong>*</li>
+					<li>Dessin vectoriel&nbsp;: <strong>50-100&nbsp;&#8364;</strong>*</li>
+					<li>Retouches photo/image&nbsp;: <strong>2-3&nbsp;&#8364;</strong>**</li>
 				</ul>
 				<div class="notes">
 					<span

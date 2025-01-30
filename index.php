@@ -48,17 +48,17 @@ echo <<<HTML
 				<br>
 				<span>De plus en plus attachée à cette passion qui devient mon activité professionnelle, j’essaie de maintenir le lien avec ce monde fascinant et créatif par la mise en page de divers documents (livres, revues scientifiques, magazines, affiches et autres) et de laisser une trace unique et pertinente.</span>
 				<br>
-				<span>Avec la digitalisation de plus en plus prégnante des services et le déploiement des besoins en sous-traitance, et la nécessité de développer mon activité de graphiste PAO par la recherche de nouvelles opportunités de collaboration, l’idée de créer le site professionnel « <strong>eFBi Graphics<sup>&copy;</sup></strong> » traduit ma volonté d’être réactive sur le marché, de communiquer sur mon travail et de toucher une large cible. La nature du travail 100% distanciel implique de s’adapter aux exigences de présence digitale et de s’ouvrir au marché globalisé.</span>
+				<span>Avec la digitalisation de plus en plus prégnante des services et le déploiement des besoins en sous-traitance, et la nécessité de développer mon activité de graphiste PAO par la recherche de nouvelles opportunités de collaboration, l’idée de créer le site professionnel «&nbsp;<strong>eFBi Graphics<sup>&copy;</sup></strong>&nbsp;» traduit ma volonté d’être réactive sur le marché, de communiquer sur mon travail et de toucher une large cible. La nature du travail 100% distanciel implique de s’adapter aux exigences de présence digitale et de s’ouvrir au marché globalisé.</span>
 				<br>
-				<span>Par le haut professionnalisme, la créativité et le sens élevé de détails, avec le suivi avancé et personnalisé de la relation-client, <strong>eFBi Graphics<sup>&copy;</sup></strong> vous assure diverses prestations PAO destinées aux éditeurs, particuliers, agences de communication. Les services proposés comprennent :</span>
+				<span>Par le haut professionnalisme, la créativité et le sens élevé de détails, avec le suivi avancé et personnalisé de la relation-client, <strong>eFBi Graphics<sup>&copy;</sup></strong> vous assure diverses prestations PAO destinées aux éditeurs, particuliers, agences de communication. Les services proposés comprennent&nbsp;:</span>
 				<br>
 			</p>
 
 			<ul>
-				<li>La mise en page ;</li>
-				<li>La relecture et la correction intégrale ;</li>
-				<li>Le suivi de fabrication ;</li>
-				<li>La création graphique et artistique ;</li>
+				<li>La mise en page&nbsp;;</li>
+				<li>La relecture et la correction intégrale&nbsp;;</li>
+				<li>Le suivi de fabrication&nbsp;;</li>
+				<li>La création graphique et artistique&nbsp;;</li>
 				<li>Le traitement d’images et d’illustrations.</li>
 			</ul>
 
@@ -79,12 +79,12 @@ echo <<<HTML
 						<hr id="orange-hr">
 						<ul>
 							<li>
-								<span id="subtitle">Ouvrages généraux et spécialisés : </span>
+								<span id="subtitle">Ouvrages généraux et spécialisés&nbsp;: </span>
 								médecine, informatique, gestion, marketing &amp; communication, économie, droit, histoire &amp; géographie.
 							</li>
 
 							<li>
-								<span id="subtitle">Revues, périodiques et magazines : </span>
+								<span id="subtitle">Revues, périodiques et magazines&nbsp;: </span>
 								thématiques variées. 							
 							</li>
 
@@ -93,7 +93,7 @@ echo <<<HTML
 							</li>
 
 							<li>
-								<span id="subtitle">Supports de communication : </span>
+								<span id="subtitle">Supports de communication&nbsp;: </span>
 								affiches, brochures, dépliants, flyers, programmes de congrès, cartes.
 							</li>
 						</ul>
@@ -106,17 +106,17 @@ echo <<<HTML
 						<hr id="orange-hr">
 						<ul>
 							<li>
-								<span id="subtitle">Relecture et correction intégrale des manuscrits :</span>
+								<span id="subtitle">Relecture et correction intégrale des manuscrits&nbsp;:</span>
 								à l’aide du logiciel de correction professionnelle (erreurs d’orthographe, de syntaxe, de style et de sens, anomalies typographiques).
 							</li>
 
 							<li>
-								<span id="subtitle">Intégration de corrections reçues :</span>
+								<span id="subtitle">Intégration de corrections reçues&nbsp;:</span>
 								traitement de corrections, modifications et rajouts de textes.
 							</li>
 
 							<li>
-								<span id="subtitle">Suivi de fabrication :</span>
+								<span id="subtitle">Suivi de fabrication&nbsp;:</span>
 								auprès du client principal ou d’autres intervenants (auteur, correcteur), traçabilité des échanges et des fichiers.
 							</li>
 						</ul>
@@ -129,17 +129,17 @@ echo <<<HTML
 						<hr id="orange-hr">
 						<ul>
 							<li>
-								<span id="subtitle">Création graphique et artistique :</span>
+								<span id="subtitle">Création graphique et artistique&nbsp;:</span>
 								illustrations, graphiques, schémas.
 							</li>
 
 							<li>
-								<span id="subtitle">Traitement d'images : </span>
+								<span id="subtitle">Traitement d'images&nbsp;: </span>
 								retouches simples et complexes, adaptation pour l'impression, optimisation du rendu des photos.
 							</li>
 
 							<li>
-								<span id="subtitle">Dessins vectoriels créatifs : </span>
+								<span id="subtitle">Dessins vectoriels créatifs&nbsp;: </span>
 								dessins, logotypes, supports divers.
 							</li>
 						</ul>
@@ -162,13 +162,13 @@ echo <<<HTML
 			<img src="./assets/img/books-covers/cover-23.jpg" id="new-year-card" alt="carte de voeux vous souhaitant une bonne année 2025">
 
 		<div class="promotion">
-			<h1>Envie de concrétiser votre projet de publication ?</h1>
+			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
 			<p>
-				<span>Désirez-vous mettre en valeur votre prochaine publication ou votre support de communication avec un style visuel raffiné et une présentation originale ?</span>
+				<span>Désirez-vous mettre en valeur votre prochaine publication ou votre support de communication avec un style visuel raffiné et une présentation originale&nbsp;?</span>
 				<br>
 				<span>Réservez votre place au plus vite et bénéficiez de <strong>10% de remise*</strong> sur votre première commande sur le site.</span>
 			</p>
-			<span id="note">* Applicable sur le montant total de la prestation. Offre valable jusqu’au 31 janvier 2025.</span>
+			<span id="note">* Applicable sur le montant total de la prestation. Offre valable jusqu’au 31 mars 2025.</span>
 		</div>
 
 
