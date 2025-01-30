@@ -4,7 +4,9 @@
 	margin: 5px auto;
 }
 
-.presentation { margin-top: 15px }
+.presentation {
+	margin-top: 15px;
+}
 
 .presentation-text,
 .services,
@@ -104,7 +106,7 @@ li {
 
 #subtitle {
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 @keyframes translateCards {
@@ -179,4 +181,3 @@ strong {
 		margin: 10px;
 	}
 }
-
