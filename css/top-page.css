@@ -179,7 +179,8 @@ a:hover {
 	}
 
 	#menu-container {
-		width: 100%;
+		width: 150px;
+		margin: 10px;
 	}
 
 	#contact-btn {
