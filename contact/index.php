@@ -5,6 +5,7 @@ require('../scripts/links.php');
 $contactLink = "./";
 $stylesheets["mainStyle"] = "../css/contact.css";
 $stylesheets["phoneInputStyle"] = "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css";
+$description="Cherchez-vous une conception graphique unique et créative ? Contactez-nous au plus vite pour se démarquer et gagner en visbilité !";  
 
 addHead("Contact", $faviconLink, $description, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

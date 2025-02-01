@@ -4,6 +4,8 @@ require('../scripts/addHeader.php');
 require('../scripts/links.php');
 $linksArr["Présentation"] = "./";
 $stylesheets["mainStyle"] = "../css/presentation.css";
+$description = "Découvrez l'offre intégrale de mise en page et de conception graphique avec notre site propfessionnel eFBi Graphics\U+000A9 qui garantit la rapidité, l'efficacité, la créativité et la réactivité dans le traitement de vos commandes. Pour une expérience inédite !";  
+
 
 addHead("Présentation", $faviconLink, $description, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
