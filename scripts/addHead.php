@@ -8,6 +8,7 @@ function addHead($page, $faviconLink, array $stylesheets) {
 		<head>
 		<meta charset="UTF-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Désirez-vous concrétiser votre projet de publication ou mettre en valeur votre support de communication ? eFBi GraphicsU+000A9 vous offre le packagecomplet de prestations PAO pour une création graphique et artistique originale et attractive. Réservez au plus vite pour bénéficier des avantages exclusifs !"> 
 	HTML;	
 	
 	if ($page !== "") {
