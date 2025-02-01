@@ -5,7 +5,7 @@ require('../scripts/links.php');
 $linksArr["Blog"] = "./";
 $stylesheets["mainStyle"] = "../css/blog.css";
 
-addHead("Blog", $faviconLink, $stylesheets);
+addHead("Blog", $faviconLink, $description, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

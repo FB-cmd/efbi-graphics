@@ -6,7 +6,7 @@ $contactLink = "./";
 $stylesheets["mainStyle"] = "../css/contact.css";
 $stylesheets["phoneInputStyle"] = "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css";
 
-addHead("Contact", $faviconLink, $stylesheets);
+addHead("Contact", $faviconLink, $description, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

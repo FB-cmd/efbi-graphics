@@ -24,8 +24,9 @@ $stylesheets= [
 	"./css/footer.css",
 ];
 $faviconLink = "./assets/icons/favicon.svg";
+$description = "Désirez-vous concrétiser votre projet de publication ou mettre en valeur votre support de communication ? eFBi GraphicsU+000A9 vous offre le packagecomplet de prestations PAO pour une création graphique et artistique originale et attractive. Réservez au plus vite pour bénéficier des avantages exclusifs !";
 
-addHead("", $faviconLink, $stylesheets);
+addHead("", $faviconLink, $description, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML

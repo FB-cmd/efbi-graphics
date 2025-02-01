@@ -26,4 +26,5 @@ $stylesheets = [
 ];
 
 $faviconLink = "../assets/icons/favicon.svg";
+$description = "";
 ?>

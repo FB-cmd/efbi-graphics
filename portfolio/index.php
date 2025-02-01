@@ -6,7 +6,7 @@ $linksArr["Portfolio"] = "./";
 $stylesheets["mainStyle"] = "../css/portfolio.css";
 
 
-addHead("Portfolio", $faviconLink, $stylesheets);
+addHead("Portfolio", $faviconLink, $description, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
