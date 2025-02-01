@@ -6,7 +6,7 @@ $linksArr["Tarifs"] = "./";
 $stylesheets["mainStyle"] = "../css/prices.css";
 $description="Avec notre offre spécialisée de services PAO, vous bénéficiez des tarifs les plus avantageux et des forfaits les mieux adaptés à vos attentes. eFBi Graphics\U+000A9 vous assure une tarification transparente et cohérente. Prenez contact rapidement !"; 
 
-addHead("Tarifs", $faviconLink, $description, $stylesheets);
+addHead("Tarifs", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

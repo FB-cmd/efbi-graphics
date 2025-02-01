@@ -7,7 +7,7 @@ $linksArr["Services"] = "./";
 $stylesheets["mainStyle"] = "../css/services.css";
 $description = "Plongez dans l'univers de la conception graphique au travers de nos services sécialisés et de nos solutions sur mesure de mise en page, de création et de fabrication de sublimes publications et supports de communication !";
 
-addHead("Services", $faviconLink, $description, $stylesheets);
+addHead("Services", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

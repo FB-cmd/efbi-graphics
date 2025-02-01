@@ -8,7 +8,7 @@ $description="eFBi Graphics\U+000A9 vous présente une sélection raffinée des 
 
 
 
-addHead("Portfolio", $faviconLink, $description, $stylesheets);
+addHead("Portfolio", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML

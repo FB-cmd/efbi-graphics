@@ -1,6 +1,13 @@
 <?php
-function addHead($page, $faviconLink, $description, array $stylesheets) {
+function addHead($page, $faviconLink, $description, array $keywords, array $stylesheets) {
 	$title= "eFBi-graphics";
+	$keywordsOutput = "";
+
+	foreach ($keywords as $keyword):
+		$keywordsOutput = $keywordsOutput . $keyword . ", ";
+	endforeach;
+	$keywordsOutput = substr($keywordsOutput, 0, -1);
+	$keywordsOutput = substr($keywordsOutput, 0, -1);
 
 	echo <<<HTML
 		<!DOCTYPE html>
@@ -9,6 +16,7 @@ function addHead($page, $faviconLink, $description, array $stylesheets) {
 		<meta charset="UTF-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<meta name="description" content="{$description}"> 
+		<meta name="keywords" content="{$keywordsOutput}"> 
 	HTML;	
 	
 	if ($page !== "") {
