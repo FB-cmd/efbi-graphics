@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /blog/
+Disallow: /shopping/
+
+Sitemap: https://www.efbi-graphics.com/sitemap.xml
+
