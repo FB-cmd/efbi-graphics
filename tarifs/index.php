@@ -15,18 +15,18 @@ echo <<<HTML
 			<hr />
 			<div class="content">
 				<ul>
-					<li>Texte brut&nbsp;: <strong>2&nbsp;&#8364;&nbsp;/&nbsp;page</strong></li>
+					<li>Texte brut&nbsp;: <strong>2-4&nbsp;&#8364;&nbsp;/&nbsp;page</strong></li>
 					<li>
-						Texte illustré (création tableau, retouche image)&nbsp;:
-						<strong>4&nbsp;&#8364;&nbsp;/&nbsp;page</strong>
+						Texte illustré (création tableau, retouche image, dessin vectoriel, animation)&nbsp;:
+						<strong>4-10&nbsp;&#8364;&nbsp;/&nbsp;page</strong>
 					</li>
-					<li>Maquette originale de couverture&nbsp;: <strong>100&nbsp;&#8364;</strong></li>
-					<li>Maquette de couverture (modèle fourni)&nbsp;: <strong>60&nbsp;&#8364;</strong></li>
-					<li>Plusieurs modèles de couverture&nbsp;: <strong>30 &#8364;&nbsp;/&nbsp;modèle</strong></li>
-					<li>Affiche publicitaire&nbsp;: <strong>100&nbsp;&#8364;</strong>*</li>
+					<li>Maquette originale de couverture&nbsp;: <strong>200&nbsp;&#8364;</strong></li>
+					<li>Maquette de couverture (modèle fourni)&nbsp;: <strong>150&nbsp;&#8364;</strong></li>
+					<li>Plusieurs modèles de couverture&nbsp;: <strong>50 &#8364;&nbsp;/&nbsp;modèle</strong></li>
+					<li>Affiche publicitaire&nbsp;: <strong>200&nbsp;&#8364;</strong>*</li>
 					<li>
 						Brochure, dépliant, programme de congrès, flyer&nbsp;:
-						<strong>100&nbsp;&#8364;</strong>*
+						<strong>200&nbsp;&#8364;</strong>*
 					</li>
 				</ul>
 				<div class="notes">
@@ -49,13 +49,13 @@ echo <<<HTML
 					</li>
 					<li>
 						Intégration des corrections reçues (modifications mineures)&nbsp;:
-						<strong>1&nbsp;&#8364;&nbsp;/&nbsp;page</strong>*
+						<strong>2&nbsp;&#8364;&nbsp;/&nbsp;page</strong>*
 					</li>
 					<li>
 						Intégration des corrections reçues (modifications importantes, rajouts de
 						texte)&nbsp;: <strong>3-5&nbsp;&#8364;&nbsp;/&nbsp;page</strong>*
 					</li>
-					<li>Suivi de fabrication&nbsp;: <strong>60&nbsp;&#8364;</strong>**</li>
+					<li>Suivi de fabrication&nbsp;: <strong>150&nbsp;&#8364;</strong>**</li>
 				</ul>
 				<div class="notes">
 					<span>* À l’ordre de 3 retours maximum.</span>
@@ -76,11 +76,11 @@ echo <<<HTML
 				<ul>
 					<li>
 						Création graphique (illustration, schéma, graphique)&nbsp;:
-						<strong>20&nbsp;&#8364;</strong>
+						<strong>50-100&nbsp;&#8364;</strong>
 					</li>
-					<li>Création logo&nbsp;: <strong>100&nbsp;&#8364;</strong>*</li>
+					<li>Création logo&nbsp;: <strong>200-300&nbsp;&#8364;</strong>*</li>
 					<li>Dessin vectoriel&nbsp;: <strong>50-100&nbsp;&#8364;</strong>*</li>
-					<li>Retouches photo/image&nbsp;: <strong>2-3&nbsp;&#8364;</strong>**</li>
+					<li>Retouches photo/image&nbsp;: <strong>30-50&nbsp;&#8364;</strong>**</li>
 				</ul>
 				<div class="notes">
 					<span
