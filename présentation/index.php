@@ -5,7 +5,33 @@ require('../scripts/links.php');
 $linksArr["Présentation"] = "./";
 $stylesheets["mainStyle"] = "../css/presentation.css";
 $description = "Découvrez l'offre intégrale de mise en page et de conception graphique avec notre site propfessionnel eFBi Graphics\U+000A9 qui garantit la rapidité, l'efficacité, la créativité et la réactivité dans le traitement de vos commandes. Pour une expérience inédite !";  
-
+$keywords = [
+	"graphiste PAO",
+	"graphiste freelance",
+	"graphiste independant",
+	"graphiste indépendant",
+	"sous-traitance",
+	"sous traitance",
+	"maquettiste indépendante",
+	"maquettiste independante",
+	"maquette",
+	"maquette de livre",
+	"outils PAO",
+	"service de mise en page",
+	"graphisme",
+	"production graphique",
+	"relecture professionnelle",
+	"stylisme graphique",
+	"design graphique",
+	"conception graphique",
+	"graphiste freelance",
+	"fabrication livre",
+	"conception graphique",
+	"mise en page ouvrage",
+	"relecture",
+	"mise en page manuscrit",
+	"mise en page texte",
+];
 
 addHead("Présentation", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

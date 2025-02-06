@@ -5,8 +5,7 @@ require('../scripts/links.php');
 $linksArr["Portfolio"] = "./";
 $stylesheets["mainStyle"] = "../css/portfolio.css";
 $description="eFBi Graphics\U+000A9 vous présente une sélection raffinée des travaux et réalisations effectués auprès des clients de renommée, témoignant de la diversité des supports et thématiques traités. Passez une commande au plus vite !"; 
-
-
+$keywords = [];
 
 addHead("Portfolio", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);
