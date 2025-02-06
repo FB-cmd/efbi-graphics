@@ -4,6 +4,7 @@ require('../scripts/addHeader.php');
 require('../scripts/links.php');
 $linksArr["Shopping"] = "./";
 $stylesheets["mainStyle"] = "../css/shopping.css";
+$keywords = [];
 
 addHead("Shopping", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

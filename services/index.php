@@ -6,6 +6,40 @@ require('../scripts/links.php');
 $linksArr["Services"] = "./";
 $stylesheets["mainStyle"] = "../css/services.css";
 $description = "Plongez dans l'univers de la conception graphique au travers de nos services sécialisés et de nos solutions sur mesure de mise en page, de création et de fabrication de sublimes publications et supports de communication !";
+$keywords = [
+	"offre graphiste",
+	"services graphisme",
+	"service graphisme",
+	"mise en page",
+	"service mise en page",
+	"services mise en page",
+	"mise en page manuscrit",
+	"mise en page livre",
+	"mise en page revue",
+	"mise en page magazine",
+	"mise en page photo",
+	"mise en page texte",
+	"service graphiste"
+	"services graphiste"
+	"retouche photo",
+	"création graphique",
+	"creation graphique",
+	"dessin vectoriel",
+	"support de communication",
+	"création logo",
+	"creation logo",
+	"suivi de fabrication",
+	"communication visuelle",
+	"correction professionnelle",
+	"création illustration",
+	"creation illustration",
+	"typographie",
+	"Indesign",
+	"Illustrator",
+	"Photoshop",
+	"style graphqiue",
+	"traitement image",
+];
 
 addHead("Services", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

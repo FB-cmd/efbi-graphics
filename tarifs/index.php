@@ -5,6 +5,21 @@ require('../scripts/links.php');
 $linksArr["Tarifs"] = "./";
 $stylesheets["mainStyle"] = "../css/prices.css";
 $description="Avec notre offre spécialisée de services PAO, vous bénéficiez des tarifs les plus avantageux et des forfaits les mieux adaptés à vos attentes. eFBi Graphics\U+000A9 vous assure une tarification transparente et cohérente. Prenez contact rapidement !"; 
+$keywords = [
+	"tarifs mise en page",
+	"prix mise en page",
+	"tarifs relecture",
+	"prix relecture",
+	"tarifs logo",
+	"prix logo",
+	"tarifs correction",
+	"prix correction",
+	"tarifs graphiste freelance",
+	"graphiste freelance tarifs",
+	"prix graphiste freelance",
+	"tarifs graphiste indépendant",
+	"tarifs graphiste independant",
+];
 
 addHead("Tarifs", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

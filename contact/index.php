@@ -6,6 +6,19 @@ $contactLink = "./";
 $stylesheets["mainStyle"] = "../css/contact.css";
 $stylesheets["phoneInputStyle"] = "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css";
 $description="Cherchez-vous une conception graphique unique et créative ? Contactez-nous au plus vite pour se démarquer et gagner en visbilité !";  
+$keywords = [
+	"contact graphiste indépendant",
+	"contact graphiste independant",
+	"contact graphiste freelance",
+	"remplir le formulaire",
+	"contacter le service",
+	"type de manuscrit",
+	"nombre de pages",
+	"conception graphique",
+	"offre de services",
+	"informations de contact",
+	"prestation mise en page",
+];
 
 addHead("Contact", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($linksArr, $contactLink, $assets);

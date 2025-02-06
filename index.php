@@ -25,7 +25,33 @@ $stylesheets= [
 ];
 $faviconLink = "./assets/icons/favicon.svg";
 $description = "Désirez-vous concrétiser votre projet de publication ou mettre en valeur votre support de communication ? eFBi Graphics\U+000A9 vous offre le package complet de prestations PAO pour une création graphique et artistique originale et attractive. Réservez au plus vite pour bénéficier des avantages exclusifs !";
-$keywords = [];
+$keywords = [
+	"graphiste PAO",
+	"graphiste freelance",
+	"graphiste independant",
+	"graphiste indépendant",
+	"sous-traitance",
+	"sous traitance",
+	"maquettiste indépendante",
+	"maquettiste independante",
+	"maquette",
+	"maquette de livre",
+	"outils PAO",
+	"service de mise en page",
+	"graphisme",
+	"production graphique",
+	"relecture professionnelle",
+	"stylisme graphique",
+	"design graphique",
+	"conception graphique",
+	"graphiste freelance",
+	"fabrication livre",
+	"conception graphique",
+	"mise en page ouvrage",
+	"relecture",
+	"mise en page manuscrit",
+	"mise en page texte",
+];
 
 addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
