@@ -37,7 +37,7 @@ echo <<<HTML
 					</li>
 					<li>Maquette originale de couverture&nbsp;: <strong>200&nbsp;&#8364;</strong></li>
 					<li>Maquette de couverture (modèle fourni)&nbsp;: <strong>150&nbsp;&#8364;</strong></li>
-					<li>Plusieurs modèles de couverture&nbsp;: <strong>50 &#8364;&nbsp;/&nbsp;modèle</strong></li>
+					<li>Plusieurs modèles de couverture&nbsp;: <strong>50&nbsp;&#8364;&nbsp;/&nbsp;modèle</strong></li>
 					<li>Affiche publicitaire&nbsp;: <strong>200&nbsp;&#8364;</strong>*</li>
 					<li>
 						Brochure, dépliant, programme de congrès, flyer&nbsp;:
