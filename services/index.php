@@ -19,8 +19,8 @@ $keywords = [
 	"mise en page magazine",
 	"mise en page photo",
 	"mise en page texte",
-	"service graphiste"
-	"services graphiste"
+	"service graphiste",
+	"services graphiste",
 	"retouche photo",
 	"création graphique",
 	"creation graphique",
