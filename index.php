@@ -16,6 +16,7 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/phone.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
+	"./assets/img/banner.svg"
 ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
@@ -57,7 +58,6 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
-<img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
 		
 		<div class="presentation">
 			<h1>Présentation</h1>

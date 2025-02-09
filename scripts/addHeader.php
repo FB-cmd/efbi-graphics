@@ -39,6 +39,7 @@ echo <<<HTML
 				</a>
 	</div>
 </header>
+<img id="banner" src="$assets[4]" alt="Bannière du site">
 HTML;
 
 }
