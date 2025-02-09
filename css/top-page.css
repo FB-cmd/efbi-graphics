@@ -5,6 +5,7 @@
 	--textColor: white;
 	--mainColorLight: #e18c0033;
 	--secondaryColorLight: #00008c33;
+	--fourthColor: #0096c8;
 }
 
 * {
@@ -15,7 +16,7 @@
 
 .line-top {
 	height: 5%;
-	background-color: var(--mainColor);
+	background-color: var(--textColor);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -47,7 +48,7 @@ header {
 
 menu {
 	display: flex;
-	background: linear-gradient(0deg, var(--mainColor) 5%, var(--secondaryColor) 5%);
+	background: linear-gradient(0deg, var(--mainColor) 5%, var(--fourthColor) 5%);
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 5px;
@@ -99,6 +100,7 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	cursor: pointer;
+	color: var(--secondaryColor);
 }
 
 .left-side {
@@ -118,7 +120,7 @@ a:hover {
 	outline: none;
 	border: none;
 	background-color: var(--mainColor);
-	color: var(--secondaryColor);
+	color: var(--textColor);
 	text-align: center;
 	cursor: pointer;
 }
@@ -147,9 +149,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-#activate-menu-btn > * {
-	display: block;
-}
+	#activate-menu-btn > * {
+		display: block;
+	}
 
 	menu {
 		flex-direction: column;
