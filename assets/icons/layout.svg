@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 273 190">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-width: .2px;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        stroke: #00008c;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        stroke-miterlimit: 10;
+      }
+
+      .st2, .st5 {
+        stroke-width: .5px;
+      }
+
+      .st6 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st3 {
+        stroke-width: 4px;
+      }
+
+      .st5 {
+        stroke: #42210b;
+      }
+
+      .st7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="23.6" y="37.4" width="105" height="58.6"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="146" y="104" width="105" height="58.6"/>
+    </clipPath>
+  </defs>
+  <path class="st5" d="M1109.9,379.5"/>
+  <rect class="st3" x="5.9" y="8" width="262.1" height="175"/>
+  <rect class="st4" x="16.5" y="15.5" width="240" height="160"/>
+  <line class="st1" x1="137.5" y1="32" x2="137.5" y2="159"/>
+  <g class="st7">
+    <g>
+      <g id="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="37.7" x2="693.7" y2="37.7"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_1" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="48.2" x2="693.7" y2="48.2"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_2" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="58.7" x2="693.7" y2="58.7"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_3" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="69.2" x2="693.7" y2="69.2"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_4" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="79.7" x2="693.7" y2="79.7"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_5" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="23.6" y1="90.2" x2="693.7" y2="90.2"/>
+      </g>
+    </g>
+  </g>
+  <g class="st6">
+    <g>
+      <g id="_x3C_Grid_Repeat_x3E_6" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="104.6" x2="816.1" y2="104.6"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_7" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="115.1" x2="816.1" y2="115.1"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_8" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="125.6" x2="816.1" y2="125.6"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_9" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="136.1" x2="816.1" y2="136.1"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_10" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="146.6" x2="816.1" y2="146.6"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_11" data-name="_x3C_Grid_Repeat_x3E_">
+        <line class="st2" x1="146" y1="157.1" x2="816.1" y2="157.1"/>
+      </g>
+    </g>
+  </g>
+  <rect class="st2" x="24" y="100.5" width="104.5" height="55.5"/>
+  <ellipse class="st2" cx="198.5" cy="60.5" rx="46.5" ry="28.5"/>
+</svg>
