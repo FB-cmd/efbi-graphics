@@ -5,6 +5,9 @@
     <style>
       .st0 {
         fill: none;
+        stroke: #00008b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
       }
 
       .st1 {
@@ -12,32 +15,16 @@
       }
 
       .st2 {
-        fill: #fff;
+        fill: #00008b;
       }
 
       .st3 {
-        clip-path: url(#clippath);
+        fill: #0096c8;
       }
     </style>
-    <clipPath id="clippath">
-      <rect class="st0" x="18.5" y="11" width="11.3" height="92.6"/>
-    </clipPath>
   </defs>
-  <path class="st1" d="M1033.4,60.6c-165,49.2-287.7,53.9-368,49.7-141-7.5-195.9-45.1-334.9-49.2-133.9-3.9-247.8,26.2-319.9,50.6L10,.9h1024l-.6,59.7Z"/>
-  <g class="st3">
-    <g>
-      <g id="_x3C_Grid_Repeat_x3E_">
-        <circle class="st2" cx="24" cy="16.5" r="4"/>
-      </g>
-      <g id="_x3C_Grid_Repeat_x3E_1">
-        <circle class="st2" cx="24" cy="39.9" r="4"/>
-      </g>
-      <g id="_x3C_Grid_Repeat_x3E_2">
-        <circle class="st2" cx="24" cy="63.3" r="4"/>
-      </g>
-      <g id="_x3C_Grid_Repeat_x3E_3">
-        <circle class="st2" cx="24" cy="86.7" r="4"/>
-      </g>
-    </g>
-  </g>
+  <line class="st0" x1="32.1" y1="57.3" x2="1026.7" y2="57.3"/>
+  <circle class="st2" cx="32.1" cy="57.3" r="18.1"/>
+  <circle class="st3" cx="59.8" cy="57.3" r="18.1"/>
+  <circle class="st1" cx="89.4" cy="57.3" r="18.1"/>
 </svg>

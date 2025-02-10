@@ -58,8 +58,8 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
-<img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
-		
+
+<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessus autour du texte de présentation" />		
 <div class="presentation">
 		<div class="presentation-text">
 			<p>
