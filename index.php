@@ -59,7 +59,7 @@ addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
 
-<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessus autour du texte de présentation" />		
+<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessous autour du texte de présentation" />		
 <div class="presentation">
 		<div class="presentation-text">
 			<p>
