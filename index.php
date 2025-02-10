@@ -91,6 +91,7 @@ echo <<<HTML
 		
 		<div class="illustraions-container">
 			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
+			<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
 			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
 			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 		</div>
