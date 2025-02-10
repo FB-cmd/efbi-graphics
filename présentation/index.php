@@ -78,7 +78,9 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-
+		<div class="animations">
+			<img src="../assets/img/animation-one.png" alt="animation one" />
+		</div>
 		<div class="values">
 			<h1>Nos valeurs</h1>
 			<div class="content">
