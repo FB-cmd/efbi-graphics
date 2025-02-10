@@ -58,10 +58,10 @@ addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
 <img id="banner" src="./assets/img/banner.svg" alt="Bannière du site">
+			<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessus autour du texte de présentation" />
+	
 		
-		<div class="presentation">
-			<h1>Présentation</h1>
-			<hr>
+<div class="presentation">
 		<div class="presentation-text">
 			<p>
 				<span>Ma passion pour le livre commence depuis très longtemps. La découverte du monde de la lecture dès l’enfance au travers des histoires, bandes dessinées et livres illustrés, me laissait toujours fascinée devant le pouvoir des caractères imprimés et des mots stylisés à animer l’imaginaire.</span>
@@ -87,11 +87,16 @@ echo <<<HTML
 			</p>
 		</div>
 		</div>
-
-
+		
+			<img class="framing" src="../assets/img/line-bottom.svg" alt="ligne du dessous autour du texte de présentation" />
+		
+		<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
+			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
+			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
+		</div>
+		
 		<div class="services">
-			<h1>Services</h1>
-			<hr>
 			<div class="services-container">
 				<div id="service-1">
 					<p>
@@ -169,8 +174,6 @@ echo <<<HTML
 		</div>
 
 		<div class="portfolio">
-			<h1>Portfolio</h1>
-			<hr>
 			<div class="works-container">
 				<img id="work1" src="./assets/img/books-covers/cover-1.jpg" alt="work1"> 
 				<img id="work12" src="./assets/img/books-covers/cover-12.jpg" alt="work12"> 
