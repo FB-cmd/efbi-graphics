@@ -5,7 +5,8 @@
 }
 
 .presentation {
-	margin-top: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .presentation-text,
@@ -17,15 +18,16 @@
 }
 
 .presentation-text {
-	background-color: var(--secondaryColorLight);
+	background-color: var(--fourthColor);
 	padding: 20px;
 	max-width: 90%;
-	margin: 15px auto;
+	margin: 0px auto;
 }
 
 .presentation-text > ul > li,
 .presentation-text > p > * {
-	color: var(--secondaryColor);
+	color: var(--textColor);
+	font-size: 1.2em;
 	font-style: italic;
 }
 
@@ -46,7 +48,7 @@ h1 {
 }
 
 hr {
-	background-color: var(--secondaryColor);
+	background-color: var(--textColor);
 	margin: 0 auto;
 	width: 10%;
 	min-height: 5px;
@@ -79,12 +81,12 @@ hr {
 	max-width: 30%;
 	min-height: 350px;
 	padding: 10px;
-	background-color: var(--secondaryColorLight);
+	background-color: var(--mainColor);
 }
 
 h2 {
 	text-align: center;
-	color: var(--thirdColor);
+	color: var(--fourthColor);
 	font-size: 1.3em;
 	font-weight: bold;
 }
@@ -101,7 +103,7 @@ li {
 	margin-left: 20px;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	color: var(--secondaryColor);
+	color: var(--textColor);
 }
 
 #subtitle {
