@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1044 114.7">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #ff8c00;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="1013.2" y="21.1" width="11.3" height="92.6"/>
+    </clipPath>
+  </defs>
+  <path class="st1" d="M10.6,54C175.6,4.8,298.3,0,378.6,4.3c141,7.5,195.9,45.1,334.9,49.2,134,3.9,247.8-26.2,320-50.6l.6,110.8H10l.6-59.7Z"/>
+  <g class="st3">
+    <g>
+      <g id="_x3C_Grid_Repeat_x3E_">
+        <circle class="st2" cx="1018.7" cy="26.6" r="4"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_1">
+        <circle class="st2" cx="1018.7" cy="50" r="4"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_2">
+        <circle class="st2" cx="1018.7" cy="73.3" r="4"/>
+      </g>
+      <g id="_x3C_Grid_Repeat_x3E_3">
+        <circle class="st2" cx="1018.7" cy="96.7" r="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
