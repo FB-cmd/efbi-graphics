@@ -90,10 +90,10 @@ echo <<<HTML
 			<img class="framing" src="../assets/img/line-bottom.svg" alt="ligne du dessous autour du texte de présentation" />
 		
 		<div class="illustraions-container">
-			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
+			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 			<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
 			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
-			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
+			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
 		</div>
 		
 		<div class="services">
