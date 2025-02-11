@@ -12,7 +12,7 @@
 }
 
 .presentation-text {
-	background-color: var(--fourthColor);
+	background-color: var(--textColor);
 	padding: 20px;
 	max-width: 90%;
 	margin: 0px auto;
@@ -20,7 +20,7 @@
 
 .presentation-text > ul > li,
 .presentation-text > p > * {
-	color: var(--textColor);
+	color: var(--secondaryColor);
 	font-size: 1.2em;
 	font-style: italic;
 }
