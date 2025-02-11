@@ -68,7 +68,7 @@ echo <<<HTML
 				<span>Ma passion pour le livre commence depuis très longtemps. La découverte du monde de la lecture dès l’enfance au travers des histoires, bandes dessinées et livres illustrés, me laissait toujours fascinée devant le pouvoir des caractères imprimés et des mots stylisés à animer l’imaginaire.</span>
 				<br>
 				<span>De plus en plus attachée à cette passion qui devient mon activité professionnelle, j’essaie de maintenir le lien avec ce monde fascinant et créatif et de laisser une trace unique et pertinente par la mise en page de divers documents (livres, revues scientifiques, affiches et autres), la relecture professionnelle, la création graphique et le traitement d'images.</span>
-				<br><br>
+				<br>
 				<span>L’idée de créer le site professionnel «&nbsp;<strong>eFBi Graphics<sup>&copy;</sup></strong>&nbsp;» traduit ma volonté d’être réactive sur le marché, de communiquer sur mon travail et de toucher une large cible. Cet espace vous invite à vivre une expérience riche et valorisante par la création collaborative de votre publication, et vous accompagne tout au long du processus de fabrication pour un rendu optimal.</span>
 			</p>
 		</div>
