@@ -63,26 +63,13 @@ echo <<<HTML
 <div class="presentation">
 		<div class="presentation-text">
 			<p>
+				<strong>Bienvenue dans mon univers&nbsp;!</strong>
+					<br><br>	
 				<span>Ma passion pour le livre commence depuis très longtemps. La découverte du monde de la lecture dès l’enfance au travers des histoires, bandes dessinées et livres illustrés, me laissait toujours fascinée devant le pouvoir des caractères imprimés et des mots stylisés à animer l’imaginaire.</span>
 				<br>
-				<span>De plus en plus attachée à cette passion qui devient mon activité professionnelle, j’essaie de maintenir le lien avec ce monde fascinant et créatif par la mise en page de divers documents (livres, revues scientifiques, magazines, affiches et autres) et de laisser une trace unique et pertinente.</span>
-				<br>
-				<span>Avec la digitalisation de plus en plus prégnante des services et le déploiement des besoins en sous-traitance, et la nécessité de développer mon activité de graphiste PAO par la recherche de nouvelles opportunités de collaboration, l’idée de créer le site professionnel «&nbsp;<strong>eFBi Graphics<sup>&copy;</sup></strong>&nbsp;» traduit ma volonté d’être réactive sur le marché, de communiquer sur mon travail et de toucher une large cible. La nature du travail 100% distanciel implique de s’adapter aux exigences de présence digitale et de s’ouvrir au marché globalisé.</span>
-				<br>
-				<span>Par le haut professionnalisme, la créativité et le sens élevé de détails, avec le suivi avancé et personnalisé de la relation-client, <strong>eFBi Graphics<sup>&copy;</sup></strong> vous assure diverses prestations PAO destinées aux éditeurs, particuliers, agences de communication. Les services proposés comprennent&nbsp;:</span>
-				<br>
-			</p>
-
-			<ul>
-				<li>La mise en page&nbsp;;</li>
-				<li>La relecture et la correction intégrale&nbsp;;</li>
-				<li>Le suivi de fabrication&nbsp;;</li>
-				<li>La création graphique et artistique&nbsp;;</li>
-				<li>Le traitement d’images et d’illustrations.</li>
-			</ul>
-
-			<p>
-			<span><strong>eFBi Graphics<sup>&copy;</sup></strong> vous invite à vivre une expérience riche et valorisante par la création collaborative de votre publication, et vous accompagne tout au long du processus de fabrication pour un rendu optimal.</span>
+				<span>De plus en plus attachée à cette passion qui devient mon activité professionnelle, j’essaie de maintenir le lien avec ce monde fascinant et créatif et de laisser une trace unique et pertinente par la mise en page de divers documents (livres, revues scientifiques, affiches et autres), la relecture professionnelle, la création graphique et le traitement d'images.</span>
+				<br><br>
+				<span>L’idée de créer le site professionnel «&nbsp;<strong>eFBi Graphics<sup>&copy;</sup></strong>&nbsp;» traduit ma volonté d’être réactive sur le marché, de communiquer sur mon travail et de toucher une large cible. Cet espace vous invite à vivre une expérience riche et valorisante par la création collaborative de votre publication, et vous accompagne tout au long du processus de fabrication pour un rendu optimal.</span>
 			</p>
 		</div>
 		</div>
