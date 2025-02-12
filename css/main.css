@@ -75,21 +75,14 @@ hr {
 	max-width: 30%;
 	min-height: 350px;
 	padding: 10px;
-	background-color: var(--mainColor);
+	background-color: var(--textColor);
 }
 
 h2 {
 	text-align: center;
-	color: var(--fourthColor);
+	color: var(--secondaryColor);
 	font-size: 1.3em;
 	font-weight: bold;
-}
-
-#orange-hr {
-	background-color: var(--thirdColor);
-	max-width: 80%;
-	margin-bottom: 5px;
-	min-height: 2px;
 }
 
 li {
