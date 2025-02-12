@@ -88,8 +88,15 @@ echo <<<HTML
 				<div id="service-1">
 				<h2>Mise en page</h2>	
 				<p>	
-					<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues, textes littéraires, essais</span>
-					<span id="subtitle">Supports de communication&nbsp;: affiches, brochures, flyers, programmes de congrès</span>
+					<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues,</span>
+					<br>
+					<span id="subtitle">romans, essais</span>
+					<br>
+					<span id="subtitle">Supports de communication&nbsp;: affiches,</span>
+					<br>
+					<span id="subtitle">brochures, flyers,</span>
+					<br>
+					<span id="subtitle">programmes de congrès</span>
 				</p>
 				</div>
 
@@ -97,19 +104,27 @@ echo <<<HTML
 				<h2>Relecture</h2>
 					<p>
 						<span id="subtitle">Relecture professionnelle</span>
+						<br>
 						<span id="subtitle">Correction intégrale</span>
+						<br>
 						<span id="subtitle">Suivi de fabrication</span>	
 					</p>
 				</div>
 				<div id="service-3">
 				<h2>Illustration</h2>	
 				<p>
-					<span id="subtitle">Dessins vectoriels, Illustrations, Schémas, Logotypes, Graphiques</span>
+					<span id="subtitle">Dessins vectoriels, Illustrations,</span>
+					<br>
+					<span id="subtitle">Schémas, Logotypes</span>
 					</p>
 					<div id="service-4">
 				<h2>Photographie</h2>	
 				<p>
-					<span id="subtitle">Prises de vue, Retouches, Traitement d'images, Adaptation print</span>
+					<span id="subtitle">Prises de vue, Retouches,</span>
+					<br>
+					<span id="subtitle">Traitement d'images,</span>
+					<br>
+					<span id="subtitle">Adaptation print</span>
 				</p>
 				</div>
 			</div>
