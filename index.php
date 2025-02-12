@@ -75,7 +75,10 @@ echo <<<HTML
 		</div>
 		
 			<img class="framing" src="../assets/img/line-bottom.svg" alt="ligne du dessous autour du texte de présentation" />
-		
+			<div class="presentation">
+		<div class="category">
+				<h1>Services</h1>
+				</div>
 		<div class="illustraions-container">
 			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 			<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
@@ -129,7 +132,12 @@ echo <<<HTML
 				</div>
 			</div>
 		</div>
-
+		<div class="category">
+				<h1>Cible</h1>
+				</div>
+				<div class="category">
+				<h1>Portfolio</h1>
+				</div>
 		<div class="portfolio">
 			<div class="works-container">
 				<img id="work1" src="./assets/img/books-covers/cover-1.jpg" alt="work1"> 
@@ -138,8 +146,9 @@ echo <<<HTML
 				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6"> 
 			</div>
 		</div>
-
-			<img src="./assets/img/books-covers/cover-23.jpg" id="new-year-card" alt="carte de voeux vous souhaitant une bonne année 2025">
+		<div class="category">
+				<h1>Galerie</h1>
+				</div>
 
 		<div class="promotion">
 			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
