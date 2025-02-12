@@ -36,7 +36,7 @@
 }
 
 h1 {
-	color: var(--secondaryColor);
+	color: var(--mainColor);
 	text-align: center;
 	font-weight: bold;
 }
