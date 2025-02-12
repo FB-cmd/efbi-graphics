@@ -86,76 +86,31 @@ echo <<<HTML
 		<div class="services">
 			<div class="services-container">
 				<div id="service-1">
-					<p>
-					<h2>Mise en page de différents manuscrits</h2>
-						<hr id="orange-hr">
-						<ul>
-							<li>
-								<span id="subtitle">Ouvrages généraux et spécialisés&nbsp;: </span>
-								médecine, informatique, gestion, marketing &amp; communication, économie, droit, histoire &amp; géographie.
-							</li>
-
-							<li>
-								<span id="subtitle">Revues, périodiques et magazines&nbsp;: </span>
-								thématiques variées. 							
-							</li>
-
-							<li>
-								<span id="subtitle">Publications littéraires, essais.</span>
-							</li>
-
-							<li>
-								<span id="subtitle">Supports de communication&nbsp;: </span>
-								affiches, brochures, dépliants, flyers, programmes de congrès, cartes.
-							</li>
-						</ul>
-					</p>
+				<h2>Mise en page</h2>	
+				<p>	
+					<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues, textes littéraires, essais</span>
+					<span id="subtitle">Supports de communication&nbsp;: affiches, brochures, flyers, programmes de congrès</span>
+				</p>
 				</div>
 
 				<div id="service-2">
+				<h2>Relecture</h2>
 					<p>
-						<h2>Relecture, correction et suivi de fabrication</h2>
-						<hr id="orange-hr">
-						<ul>
-							<li>
-								<span id="subtitle">Relecture et correction intégrale des manuscrits&nbsp;:</span>
-								à l’aide du logiciel de correction professionnelle (erreurs d’orthographe, de syntaxe, de style et de sens, anomalies typographiques).
-							</li>
-
-							<li>
-								<span id="subtitle">Intégration de corrections reçues&nbsp;:</span>
-								traitement de corrections, modifications et rajouts de textes.
-							</li>
-
-							<li>
-								<span id="subtitle">Suivi de fabrication&nbsp;:</span>
-								auprès du client principal ou d’autres intervenants (auteur, correcteur), traçabilité des échanges et des fichiers.
-							</li>
-						</ul>
+						<span id="subtitle">Relecture professionnelle</span>
+						<span id="subtitle">Correction intégrale</span>
+						<span id="subtitle">Suivi de fabrication</span>	
 					</p>
 				</div>
-
 				<div id="service-3">
-					<p>
-						<h2>Création graphique et traitement d'images</h2>
-						<hr id="orange-hr">
-						<ul>
-							<li>
-								<span id="subtitle">Création graphique et artistique&nbsp;:</span>
-								illustrations, graphiques, schémas.
-							</li>
-
-							<li>
-								<span id="subtitle">Traitement d'images&nbsp;: </span>
-								retouches simples et complexes, adaptation pour l'impression, optimisation du rendu des photos.
-							</li>
-
-							<li>
-								<span id="subtitle">Dessins vectoriels créatifs&nbsp;: </span>
-								dessins, logotypes, supports divers.
-							</li>
-						</ul>
+				<h2>Illustration</h2>	
+				<p>
+					<span id="subtitle">Dessins vectoriels, Illustrations, Schémas, Logotypes, Graphiques</span>
 					</p>
+					<div id="service-4">
+				<h2>Photographie</h2>	
+				<p>
+					<span id="subtitle">Prises de vue, Retouches, Traitement d'images, Adaptation print</span>
+				</p>
 				</div>
 			</div>
 		</div>
