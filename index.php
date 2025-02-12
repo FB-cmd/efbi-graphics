@@ -135,6 +135,12 @@ echo <<<HTML
 		<div class="category">
 				<h1>Cible</h1>
 				</div>
+				<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
+			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
+			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
+			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
+		</div>
 				<div class="category">
 				<h1>Portfolio</h1>
 				</div>
