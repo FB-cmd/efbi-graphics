@@ -79,7 +79,7 @@ echo <<<HTML
 		<div class="category">
 				<h1>Services</h1>
 				</div>
-		<div class="illustraions-container">
+		<div class="illustrations-container">
 			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 			<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
 			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
