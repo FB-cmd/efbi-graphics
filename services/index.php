@@ -108,7 +108,7 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-
+		<img class="demonstration" src="../assets/img/demonstration-layout.jpg" alt="démonstration du service de la mise en page"/>
 			<div class="correction">
 				<h1>Relecture et correction intégrale des manuscrits</h1>
 				<div class="content">
@@ -156,7 +156,7 @@ echo <<<HTML
 				</div>
 			</div>
 		</div>
-
+		<img class="demonstration" src="../assets/img/demonstration-proofreading.jpg" alt="démonstration du service de relecture et correction"/>
 		<div class="graphics">
 			<h1>Création graphique et artistique et traitement d'images</h1>
 			<div class="content">
