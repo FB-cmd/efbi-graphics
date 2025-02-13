@@ -16,18 +16,10 @@
 }
 
 h1 {
-	color: var(--thirdColor);
-	text-align: center;
+	color: var(--fourthColor);
 	font-weight: bold;
-}
-
-hr {
-	background-color: var(--secondaryColor);
-	margin: 0 auto;
-	width: 5%;
-	height: 5px;
-	margin-bottom: 15px;
-	border: none;
+	font-size: 1.5em;
+	margin-bottom: 20px;
 }
 
 li {
