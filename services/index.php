@@ -177,7 +177,7 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-
+		<img class="demonstration" src="../assets/img/demonstration-creation.jpg" alt="démonstration du service de création graphique"/>
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>
