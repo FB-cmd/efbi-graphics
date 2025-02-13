@@ -35,6 +35,19 @@
 	font-style: italic;
 }
 
+.illustrations-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.graphic-illustrations {
+	height: 100%;
+	width: 25%;
+	height: 200px;
+}
+
 h1 {
 	color: var(--mainColor);
 	text-align: center;
