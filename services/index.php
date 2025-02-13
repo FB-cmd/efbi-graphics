@@ -177,15 +177,6 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-		<div class="promotion">
-			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
-			<p>
-				<span>Désirez-vous mettre en valeur votre prochaine publication ou votre support de communication avec un style visuel raffiné et une présentation originale&nbsp;?</span>
-				<br>
-				<span>Réservez votre place au plus vite et bénéficiez de <strong>10% de remise*</strong> sur votre première commande sur le site.</span>
-			</p>
-			<span id="note">* Applicable sur le montant total de la prestation. Offre valable jusqu’au 31 mars 2025.</span>
-		</div>
 
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
