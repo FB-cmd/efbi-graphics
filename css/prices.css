@@ -38,6 +38,6 @@ strong {
 }
 
 .notes > span {
-	color: var(--fourthColor);
+	color: var(--textColor);
 	font-style: italic;
 }
