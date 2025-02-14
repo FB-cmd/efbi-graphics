@@ -132,18 +132,30 @@ echo <<<HTML
 				</div>
 			</div>
 		</div>
+		<hr class="horizontal-line" />
 		<div class="category">
-				<h1>Cible</h1>
-				</div>
-				<div class="illustraions-container">
-			<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
-			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
-			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
-			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
+		<h1>Cible</h1>
 		</div>
-				<div class="category">
-				<h1>Portfolio</h1>
-				</div>
+		<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
+			<h2>Maison d'édition</h2>
+		</div>
+		<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
+			<h2>Éditeur indépendant</h2>
+		</div>
+		<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
+			<h2>Agence de communication</h2>
+		</div>
+			<div class="illustraions-container">
+			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
+			<h2>Particulier</h2>
+		</div>
+		<hr class="horizontal-line" />
+		<div class="category">
+		<h1>Portfolio</h1>
+		</div>
 		<div class="portfolio">
 			<div class="works-container">
 				<img id="work1" src="./assets/img/books-covers/cover-1.jpg" alt="work1"> 
@@ -152,10 +164,10 @@ echo <<<HTML
 				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6"> 
 			</div>
 		</div>
+		<hr class="horizontal-line" />
 		<div class="category">
 				<h1>Galerie</h1>
 				</div>
-
 		<div class="contact-me">
 			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
 			<p>
