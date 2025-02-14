@@ -45,13 +45,14 @@
 .graphic-illustrations {
 	height: 100%;
 	width: 25%;
-	height: 200px;
+	height: 150px;
 }
 
 h1 {
 	color: var(--mainColor);
 	text-align: center;
 	font-weight: bold;
+	margin-bottom: 75px;
 }
 
 hr {
