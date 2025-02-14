@@ -85,7 +85,6 @@ echo <<<HTML
 			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
 			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
 		</div>
-		
 		<div class="services">
 			<div class="services-container">
 				<div id="service-1">
@@ -120,7 +119,8 @@ echo <<<HTML
 					<br>
 					<span id="subtitle">Schémas, Logotypes</span>
 					</p>
-					<div id="service-4">
+				</div>
+				<div id="service-4">
 				<h2>Photographie</h2>	
 				<p>
 					<span id="subtitle">Prises de vue, Retouches,</span>
@@ -136,21 +136,25 @@ echo <<<HTML
 		<div class="category">
 		<h1>Cible</h1>
 		</div>
-		<div class="illustraions-container">
+		<div class="illustrations-container">
 			<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
+			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
+			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
+			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
+		</div>
+		<div class="illustrations-container">
+		<div id="target-1">
 			<h2>Maison d'édition</h2>
 		</div>
-		<div class="illustraions-container">
-			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
+		<div id="target-2">
 			<h2>Éditeur indépendant</h2>
 		</div>
-		<div class="illustraions-container">
-			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
+		<div id="target-3">
 			<h2>Agence de communication</h2>
 		</div>
-			<div class="illustraions-container">
-			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
+		<div id="target-4">
 			<h2>Particulier</h2>
+		</div>
 		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
