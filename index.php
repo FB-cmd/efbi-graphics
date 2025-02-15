@@ -132,26 +132,22 @@ echo <<<HTML
 		</a>
 		</div>
 		<hr class="horizontal-line" />
-		<div class="category">
 		<h1>Cible</h1>
-		</div>
-		<div class="illustrations-container">
-			<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
-			<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
-			<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
-			<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
-		</div>
-		<div class="illustrations-container">
+		<div class="targets">
 		<div id="target-1">
+		<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
 			<h2>Maison d'édition</h2>
 		</div>
 		<div id="target-2">
+		<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône maison d'édition" />
 			<h2>Éditeur indépendant</h2>
 		</div>
 		<div id="target-3">
+		<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône maison d'édition" />
 			<h2>Agence de communication</h2>
 		</div>
 		<div id="target-4">
+		<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône maison d'édition" />
 			<h2>Particulier</h2>
 		</div>
 		</div>
