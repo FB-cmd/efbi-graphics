@@ -50,7 +50,7 @@ hr {
 	border: none;
 }
 
-.services-container {
+.services {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -71,7 +71,7 @@ hr {
 	overflow: hidden;
 }
 
-.services-container > div {
+.services > div {
 	padding: 10px;
 	background-color: var(--textColor);
 	display: flex;
@@ -81,11 +81,11 @@ hr {
 	height: 400px;
 }
 
-.services-container > div > img {
+.services > div > img {
 	max-width: 200px;
 }
 
-.services-container > div > p {
+.services > div > p {
 	text-align: center;
 }
 
@@ -182,11 +182,11 @@ strong {
 }
 
 @media screen and (max-width: 1200px) {
-	.services-container {
+	.services {
 		flex-direction: column;
 	}
 
-	.services-container > div {
+	.services > div {
 		max-width: 90%;
 		margin: 10px;
 	}

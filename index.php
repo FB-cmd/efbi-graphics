@@ -78,7 +78,6 @@ echo <<<HTML
 				<h1>Services</h1>
 
 		<div class="services">
-			<div class="services-container">
 				<div id="service-1">
 				<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 				<h2>Mise en page</h2>	
@@ -126,7 +125,6 @@ echo <<<HTML
 					<span id="subtitle">Adaptation print</span>
 				</p>
 				</div>
-			</div>
 		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
