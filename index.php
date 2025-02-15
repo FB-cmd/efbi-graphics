@@ -139,15 +139,15 @@ echo <<<HTML
 			<h2>Maison d'édition</h2>
 		</div>
 		<div id="target-2">
-		<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône maison d'édition" />
+		<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
 			<h2>Éditeur indépendant</h2>
 		</div>
 		<div id="target-3">
-		<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône maison d'édition" />
+		<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
 			<h2>Agence de communication</h2>
 		</div>
 		<div id="target-4">
-		<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône maison d'édition" />
+		<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
 			<h2>Particulier</h2>
 		</div>
 		</div>
