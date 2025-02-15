@@ -168,6 +168,11 @@ echo <<<HTML
 				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6"> 
 			</div>
 		</div>
+		<div class="center-btn">
+		<a href="./portfolio">
+					<button id="portfolio-btn">Voir les travaux</button>
+		</a>
+		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
 				<h1>Galerie</h1>
