@@ -6,6 +6,7 @@
 .presentation-text,
 .services,
 .portfolio,
+.targets,
 .promotion {
 	padding: 10px;
 	margin: 15px;
@@ -80,12 +81,17 @@ hr {
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: column;
-	height: 400px;
 }
-
+.services > div {
+	height: 350px;
+}
+.targets > div {
+	height: 235px;
+}
 .services > div > img,
 .targets > div > img {
-	max-width: 200px;
+	width: 200px;
+	height: 135px;
 }
 
 .services > div > p,
@@ -249,11 +255,13 @@ strong {
 }
 
 @media screen and (max-width: 1200px) {
-	.services {
+	.services,
+	.targets {
 		flex-direction: column;
 	}
 
-	.services > div {
+	.services > div,
+	.targets > div {
 		max-width: 90%;
 		margin: 10px;
 	}
