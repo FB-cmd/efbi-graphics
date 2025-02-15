@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 229 191">
-  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 266 180">
+  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
   <defs>
     <style>
       .st0, .st1, .st2, .st3, .st4 {
@@ -48,50 +48,50 @@
       }
     </style>
     <clipPath id="clippath">
-      <rect class="st0" x="35.6" y="40.5" width="150.4" height="111"/>
+      <rect class="st0" x="54.1" y="35" width="150.4" height="111"/>
     </clipPath>
   </defs>
-  <path class="st4" d="M1109.9,376.5"/>
-  <rect class="st2" x="4.7" y="5" width="216.3" height="180.5" rx="15.2" ry="15.2"/>
-  <path class="st3" d="M20.6,34.6c-6.6-1.7-10.7-8.4-9-15s6.7-8.5,12-7.2,6.8,5.4,5.8,9.6-4.3,5.5-7.7,4.6-4.4-3.4-3.7-6.1,2.7-3.5,4.9-2.9,2.8,2.2,2.4,3.9-1.8,2.2-3.1,1.9-1.8-1.4-1.5-2.5,1.1-1.4,2-1.2"/>
-  <rect class="st5" x="194.4" y="63.2" width="16.8" height="8.6" transform="translate(81 -108.2) rotate(36.8)"/>
-  <circle class="st5" cx="111.1" cy="172.3" r="4.4"/>
-  <path class="st1" d="M205,157c6.6,1.7,10.7,8.4,9,15s-6.7,8.5-12,7.2-6.8-5.4-5.8-9.6,4.3-5.5,7.7-4.6,4.4,3.4,3.7,6.1-2.7,3.5-4.9,2.9-2.8-2.2-2.4-3.9,1.8-2.2,3.1-1.9,1.8,1.4,1.5,2.5-1.1,1.4-2,1.2"/>
-  <circle class="st6" cx="110.7" cy="16.1" r="4.4"/>
+  <path class="st4" d="M1128.4,371"/>
+  <rect class="st2" x="26.2" y="4.5" width="205.5" height="171.5" rx="15.2" ry="15.2"/>
+  <path class="st3" d="M41.1,32.1c-6.6-1.7-10.7-8.4-9-15s6.7-8.5,12-7.2,6.8,5.4,5.8,9.6-4.3,5.5-7.7,4.6-4.4-3.4-3.7-6.1,2.7-3.5,4.9-2.9,2.8,2.2,2.4,3.9-1.8,2.2-3.1,1.9-1.8-1.4-1.5-2.5,1.1-1.4,2-1.2"/>
+  <rect class="st5" x="207.9" y="51.7" width="16.8" height="8.6" transform="translate(76.8 -118.5) rotate(36.8)"/>
+  <circle class="st5" cx="129.6" cy="166.8" r="4.4"/>
+  <path class="st1" d="M216.5,148.5c6.6,1.7,10.7,8.4,9,15s-6.7,8.5-12,7.2-6.8-5.4-5.8-9.6,4.3-5.5,7.7-4.6,4.4,3.4,3.7,6.1-2.7,3.5-4.9,2.9-2.8-2.2-2.4-3.9,1.8-2.2,3.1-1.9,1.8,1.4,1.5,2.5-1.1,1.4-2,1.2"/>
+  <circle class="st6" cx="129.2" cy="12.6" r="4.4"/>
   <g class="st8">
     <g>
       <g id="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="42.3" x2="420.3" y2="42.3"/>
+        <line class="st1" x1="57.3" y1="36.8" x2="438.8" y2="36.8"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_1" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="55.5" x2="420.3" y2="55.5"/>
+        <line class="st1" x1="57.3" y1="50" x2="438.8" y2="50"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_2" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="68.8" x2="420.3" y2="68.8"/>
+        <line class="st1" x1="57.3" y1="63.3" x2="438.8" y2="63.3"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_3" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="82" x2="420.3" y2="82"/>
+        <line class="st1" x1="57.3" y1="76.5" x2="438.8" y2="76.5"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_4" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="95.2" x2="420.3" y2="95.2"/>
+        <line class="st1" x1="57.3" y1="89.7" x2="438.8" y2="89.7"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_5" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="108.4" x2="420.3" y2="108.4"/>
+        <line class="st1" x1="57.3" y1="102.9" x2="438.8" y2="102.9"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_6" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="121.7" x2="420.3" y2="121.7"/>
+        <line class="st1" x1="57.3" y1="116.2" x2="438.8" y2="116.2"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_7" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="134.9" x2="420.3" y2="134.9"/>
+        <line class="st1" x1="57.3" y1="129.4" x2="438.8" y2="129.4"/>
       </g>
       <g id="_x3C_Grid_Repeat_x3E_8" data-name="_x3C_Grid_Repeat_x3E_">
-        <line class="st1" x1="38.8" y1="148.1" x2="420.3" y2="148.1"/>
+        <line class="st1" x1="57.3" y1="142.6" x2="438.8" y2="142.6"/>
       </g>
     </g>
   </g>
-  <rect class="st6" x="12.3" y="116.8" width="16.8" height="8.6" transform="translate(76.8 11.8) rotate(36.8)"/>
-  <polygon class="st7" points="176.6 132.6 174.1 147 187.2 141.5 226.6 88.2 216.1 80 176.6 132.6"/>
-  <rect class="st5" x="176.1" y="134.2" width="13.6" height="2.6" transform="translate(117.8 -82.6) rotate(36.8)"/>
-  <rect class="st5" x="179.1" y="130.2" width="13.6" height="2.6" transform="translate(116 -85.2) rotate(36.8)"/>
-  <rect class="st5" x="182.1" y="126.2" width="13.6" height="2.6" transform="translate(114.2 -87.8) rotate(36.8)"/>
+  <rect class="st6" x="32.8" y="111.3" width="16.8" height="8.6" transform="translate(77.6 -1.6) rotate(36.8)"/>
+  <polygon class="st7" points="195.1 127.1 192.6 141.5 205.7 136 245.1 82.7 234.6 74.5 195.1 127.1"/>
+  <rect class="st5" x="194.6" y="128.7" width="13.6" height="2.6" transform="translate(118.2 -94.8) rotate(36.8)"/>
+  <rect class="st5" x="197.6" y="124.7" width="13.6" height="2.6" transform="translate(116.4 -97.4) rotate(36.8)"/>
+  <rect class="st5" x="200.6" y="120.7" width="13.6" height="2.6" transform="translate(114.6 -100) rotate(36.8)"/>
 </svg>
