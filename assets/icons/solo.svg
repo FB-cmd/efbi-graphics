@@ -3,10 +3,6 @@
   <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
   <defs>
     <style>
-      .st0 {
-        fill: #00008c;
-      }
-
       .st0, .st1, .st2, .st3 {
         stroke-miterlimit: 10;
       }
@@ -15,12 +11,16 @@
         stroke: #00008c;
       }
 
-      .st1, .st2 {
+      .st0, .st2 {
         stroke-width: .5px;
       }
 
-      .st1, .st3 {
+      .st0, .st3 {
         fill: #fff;
+      }
+
+      .st1 {
+        fill: #00008c;
       }
 
       .st2 {
@@ -30,7 +30,7 @@
     </style>
   </defs>
   <path class="st2" d="M1105.9,371"/>
-  <polyline class="st3" points="151.7 104.7 166.8 87.9 112 87.9 100 104.7"/>
-  <rect class="st0" x="98.5" y="70" width="55.9" height="35.5" rx="4.5" ry="4.5"/>
-  <circle class="st1" cx="126.6" cy="87.3" r="2.7"/>
+  <polyline class="st3" points="205.3 154.4 262.6 90.6 54.6 90.6 9.1 154.4"/>
+  <rect class="st1" x="3.4" y="22.7" width="212.2" height="134.7" rx="4.5" ry="4.5"/>
+  <circle class="st0" cx="110" cy="88.3" r="10.2" transform="translate(5.2 182.8) rotate(-80.8)"/>
 </svg>
