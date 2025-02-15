@@ -30,7 +30,7 @@
     </style>
   </defs>
   <path class="st2" d="M1105.9,371"/>
-  <polyline class="st3" points="205.3 154.4 262.6 90.6 54.6 90.6 9.1 154.4"/>
-  <rect class="st1" x="3.4" y="22.7" width="212.2" height="134.7" rx="4.5" ry="4.5"/>
+  <polyline class="st3" points="205.3 172.6 262.6 108.9 54.6 108.9 9.1 172.6"/>
+  <rect class="st1" x="3.4" y="7.4" width="212.2" height="165.2" rx="4.5" ry="4.5"/>
   <circle class="st0" cx="110" cy="88.3" r="10.2" transform="translate(5.2 182.8) rotate(-80.8)"/>
 </svg>
