@@ -3,7 +3,7 @@
 function addHeader(array $linksArr, $contactLink, array $assets) {
 echo <<<HTML
 	<div class="line-top">
-			<a href="mailto:fabirrou@outlook.com" target="_blank">
+			<a href="mailto:efbi-graphics@outlook.com" target="_blank">
 				<img class="icon" id="email-icon" src="${assets[0]}" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
 			</a>
 			<div class="phone-infos-container">
