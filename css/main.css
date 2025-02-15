@@ -175,10 +175,9 @@ strong {
 .horizontal-line {
 	background-color: var(--secondaryColor);
 	border: none;
-	margin: 0;
 	height: 5px;
-	width: 100%;
 	margin-bottom: 50px;
+	width: 95%;
 }
 
 #price-btn {
