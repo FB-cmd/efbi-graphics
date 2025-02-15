@@ -128,9 +128,11 @@ echo <<<HTML
 				</div>
 			</div>
 		</div>
-		<a href="./prices">
+		<div class="center-btn">
+		<a href="./tarifs">
 					<button id="price-btn">Voir les tarifs</button>
 		</a>
+		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
 		<h1>Cible</h1>
