@@ -205,6 +205,27 @@ strong {
 	align-items: center;
 	justify-content: center;
 }
+#quote-btn {
+	height: 40px;
+	width: 170px;
+	outline: none;
+	border: none;
+	font-style: italic;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+#quote-btn:hover {
+	opacity: 0.8;
+}
+.center-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 @media screen and (max-width: 1200px) {
 	.services {
