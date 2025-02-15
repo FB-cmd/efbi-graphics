@@ -78,16 +78,12 @@ echo <<<HTML
 			<div class="presentation">
 		<div class="category">
 				<h1>Services</h1>
-				</div>
-		<div class="illustrations-container">
-			<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
-			<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
-			<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
-			<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
 		</div>
+
 		<div class="services">
 			<div class="services-container">
 				<div id="service-1">
+				<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
 				<h2>Mise en page</h2>	
 				<p>	
 					<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues,</span>
@@ -103,6 +99,7 @@ echo <<<HTML
 				</div>
 
 				<div id="service-2">
+				<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
 				<h2>Relecture</h2>
 					<p>
 						<span id="subtitle">Relecture professionnelle</span>
@@ -113,6 +110,7 @@ echo <<<HTML
 					</p>
 				</div>
 				<div id="service-3">
+				<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
 				<h2>Illustration</h2>	
 				<p>
 					<span id="subtitle">Dessins vectoriels, Illustrations,</span>
@@ -121,6 +119,7 @@ echo <<<HTML
 					</p>
 				</div>
 				<div id="service-4">
+				<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
 				<h2>Photographie</h2>	
 				<p>
 					<span id="subtitle">Prises de vue, Retouches,</span>

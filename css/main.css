@@ -35,19 +35,6 @@
 	font-style: italic;
 }
 
-.illustrations-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	width: 100%;
-}
-
-.graphic-illustrations {
-	height: 100%;
-	width: 25%;
-	height: 150px;
-}
-
 h1 {
 	color: var(--mainColor);
 	text-align: center;
@@ -86,10 +73,21 @@ hr {
 }
 
 .services-container > div {
-	max-width: 30%;
-	min-height: 350px;
 	padding: 10px;
 	background-color: var(--textColor);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 400px;
+}
+
+.services-container > div > img {
+	max-width: 200px;
+}
+
+.services-container > div > p {
+	text-align: center;
 }
 
 h2 {
@@ -97,7 +95,7 @@ h2 {
 	color: var(--secondaryColor);
 	font-size: 1.2em;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
 li {
