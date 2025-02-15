@@ -177,18 +177,31 @@ echo <<<HTML
 		<div class="category">
 				<h1>Galerie</h1>
 				</div>
-		<div class="contact-me">
-			<h1>Envie de concrétiser votre projet de publication&nbsp;?</h1>
+			<div class="contact-me"> 
+			<h3>Désirez-vous concrétiser votre publication / support de communication&nbsp;?</h3>
+			<br>
+			<br>
+			<br>
+			<div>
 			<p>
-			<span id="contact">Me contacter.</span>
+			<span id="contact">MERCI DE ME CONTACTER&nbsp;!</span>
 			<br>
-			<span id="mail"> Adresse mail.</span>
 			<br>
-			<span id="phone"> Téléphone.</span>
-			</p>	
+			<img id="mail-1" src="./assets/icons/email.svg" alt="icone de mail en blanc"> 
+			<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
+			<br>
+			<br>
+			<img id="phone-1" src="./assets/icons/phone.svg" alt="icone de téléphone en blanc">
+			<span id="phone"> Téléphone&nbsp;: (+212)6.99.37.92.12 </span>
+			</p>
+			<br>
+			<br>
+			<br>
+			<br>	
+			<br>
+			<br>
 		</div>
-
-
+		</div>
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>
