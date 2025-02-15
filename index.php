@@ -151,6 +151,11 @@ echo <<<HTML
 			<h2>Particulier</h2>
 		</div>
 		</div>
+		<div class="center-btn">
+		<a href="./contact">
+					<button id="quote-btn">Demander un devis</button>
+		</a>
+		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
 		<h1>Portfolio</h1>
