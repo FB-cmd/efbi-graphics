@@ -75,7 +75,6 @@ echo <<<HTML
 		</div>
 		
 			<img class="framing" src="../assets/img/line-bottom.svg" alt="ligne du dessous autour du texte de présentation" />
-			<div class="presentation">
 		<div class="category">
 				<h1>Services</h1>
 		</div>
