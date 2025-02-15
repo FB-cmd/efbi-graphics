@@ -88,7 +88,8 @@ hr {
 	max-width: 200px;
 }
 
-.services > div > p {
+.services > div > p,
+.targets > p {
 	text-align: center;
 }
 
