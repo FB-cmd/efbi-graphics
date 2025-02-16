@@ -11,7 +11,7 @@ echo <<<HTML
 			</div>
 			<div class="phone-infos-container">
 				<img id="phone-icon" class="icon" src="${assets[1]}" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
-				<span id="phone-number"></span>
+				<span id="phone-number">+212699379212</span>
 			</div>
 		</div>
 		<header>
