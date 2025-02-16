@@ -12,10 +12,11 @@ function addContactMe(array $assets) {
 			</div>
 			<br>
 			<br>
-			<div class="email-infos">
-				<img class="email-icon" src="${assets[0]}" alt="icone de mail en blanc"> 
-				<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
-			</div>
+								
+				<a class="email-infos" href="mailto:efbi-graphics@outlook.com" target="_blank">
+					<img class="email-icon" src="${assets[0]}" alt="icone de mail en blanc"> 
+					<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
+				</a>
 			<br>
 			<div class="phone-infos">
 				<img class="phone-icon" class="icon" src="${assets[1]}" alt="icone de téléphone en blanc">

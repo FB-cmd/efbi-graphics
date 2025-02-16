@@ -3,12 +3,10 @@
 function addHeader(array $linksArr, $contactLink, array $assets) {
 echo <<<HTML
 	<div class="line-top">
-			<div class="email-infos-container">
-				<a href="mailto:efbi-graphics@outlook.com" target="_blank">
+				<a class="email-infos-container" href="mailto:efbi-graphics@outlook.com" target="_blank">
 					<img class="email-icon" src="${assets[0]}" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
+					<span id="email">efbi-graphics@outlook.com</span>
 				</a>
-				<span id="email">efbi-graphics@outlook.com</span>
-			</div>
 			<div class="phone-infos-container">
 				<img class="phone-icon" src="${assets[1]}" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
 				<span id="phone-number">+212699379212</span>

@@ -90,7 +90,8 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	cursor: pointer;
-	color: var(--secondaryColor);
+	color: var(--secondaryColor) !important;
+	cursor: pointer;
 }
 
 .left-side {
