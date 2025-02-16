@@ -30,8 +30,8 @@ fclose($myfile);
 $mail = new PHPMailer(true);
 
 try {
-    $mail->setFrom('assirouomar@gmail.com', 'Mailer');
-    $mail->addAddress('fabirrou@outlook.com', 'abc abc');
+    $mail->setFrom('fabirrou@outlook.com', 'Mailer');
+    $mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
 
     $mail->Body    = 'New work is here!';
     $mail->addAttachment("./{$_POST["firstName"]}-{$_POST["lastName"]}.txt");
