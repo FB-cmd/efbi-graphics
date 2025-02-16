@@ -95,7 +95,7 @@ a:hover {
 	width: 35px;
 }
 
-.phone-infos-container {
+.phone-infos-container, .email-infos-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
