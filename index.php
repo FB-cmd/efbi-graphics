@@ -1,6 +1,7 @@
 <?php
 require("./scripts/addHead.php");
 require("./scripts/addHeader.php");
+require("./scripts/addContactMe.php");
 
 $links = [
 	"Accueil" => "./",
@@ -23,6 +24,7 @@ $stylesheets= [
 	"./css/reset.css",
 	"./css/top-page.css",
 	"./css/footer.css",
+	"./css/contact-me.css",
 ];
 $faviconLink = "./assets/icons/favicon.svg";
 $description = "Désirez-vous concrétiser votre projet de publication ou mettre en valeur votre support de communication ? eFBi Graphics\U+000A9 vous offre le package complet de prestations PAO pour une création graphique et artistique originale et attractive. Réservez au plus vite pour bénéficier des avantages exclusifs !";
@@ -177,27 +179,10 @@ echo <<<HTML
 		<div class="category">
 				<h1>Galerie</h1>
 				</div>
-			<div class="contact-me"> 
-			<h3>Désirez-vous concrétiser votre publication / support de communication&nbsp;?</h3>
-			<br>
-			<br>
-			<br>
-			<div class="contact-me-message">
-				<span>MERCI DE ME CONTACTER&nbsp;!</span>
-			</div>
-			<br>
-			<br>
-			<div class="email-infos">
-				<img id="email-icon-2" src="./assets/icons/email.svg" alt="icone de mail en blanc"> 
-				<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
-			</div>
-			<br>
-			<div class="phone-infos">
-				<img id="phone-icon-2" class="icon" src="./assets/icons/phone.svg" alt="icone de téléphone en blanc">
-				<span id="phone"> Téléphone&nbsp;: (+212)6.99.37.92.12 </span>
-			</div>
-		</div>
-		</div>
+HTML;
+addContactMe($assets);
+
+echo <<<HTML
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>

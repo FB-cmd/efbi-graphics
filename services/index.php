@@ -1,6 +1,7 @@
 <?php
 require("../scripts/addHead.php");
 require('../scripts/addHeader.php');
+require('../scripts/addContactMe.php');
 require('../scripts/links.php');
 
 $linksArr["Services"] = "./";
@@ -181,6 +182,10 @@ echo <<<HTML
 		<br>
 		<img class="demonstration" src="../assets/img/demonstration-photoediting.jpg" alt="démonstration du service de retouche photos"/>
 		<br>
+HTML;
+addContactMe($assets);
+
+echo <<<HTML
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>

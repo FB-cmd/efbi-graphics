@@ -1,6 +1,7 @@
 <?php
 require("../scripts/addHead.php");
 require('../scripts/addHeader.php');
+require('../scripts/addContactMe.php');
 require('../scripts/links.php');
 $linksArr["Tarifs"] = "./";
 $stylesheets["mainStyle"] = "../css/prices.css";
@@ -106,7 +107,11 @@ echo <<<HTML
 				</div>
 			</div>
 		</div>
+HTML;
 
+addContactMe($assets);
+
+echo <<<HTML
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>
