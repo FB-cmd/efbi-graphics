@@ -1,0 +1,42 @@
+h3 {
+	text-align: center;
+	color: var(--textColor);
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.contact-me {
+	width: 100%;
+	background-color: var(--fourthColor);
+	color: var(--textColor);
+	margin-top: 50px;
+	padding: 50px;
+}
+.contact-me-message {
+	display: flex;
+	justify-content: center;
+}
+.contact-me-message > span {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.email-infos, .phone-infos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#mail,
+#phone {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#email-icon-2 {
+	height: 15px;
+	width: 35px;
+	cursor: pointer;
+}
+
