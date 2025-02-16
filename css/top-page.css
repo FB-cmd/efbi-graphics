@@ -84,16 +84,6 @@ a:hover {
 	cursor: pointer;
 }
 
-.icon {
-	height: 20px;
-	width: 40px;
-	cursor: pointer;
-}
-
-#email-icon {
-	height: 15px;
-	width: 35px;
-}
 
 .phone-infos-container, .email-infos-container {
 	display: flex;

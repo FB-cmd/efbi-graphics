@@ -5,12 +5,12 @@ echo <<<HTML
 	<div class="line-top">
 			<div class="email-infos-container">
 				<a href="mailto:efbi-graphics@outlook.com" target="_blank">
-					<img class="icon" id="email-icon" src="${assets[0]}" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
+					<img class="email-icon" src="${assets[0]}" alt="Îcone représentant un courrier qui redirige vers mon e-mail">
 				</a>
 				<span id="email">efbi-graphics@outlook.com</span>
 			</div>
 			<div class="phone-infos-container">
-				<img id="phone-icon" class="icon" src="${assets[1]}" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
+				<img class="phone-icon" src="${assets[1]}" alt="Îcone représentant un téléphone qui copie mon numéro de téléphone dans votre presse-papier">
 				<span id="phone-number">+212699379212</span>
 			</div>
 		</div>

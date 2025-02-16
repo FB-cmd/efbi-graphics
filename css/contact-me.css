@@ -28,15 +28,21 @@ h3 {
 	justify-content: center;
 }
 
-#mail,
-#phone {
-	font-style: italic;
-	font-size: 1.2em;
+.phone-icon {
+	height: 20px;
+	width: 40px;
+	cursor: pointer;
 }
 
-#email-icon-2 {
+.email-icon {
 	height: 15px;
 	width: 35px;
 	cursor: pointer;
 }
 
+
+#mail,
+#phone {
+	font-style: italic;
+	font-size: 1.2em;
+}
