@@ -179,27 +179,17 @@ echo <<<HTML
 				</div>
 			<div class="contact-me"> 
 			<h3>Désirez-vous concrétiser votre publication / support de communication&nbsp;?</h3>
-			<br>
-			<br>
-			<br>
-			<div>
-			<p>
-			<span id="contact">MERCI DE ME CONTACTER&nbsp;!</span>
-			<br>
-			<br>
-			<img id="mail-1" src="./assets/icons/email.svg" alt="icone de mail en blanc"> 
-			<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
-			<br>
-			<br>
-			<img id="phone-1" src="./assets/icons/phone.svg" alt="icone de téléphone en blanc">
-			<span id="phone"> Téléphone&nbsp;: (+212)6.99.37.92.12 </span>
-			</p>
-			<br>
-			<br>
-			<br>
-			<br>	
-			<br>
-			<br>
+			<div class="contact-me-message">
+				<span>MERCI DE ME CONTACTER&nbsp;!</span>
+			</div>
+			<div class="email-infos">
+				<img id="email-icon-2" src="./assets/icons/email.svg" alt="icone de mail en blanc"> 
+				<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
+			</div>
+			<div class="phone-infos">
+				<img id="phone-icon-2" class="icon" src="./assets/icons/phone.svg" alt="icone de téléphone en blanc">
+				<span id="phone"> Téléphone&nbsp;: (+212)6.99.37.92.12 </span>
+			</div>
 		</div>
 		</div>
 		<footer>
