@@ -194,8 +194,12 @@ echo <<<HTML
 				<img id="photo10" src="./assets/img/gallery/Metal-knocker.jpg" alt="photo10">
 				<img id="photo11" src="./assets/img/gallery/Fabrics.jpg" alt="photo11">
 				<img id="photo12" src="./assets/img/gallery/carpets.jpg" alt="photo12">
-
 				</div>
+				<div class="center-btn">
+		<a href="./gallery">
+					<button id="gallery-btn">Voir galerie</button>
+		</a>
+		</div>
 HTML;
 addContactMe($assets);
 
