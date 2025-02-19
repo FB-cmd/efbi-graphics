@@ -260,6 +260,27 @@ strong {
 	align-items: center;
 	justify-content: center;
 }
+#gallery-btn {
+	height: 40px;
+	width: 135px;
+	outline: none;
+	border: none;
+	font-style: italic;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+#gallery-btn:hover {
+	opacity: 0.8;
+}
+.gallery-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 @media screen and (max-width: 1200px) {
 	.services,
