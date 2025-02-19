@@ -30,6 +30,14 @@ h1 {
 	font-size: 1em;
 	font-weight: bold;
 }
+
+.demonstration {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .promotion {
 	display: flex;
 	justify-content: center;
