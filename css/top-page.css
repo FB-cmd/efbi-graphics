@@ -21,6 +21,7 @@
 	align-items: center;
 	justify-content: flex-end;
 	padding: 10px;
+	flex-wrap: wrap;
 }
 
 header {
