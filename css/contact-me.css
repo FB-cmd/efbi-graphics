@@ -7,7 +7,7 @@ h3 {
 }
 
 .contact-me {
-	width: 100%;
+	max-width: 100%;
 	background-color: var(--fourthColor);
 	color: var(--textColor);
 	margin-top: 50px;
