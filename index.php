@@ -175,31 +175,6 @@ echo <<<HTML
 					<button id="portfolio-btn">Voir les travaux</button>
 		</a>
 		</div>
-		<hr class="horizontal-line" />
-		<div class="category">
-				<h1>Galerie</h1>
-				<br>
-				<h2>Sélection de prises de vue et de photos retouchées</h2>
-				<br>
-				<br>
-				<img id="photo1" src="./assets/img/gallery/Garden1.jpg" alt="photo1">
-				<img id="photo2" src="./assets/img/gallery/tiny-blue-flowers.jpg" alt="photo2">
-				<img id="photo3" src="./assets/img/gallery/Pink-flower.jpg" alt="photo3">
-				<img id="photo4" src="./assets/img/gallery/City-view.jpg" alt="photo4">
-				<img id="photo5" src="./assets/img/gallery/green-door.jpg" alt="photo5">
-				<img id="photo6" src="./assets/img/gallery/little-wood-door.jpg" alt="photo6">
-				<img id="photo7" src="./assets/img/gallery/soaps.jpg" alt="photo7">
-				<img id="photo8" src="./assets/img/gallery/Traditional-Souk.jpg" alt="photo8">
-				<img id="photo9" src="./assets/img/gallery/Souvenirs4.jpg" alt="photo9">
-				<img id="photo10" src="./assets/img/gallery/Metal-knocker.jpg" alt="photo10">
-				<img id="photo11" src="./assets/img/gallery/Fabrics.jpg" alt="photo11">
-				<img id="photo12" src="./assets/img/gallery/carpets.jpg" alt="photo12">
-				</div>
-				<div class="center-btn">
-		<a href="./gallery">
-					<button id="gallery-btn">Voir galerie</button>
-		</a>
-		</div>
 HTML;
 addContactMe($assets);
 
