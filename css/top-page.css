@@ -85,13 +85,13 @@ a:hover {
 	cursor: pointer;
 }
 
-
-.phone-infos-container, .email-infos-container {
+.phone-infos-container,
+.email-infos-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	cursor: pointer;
-	color: var(--secondaryColor) !important;
+	color: var(--mainColor) !important;
 	cursor: pointer;
 }
 
@@ -144,8 +144,6 @@ a:hover {
 	min-height: 100%;
 	margin: 5px auto;
 }
-
-
 
 @media only screen and (max-width: 1000px) {
 	#activate-menu-btn > * {
