@@ -24,6 +24,16 @@
 	max-height: 30%;
 }
 
+#layout-2 {
+	max-width: 30%;
+	max-height: 30%;
+}
+
+#layout-3 {
+	max-width: 40%;
+	max-height: 25%;
+}
+
 #new-year-card {
 	max-width: 50%;
 }
