@@ -158,11 +158,16 @@ echo <<<HTML
 				<hr class="horizontal" id="hr5"/>
 				<img
 				class="cover"
-				id="affiche"
+				id="affiche-1"
 				src="../assets/img/books-covers/affiche-1.jpg"
 				alt="Affiche d'un congrès" />
 				<hr class="vertical" />
-
+				<img
+				class="cover"
+				id="affiche-2"
+				src="../assets/img/books-covers/affiche-2.jpg"
+				alt="Affiche d'un congrès" />
+				<hr class="vertical" />
 				<img
 				class="cover"
 				id="cover-22"
