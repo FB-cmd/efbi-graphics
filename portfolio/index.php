@@ -146,6 +146,18 @@ echo <<<HTML
 				<hr class="vertical" />
 			<img
 				class="cover"
+				id="cover-25"
+				src="../assets/img/books-covers/cover-25.jpg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+			<img
+				class="cover"
+				id="cover-26"
+				src="../assets/img/books-covers/cover-26.jpg"
+				alt="Couverture d'un travail" />
+				<hr class="horizontal" id="hr5"/>
+			<img
+				class="cover"
 				id="cover-22"
 				src="../assets/img/books-covers/cover-22.jpg"
 				alt="Couverture d'un travail" />
