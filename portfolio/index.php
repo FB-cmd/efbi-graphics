@@ -156,7 +156,14 @@ echo <<<HTML
 				src="../assets/img/books-covers/cover-26.jpg"
 				alt="Couverture d'un travail" />
 				<hr class="horizontal" id="hr5"/>
-			<img
+				<img
+				class="cover"
+				id="affiche"
+				src="../assets/img/books-covers/affiche-1.jpg"
+				alt="Affiche d'un congrès" />
+				<hr class="vertical" />
+
+				<img
 				class="cover"
 				id="cover-22"
 				src="../assets/img/books-covers/cover-22.jpg"
