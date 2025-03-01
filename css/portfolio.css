@@ -19,11 +19,7 @@
 	max-height: 50%;
 }
 
-#layout-1 {
-	max-width: 30%;
-	max-height: 30%;
-}
-
+#layout-1,
 #layout-2 {
 	max-width: 30%;
 	max-height: 30%;
