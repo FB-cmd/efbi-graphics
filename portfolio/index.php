@@ -170,6 +170,42 @@ echo <<<HTML
 				<hr class="vertical" />
 				<img
 				class="cover"
+				id="cover-27"
+				src="../assets/img/books-covers/cover-27.jpg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+				<img
+				class="cover"
+				id="cover-28"
+				src="../assets/img/books-covers/cover-28.jpeg"
+				alt="Couverture d'un travail" />
+				<hr class="horizontal" id="hr5"/>
+				<img
+				class="cover"
+				id="cover-30"
+				src="../assets/img/books-covers/cover-30.jpeg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+				<img
+				class="cover"
+				id="cover-31"
+				src="../assets/img/books-covers/cover-31.jpeg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+				<img
+				class="cover"
+				id="cover-29"
+				src="../assets/img/books-covers/cover-29.jpeg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+				<img
+				class="cover"
+				id="cover-32"
+				src="../assets/img/books-covers/cover-32.jpeg"
+				alt="Couverture d'un travail" />
+				<hr class="horizontal" id="hr5"/>
+				<img
+				class="cover"
 				id="cover-22"
 				src="../assets/img/books-covers/cover-22.jpg"
 				alt="Couverture d'un travail" />
