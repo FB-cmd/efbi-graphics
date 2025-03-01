@@ -149,6 +149,12 @@ echo <<<HTML
 				id="new-year-card"
 				src="../assets/img/books-covers/cover-23.jpg"
 				alt="Couverture d'un travail" />
+				<hr class="vertical" />
+			<img
+				class="cover"
+				id="layout-1"
+				src="../assets/img/Cupcakes.jpg"
+				alt="Aperçu d'une affiche de recette culinaire" />
 		</div>
 
 		<footer>
