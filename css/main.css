@@ -292,9 +292,12 @@ strong {
 	align-items: center;
 	justify-content: center;
 }
-.welcome-icon {
-	vertical-align: middle;
-	margin-right: 10px;
+
+.open-book {
+	display: block;
+	margin: 0 auto;
+	max-width: 20%;
+	height: auto;
 }
 
 @media screen and (max-width: 1200px) {
