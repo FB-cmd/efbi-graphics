@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 669.78 665.61">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="334.89" y="76.29" width="227.57" height="185.51" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect x="107.32" y="76.29" width="227.57" height="185.51" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect x="334.96" y="201.98" width="231.72" height="394.78" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect x="103.12" y="202" width="231.72" height="394.78" fill="none"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="334.89" cy="332.81" rx="334.89" ry="332.81" fill="#ff8c00"/>
+  <g>
+    <g id="_Mirror_Repeat_" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g clip-path="url(#clippath)">
+        <polygon points="334.09 260.14 560.86 205.33 478.71 78.01 334.09 260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="334.09" y1="260.14" x2="552.9" y2="193" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="541.95" y1="176.03" x2="334.09" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="529.92" y1="157.38" x2="334.09" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="514.58" y1="133.6" x2="334.09" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="495.71" y1="103.1" x2="336.14" y2="258.7" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-2" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g clip-path="url(#clippath-1)">
+        <polygon points="335.69 260.14 108.92 205.33 191.07 78.01 335.69 260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="335.69" y1="260.14" x2="116.88" y2="193" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="127.82" y1="176.03" x2="335.69" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="139.85" y1="157.38" x2="335.69" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="155.2" y1="133.6" x2="335.69" y2="260.14" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="174.07" y1="103.1" x2="333.63" y2="258.7" fill="#00008c" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g id="_Mirror_Repeat_-3" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g clip-path="url(#clippath-2)">
+        <polygon points="566.18 202.6 566.18 530.72 335.46 596.1 335.46 250.02 566.18 202.6" fill="#fff" stroke="#00008c" stroke-miterlimit="10"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-4" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g clip-path="url(#clippath-3)">
+        <polygon points="103.6 202.63 103.64 530.75 334.37 596.1 334.33 250.02 103.6 202.63" fill="#fff" stroke="#00008c" stroke-miterlimit="10"/>
+      </g>
+    </g>
+  </g>
+  <rect x="323.38" y="243.99" width="23.03" height="352.8" rx="9.98" ry="9.98" fill="#fff" stroke="#00008c" stroke-miterlimit="10"/>
+</svg>
