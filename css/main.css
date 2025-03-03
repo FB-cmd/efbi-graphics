@@ -125,9 +125,10 @@ h3 {
 .special-title {
 	text-align: right;
 	color: var(--secondaryColor);
-	font-family: "Al Fresco";
-	font-size: 2em;
-	font-weight: bold;
+	font-family: "al-fresco", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 5em;
 	margin-top: 50px;
 	margin-bottom: 20px;
 	margin-right: 20px;
