@@ -61,6 +61,7 @@ addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
 <h1 class="special-title"> Bienvenue dans mon univers&nbsp;! </h1>
+<img class="open-book" src="../assets/img/open-book.svg" alt="livre ouvert" />
 <img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessous autour du texte de présentation" />
 <div class="presentation">
 		<div class="presentation-text">
