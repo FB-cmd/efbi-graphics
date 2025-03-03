@@ -3,7 +3,7 @@
 function addHeader(array $linksArr, $contactLink, array $assets) {
 echo <<<HTML
 <div class="line-top">
-</div>
+	</div>
 		<header>
 			<img id="logo" src="${assets[2]}" alt="Logo du site">
 				<div id="menu-container">
