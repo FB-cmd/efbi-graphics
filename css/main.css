@@ -122,6 +122,17 @@ h3 {
 	font-weight: bold;
 }
 
+.special-title {
+	text-align: right;
+	color: var(--secondaryColor);
+	font-family: "Al Fresco";
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
 #subtitle {
 	text-align: center;
 	color: var(--fourthColor);
@@ -280,6 +291,10 @@ strong {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.welcome-icon {
+	vertical-align: middle;
+	margin-right: 10px;
 }
 
 @media screen and (max-width: 1200px) {

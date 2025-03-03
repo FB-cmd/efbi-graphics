@@ -17,7 +17,7 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/phone.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
-	"./assets/img/banner.svg"
+	"./assets/img/new-banner.jpg"
 ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
@@ -60,13 +60,11 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
-
-<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessous autour du texte de présentation" />		
+<h1 class="special-title"> Bienvenue dans mon univers&nbsp;! </h1>
+<img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessous autour du texte de présentation" />
 <div class="presentation">
 		<div class="presentation-text">
 			<p>
-				<strong>Bienvenue dans mon univers&nbsp;!</strong>
-					<br><br>	
 				<span>Ma passion pour le livre commence depuis très longtemps. La découverte du monde de la lecture dès l’enfance au travers des histoires, bandes dessinées et livres illustrés, me laissait toujours fascinée devant le pouvoir des caractères imprimés et des mots stylisés à animer l’imaginaire.</span>
 				<br>
 				<span>De plus en plus attachée à cette passion qui devient mon activité professionnelle, j’essaie de maintenir le lien avec ce monde fascinant et créatif et de laisser une trace unique et pertinente par la mise en page de divers documents (livres, revues scientifiques, affiches et autres), la relecture professionnelle, la création graphique et le traitement d'images.</span>
