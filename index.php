@@ -66,7 +66,8 @@ echo <<<HTML
 		<a href="./présentation">
 					<button id="presentation-btn">Consulter la présentation</button>
 		</a>
-		</div>		
+		</div>
+		<hr class="horizontal-line" />		
 <h1>Services</h1>
 
 		<div class="services">
