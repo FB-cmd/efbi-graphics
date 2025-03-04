@@ -120,8 +120,8 @@ echo <<<HTML
 				</div>
 		</div>
 		<div class="center-btn">
-		<a href="./tarifs">
-					<button id="price-btn">Voir les tarifs</button>
+		<a href="./services">
+					<button id="services-btn">Voir les services</button>
 		</a>
 		</div>
 		<hr class="horizontal-line" />
