@@ -169,26 +169,25 @@ a:hover {
 	.left-side {
 		display: none;
 	}
-	}
+}
 
-	header {
-		justify-content: space-between;
-	}
+header {
+	justify-content: space-between;
+}
 
-	#logo {
-		margin: 5px;
-	}
+#logo {
+	margin: 5px;
+}
 
-	#menu-container {
-		width: 150px;
-		margin: 10px;
-	}
+#menu-container {
+	width: 150px;
+	margin: 10px;
+}
 
-	#contact-btn {
-		display: none;
-	}
+#contact-btn {
+	display: none;
+}
 
-	#virtual-contact-btn {
-		display: block;
-	}
+#virtual-contact-btn {
+	display: block;
 }
