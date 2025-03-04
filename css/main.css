@@ -204,9 +204,9 @@ strong {
 	width: 95%;
 }
 
-#price-btn {
+#services-btn {
 	height: 40px;
-	width: 135px;
+	width: 140px;
 	outline: none;
 	border: none;
 	font-style: italic;
@@ -217,7 +217,7 @@ strong {
 	margin-bottom: 50px;
 	border-radius: 10px;
 }
-#price-btn:hover {
+#services-btn:hover {
 	opacity: 0.8;
 }
 .center-btn {
