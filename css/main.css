@@ -124,13 +124,10 @@ h3 {
 
 .special-title {
 	text-align: center;
-	color: var(--secondaryColor);
-	font-family: "al-fresco", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 5em;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	color: var(--mainColor);
+	font-style: italic;
+	font-size: 2.5em;
+	margin-bottom: 50px;
 }
 
 #subtitle {
