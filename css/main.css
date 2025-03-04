@@ -299,6 +299,12 @@ strong {
 	max-width: 20%;
 	height: auto;
 }
+.why-job {
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+	height: auto;
+}
 
 @media screen and (max-width: 1200px) {
 	.services,
