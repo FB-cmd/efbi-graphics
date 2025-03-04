@@ -60,8 +60,7 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
-<h1 class="special-title"> Bienvenue dans notre univers&nbsp;! </h1>
-<img class="open-book" src="../assets/img/open-book.svg" alt="livre ouvert" />
+<h1 class="special-title"> Bienvenue dans mon univers de conception graphique et artistique&nbsp;! </h1>
 <img class="why-job" src="../assets/img/why-job.svg" alt="contenu pourquoi ce métier" />
 <img class="framing" src="../assets/img/line-top.svg" alt="ligne du dessous autour du texte de présentation" />
 <div class="presentation">
