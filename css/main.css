@@ -200,8 +200,7 @@ strong {
 .horizontal-line {
 	background-color: var(--secondaryColor);
 	border: none;
-	height: 5px;
-	margin-bottom: 50px;
+	height: 1px;
 	width: 95%;
 }
 
