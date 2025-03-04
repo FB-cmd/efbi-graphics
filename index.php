@@ -17,7 +17,7 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/phone.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
-	"./assets/img/new-banner.jpg"
+	"./assets/img/open-book.svg"
 ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
