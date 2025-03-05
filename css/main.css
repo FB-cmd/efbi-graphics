@@ -110,7 +110,7 @@ h2 {
 .second-title {
 	text-align: center;
 	color: var(--secondaryColor);
-	font-size: 2rem;
+	font-size: clamp(1rem, 5vw, 3rem);
 	font-weight: bold;
 	font-style: italic;
 	margin-bottom: 5vh;
