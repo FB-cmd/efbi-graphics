@@ -17,7 +17,7 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/phone.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
-	"./assets/img/banner2.svg"
+	"./assets/img/banner.svg"
 ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
@@ -60,7 +60,8 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
-<h1 class="special-title"> Bienvenue dans mon univers de conception graphique et artistique&nbsp;! </h1>
+<h2 class="second-title">Bienvenue dans mon univers de création graphique&nbsp;! </h2>
+<img class="open-book" src="../assets/img/open-book.svg" alt="image de livre ouvert" />
 <img class="why-job" src="../assets/img/why-job.svg" alt="contenu pourquoi ce métier" />
 <div class="center-btn">
 		<a href="./présentation">
@@ -166,6 +167,14 @@ echo <<<HTML
 					<button id="portfolio-btn">Voir les travaux</button>
 		</a>
 		</div>
+		<img src="../assets/img/line-top.svg" alt="ligne du haut encadrant la présentation" />
+		<div class="presentation-text"> 
+			<p>
+			Je suis Fatima, la créatrice de votre futur projet&nbsp;! Ma passion pour l'art graphique relève de 
+			Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong> une aventure riche et constructive.  
+			</p> 
+		</div>
+
 HTML;
 addContactMe($assets);
 
