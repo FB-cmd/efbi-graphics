@@ -113,7 +113,7 @@ h2 {
 	font-size: clamp(1rem, 5vw, 3rem);
 	font-weight: bold;
 	font-style: italic;
-	margin-bottom: 5vh;
+	margin-bottom: clamp(2vh, 5vw, 5vh);
 }
 
 li {
@@ -158,14 +158,14 @@ h3 {
 }
 
 .works-container > * {
-	max-width: 500px;
+	max-width: 300px;
 	margin: 5px;
-	min-height: 500px;
+	min-height: 300px;
 	padding: 10px;
 	border: 1px solid var(--mainColor);
 	border-radius: 10px;
 	background-color: white;
-	animation: translateCards 40s linear infinite;
+	animation: translateCards 30s linear infinite;
 }
 
 #new-year-card {
