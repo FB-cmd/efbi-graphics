@@ -156,10 +156,15 @@ echo <<<HTML
 		</div>
 		<div class="portfolio">
 			<div class="works-container">
+				<img id="work24" src="./assets/img/books-covers/cover-24.jpg" alt="work24">
 				<img id="work1" src="./assets/img/books-covers/cover-1.jpg" alt="work1"> 
 				<img id="work12" src="./assets/img/books-covers/cover-12.jpg" alt="work12"> 
 				<img id="work3" src="./assets/img/books-covers/cover-3.jpg" alt="work3">
-				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6"> 
+				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6">
+				<img id="work26" src="./assets/img/books-covers/cover-26.jpg" alt="work26">
+				<img id="work28" src="./assets/img/books-covers/cover-28.jpeg" alt="work28">
+				<img id="work31" src="./assets/img/books-covers/cover-31.jpeg" alt="work31">
+				<img id="work10" src="./assets/img/books-covers/cover-10.jpg" alt="work10">  
 			</div>
 		</div>
 		<div class="center-btn">
