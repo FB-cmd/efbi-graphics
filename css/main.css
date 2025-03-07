@@ -99,9 +99,9 @@ hr {
 h2 {
 	text-align: center;
 	color: var(--secondaryColor);
-	font-size: 1.2em;
+	font-size: clamp(1em, 2.5vw, 1.2em);
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: clamp(10px, 3vw, 15px);
 }
 
 .second-title {
@@ -256,8 +256,8 @@ strong {
 }
 .why-job {
 	display: block;
-	margin: 0 auto;
-	max-width: 90%;
+	margin: clamp(20px, 5vw, 40px) auto;
+	max-width: 10%;
 	height: auto;
 }
 
@@ -332,6 +332,19 @@ strong {
 	@media screen and (max-width: 480px) {
 		.special-title {
 			font-size: 3em;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		h2 {
+			font-size: 1em;
+			margin-top: 20px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		h2 {
+			font-size: 1em;
+			margin-top: 15px;
 		}
 	}
 }
