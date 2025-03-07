@@ -19,14 +19,9 @@
 	max-height: 50%;
 }
 
-#layout-1,
-#layout-2 {
-	max-width: 30%;
-	max-height: 30%;
-}
-
-#layout-3 {
-	max-width: 40%;
+#recipe-1,
+#recipe-2 {
+	max-width: 35%;
 	max-height: 25%;
 }
 
