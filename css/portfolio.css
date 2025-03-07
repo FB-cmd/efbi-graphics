@@ -20,7 +20,9 @@
 }
 
 #recipe-1,
-#recipe-2 {
+#recipe-2,
+#encart-1,
+#encart-2 {
 	max-width: 35%;
 	max-height: 25%;
 }
