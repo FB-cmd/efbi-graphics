@@ -206,15 +206,15 @@ echo <<<HTML
 				<hr class="horizontal" id="hr5"/>
 				<img
 				class="cover"
-				id="layout-2"
-				src="../assets/img/books-covers/layout-2.jpg"
-				alt="Aperçu d'un travail personnel" />
+				id="recipe-1"
+				src="../assets/img/Cupcakes.jpg"
+				alt="Aperçu d'une affiche de recette culinaire de cupcakes" />
 				<hr class="vertical" />
 				<img
 				class="cover"
-				id="layout-3"
+				id="recipe-2"
 				src="../assets/img/pastilla.jpg"
-				alt="Aperçu d'un travail personnel" />
+				alt="Aperçu d'une affiche de recette culinaire de pastilla" />
 				<hr class="horizontal" id="hr5"/>
 				<img
 				class="cover"
@@ -222,12 +222,6 @@ echo <<<HTML
 				src="../assets/img/books-covers/cover-22.jpg"
 				alt="Couverture d'un travail" />
 			<hr class="horizontal" id="hr6"/>
-			<img
-				class="cover"
-				id="layout-1"
-				src="../assets/img/Cupcakes.jpg"
-				alt="Aperçu d'une affiche de recette culinaire" />
-				<hr class="vertical" />
 			<img
 				class="cover"
 				id="new-year-card"
