@@ -11,36 +11,34 @@ h3 {
 	background-color: var(--fourthColor);
 	color: var(--textColor);
 	margin-top: 50px;
-	padding: 50px;
+	padding: clamp(20px, 5vw, 50px);
 }
 .contact-me-message {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
 }
 .contact-me-message > span {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: clamp(1.2em, 2vw, 1.5em);
 }
 
-.email-infos, .phone-infos {
+.email-infos,
+.phone-infos {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 10px;
 	cursor: pointer;
 }
 
-.phone-icon {
-	height: 20px;
-	width: 40px;
-	cursor: pointer;
-}
-
+.phone-icon,
 .email-icon {
-	height: 15px;
-	width: 35px;
+	height: 1.5rem;
+	width: auto;
 	cursor: pointer;
 }
-
 
 #mail,
 #phone {
