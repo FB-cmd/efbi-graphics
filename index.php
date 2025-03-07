@@ -174,11 +174,12 @@ echo <<<HTML
 		</div>
 		<img src="../assets/img/line-top.svg" alt="ligne du haut encadrant la présentation" />
 		<div class="presentation-text"> 
-			<p>
-			Je suis Fatima, la créatrice de votre futur projet&nbsp;! Ma passion pour l'art graphique relève de 
-			Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong> une aventure riche et constructive.  
-			</p> 
+			<p>Je suis Fatima, la créatrice de votre futur projet&nbsp;!</p>
+			<p>Ma passion pour l'art graphique me pousse à développer ma créativité en continu pour être à la hauteur de vos espérances.</p>
+			<p>Mon expérience professionnelle me permet d'assurer des travaux de qualité qui sont bien appréciés par mes clients.</p> 
+			<p>Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong> une aventure riche et constructive.</p>   
 		</div>
+		<img src="../assets/img/line-bottom.svg" alt="ligne du bas encadrant la présentation" />
 
 HTML;
 addContactMe($assets);
