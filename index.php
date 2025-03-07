@@ -199,7 +199,7 @@ echo <<<HTML
 			<p>Je suis Fatima, la créatrice de votre futur projet&nbsp;!</p>
 			<p>Ma passion pour l'art graphique me pousse à développer ma créativité en continu pour être à la hauteur de vos espérances.</p>
 			<p>Mon expérience professionnelle me permet d'assurer des travaux de qualité qui sont bien appréciés par mes clients.</p> 
-			<p>Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong> une aventure riche et constructive.</p>   
+			<p>Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong>, une aventure riche et constructive.</p>   
 		</div>
 		<img src="../assets/img/line-bottom.svg" alt="ligne du bas encadrant la présentation" />
 
