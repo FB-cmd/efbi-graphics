@@ -213,7 +213,7 @@ echo <<<HTML
 				<img
 				class="cover"
 				id="layout-3"
-				src="../assets/img/books-covers/layout-3.jpg"
+				src="../assets/img/pastilla.jpg"
 				alt="Aperçu d'un travail personnel" />
 				<hr class="horizontal" id="hr5"/>
 				<img
