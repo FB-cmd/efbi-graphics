@@ -63,7 +63,28 @@ echo <<<HTML
 <h2 class="second-title">Bienvenue dans mon univers de création graphique&nbsp;! </h2>
 <img class="open-book" src="../assets/img/open-book.svg" alt="image de livre ouvert" />
 <h1 class="special-title">Pourquoi ce métier ?</h1>
-<img class="why-job" src="../assets/img/why-job.svg" alt="contenu pourquoi ce métier" />
+<img class="why-job" src="../assets/icons/passion.svg" alt="icône de passion pour le métier" />
+<h2>Passionnée du livre depuis l’enfance
+	<br>
+	Touchée par la magie de l’esthétique et de la création graphique
+</h2>
+<img class="why-job" src="../assets/icons/professional.svg" alt="icône d'orientation professionnelle pour le métier" />
+<h2>Professionnelle, méthodique, rigoureuse et minutieuse
+	<br>
+	En quête de l’originalité et de la créativité 
+</h2>
+<img class="why-job" src="../assets/icons/goal.svg" alt="icône d'objectif pour le métier" />
+<h2>Créer une trace unique et pertinente
+	<br>
+	Harmoniser contenu et esthétique
+	<br>
+	Embellir et faire distinguer  
+</h2>
+<img class="why-job" src="../assets/icons/collaboration.svg" alt="icône de collaboration pour le métier" />
+<h2>Rencontrer, échanger et collaborer 
+	<br>
+	Construire et maintenir le lien social
+</h2>
 <div class="center-btn">
 		<a href="./présentation">
 					<button id="presentation-btn">Consulter la présentation</button>
