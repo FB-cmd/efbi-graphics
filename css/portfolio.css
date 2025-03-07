@@ -29,6 +29,7 @@
 
 #new-year-card {
 	max-width: 50%;
+	margin-bottom: clamp(2vh, 5vw, 5vh);
 }
 
 .horizontal {
