@@ -132,7 +132,7 @@ h3 {
 	text-align: center;
 	color: var(--secondaryColor);
 	font-family: "al-fresco", sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 	font-size: clamp(2.5em, 5vw, 6em);
 	margin-bottom: 10px;
