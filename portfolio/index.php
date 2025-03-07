@@ -241,6 +241,18 @@ echo <<<HTML
 				alt="Couverture d'un travail" />
 			<hr class="horizontal" id="hr6"/>
 			<img
+				class="encart"
+				id="encart-1"
+				src="../assets/img/books-covers/encart-1.jpg"
+				alt="Premier encart de la revue DO" />
+				<hr class="vertical" />
+				<img
+				class="encart"
+				id="encart-2"
+				src="../assets/img/books-covers/encart-2.jpg"
+				alt="Second encart de la revue DO" />
+				<hr class="horizontal"id="hr5" />
+			<img
 				class="cover"
 				id="new-year-card"
 				src="../assets/img/books-covers/cover-23.jpg"
