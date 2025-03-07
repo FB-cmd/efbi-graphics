@@ -305,6 +305,7 @@ strong {
 	margin: 0 auto;
 	max-width: 50%;
 	height: auto;
+	margin-bottom: clamp(3vh, 5vw, 6vh);
 }
 .why-job {
 	display: block;
