@@ -134,8 +134,8 @@ h3 {
 	font-family: "al-fresco", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 2em;
-	margin-bottom: 50px;
+	font-size: clamp(2.5em, 5vw, 6em);
+	margin-bottom: 10px;
 }
 
 #subtitle {
@@ -321,6 +321,17 @@ strong {
 
 		.presentation-text > p {
 			font-size: 1em;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.special-title {
+			font-size: 4em;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.special-title {
+			font-size: 3em;
 		}
 	}
 }

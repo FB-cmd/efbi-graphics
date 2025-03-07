@@ -69,7 +69,7 @@ echo <<<HTML
 		</a>
 		</div>
 		<hr class="horizontal-line" />		
-<h1>Services</h1>
+<h1 class="special-title">Services</h1>
 
 		<div class="services">
 				<div id="service-1">
@@ -126,7 +126,7 @@ echo <<<HTML
 		</a>
 		</div>
 		<hr class="horizontal-line" />
-		<h1>Cible</h1>
+		<h1 class="special-title">Pour qui ?</h1>
 		<div class="targets">
 		<div id="target-1">
 		<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
@@ -152,7 +152,7 @@ echo <<<HTML
 		</div>
 		<hr class="horizontal-line" />
 		<div class="category">
-		<h1>Portfolio</h1>
+		<h1 class="special-title">Portfolio</h1>
 		</div>
 		<div class="portfolio">
 			<div class="works-container">
