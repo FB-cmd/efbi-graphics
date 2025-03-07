@@ -218,6 +218,12 @@ echo <<<HTML
 				<hr class="vertical"/>
 				<img
 				class="cover"
+				id="cover-35"
+				src="../assets/img/books-covers/cover-35.jpg"
+				alt="Couverture d'un travail" />
+				<hr class="vertical"/>
+				<img
+				class="cover"
 				id="recipe-1"
 				src="../assets/img/Cupcakes.jpg"
 				alt="Aperçu d'une affiche de recette culinaire de cupcakes" />
