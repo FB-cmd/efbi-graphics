@@ -120,9 +120,9 @@ echo <<<HTML
 				</p>
 				</div>
 		</div>
-		<div class="center-btn">
+		<div class="btn-container">
 		<a href="./services">
-					<button id="services-btn">Voir les services</button>
+					<button id="services-btn" class="btn">Voir les services</button>
 		</a>
 		</div>
 		<hr class="horizontal-line" />
@@ -145,9 +145,9 @@ echo <<<HTML
 			<h2>Particulier</h2>
 		</div>
 		</div>
-		<div class="center-btn">
+		<div class="btn-container">
 		<a href="./contact">
-					<button id="quote-btn">Demander un devis</button>
+					<button id="quote-btn" class="btn">Demander un devis</button>
 		</a>
 		</div>
 		<hr class="horizontal-line" />
@@ -167,9 +167,9 @@ echo <<<HTML
 				<img id="work10" src="./assets/img/books-covers/cover-10.jpg" alt="work10">  
 			</div>
 		</div>
-		<div class="center-btn">
+		<div class="btn-container">
 		<a href="./portfolio">
-					<button id="portfolio-btn">Voir les travaux</button>
+					<button id="portfolio-btn" class="btn">Voir les travaux</button>
 		</a>
 		</div>
 		<img src="../assets/img/line-top.svg" alt="ligne du haut encadrant la présentation" />
