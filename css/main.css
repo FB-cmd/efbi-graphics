@@ -53,6 +53,7 @@ hr {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	flex-direction: column;
 }
 
 .portfolio {
@@ -94,6 +95,13 @@ hr {
 .services > div > p,
 .targets > p {
 	text-align: center;
+}
+
+.graphic-icon {
+	display: block;
+	margin: clamp(40px, 8vw, 80px) auto clamp(10px, 2vw, 20px) auto;
+	max-width: 20%;
+	height: auto;
 }
 
 h2 {
@@ -141,7 +149,9 @@ h3 {
 #subtitle {
 	text-align: center;
 	color: var(--fourthColor);
-	font-size: 1.2em;
+	font-size: 1em;
+	font-style: italic;
+	margin-bottom: 10px;
 }
 
 @keyframes translateCards {
