@@ -92,57 +92,37 @@ echo <<<HTML
 		</div>
 		<hr class="horizontal-line" />		
 <h1 class="special-title">Services</h1>
-
-		<div class="services">
-				<div id="service-1">
-				<img class="graphic-illustrations" src="../assets/icons/layout.svg" alt="icône mise en page" />
-				<h2>Mise en page</h2>	
-				<p>	
-					<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues,</span>
-					<br>
-					<span id="subtitle">romans, essais</span>
-					<br>
-					<span id="subtitle">Supports de communication&nbsp;: affiches,</span>
-					<br>
-					<span id="subtitle">brochures, flyers,</span>
-					<br>
-					<span id="subtitle">programmes de congrès</span>
-				</p>
-				</div>
-
-				<div id="service-2">
-				<img class="graphic-illustrations" src="../assets/icons/proofreading.svg" alt="icône relecture" />
-				<h2>Relecture</h2>
-					<p>
-						<span id="subtitle">Relecture professionnelle</span>
-						<br>
-						<span id="subtitle">Correction intégrale</span>
-						<br>
-						<span id="subtitle">Suivi de fabrication</span>	
-					</p>
-				</div>
-				<div id="service-3">
-				<img class="graphic-illustrations" src="../assets/icons/illustration.svg" alt="icône illustration" />
-				<h2>Illustration</h2>	
-				<p>
-					<span id="subtitle">Dessins vectoriels, Illustrations,</span>
-					<br>
-					<span id="subtitle">Schémas, Logotypes</span>
-					</p>
-				</div>
-				<div id="service-4">
-				<img class="graphic-illustrations" src="../assets/icons/photo.svg" alt="icône photo" />
-				<h2>Photographie</h2>	
-				<p>
-					<span id="subtitle">Prises de vue, Retouches,</span>
-					<br>
-					<span id="subtitle">Traitement d'images,</span>
-					<br>
-					<span id="subtitle">Adaptation print</span>
-				</p>
-				</div>
-		</div>
-		<div class="btn-container">
+<img class="graphic-icon" src="../assets/icons/layout.svg" alt="icône de mise en page" />
+<h2>Mise en page
+	<p>	
+	<span id="subtitle">Manuscrits divers&nbsp;: ouvrages, revues, romans, essais</span>
+	<br>
+	<span id="subtitle">Supports de communication&nbsp;: affiches, brochures, flyers, programmes de congrès</span>
+	</p>	
+</h2>
+<img class="graphic-icon" src="../assets/icons/proofreading.svg" alt="icône de relecture" />
+<h2>Relecture
+	<p>
+	<span id="subtitle">Relecture professionnelle</span>
+	<br>
+	<span id="subtitle">Correction intégrale</span>
+	<br>
+	<span id="subtitle">Suivi de fabrication</span>	
+	</p>
+	</h2>
+<img class="graphic-icon" src="../assets/icons/illustration.svg" alt="icône d'illustration" />
+<h2>Illustration	
+	<p>
+	<span id="subtitle">Dessins vectoriels, Illustrations, Schémas, Logotypes</span>
+	</p>
+	</h2>
+<img class="graphic-icon" src="../assets/icons/photo.svg" alt="icône de photographie" />
+<h2>Photographie	
+	<p>
+	<span id="subtitle">Prises de vue, Retouches, Traitement d'images, Adaptation print</span>
+	</p>
+	</h2>
+<div class="btn-container">
 		<a href="./services">
 					<button id="services-btn" class="btn">Voir les services</button>
 		</a>

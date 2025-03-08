@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 266 180">
-  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
       .st0 {
         stroke: #00008c;
-        stroke-width: 4px;
       }
 
       .st0, .st1 {
+        stroke-width: 4px;
+      }
+
+      .st0, .st1, .st2 {
         fill: none;
         stroke-miterlimit: 10;
       }
 
       .st1 {
+        stroke: #f28a19;
+      }
+
+      .st2 {
         stroke: #42210b;
         stroke-width: .5px;
       }
     </style>
   </defs>
-  <path class="st1" d="M1105.9,371"/>
+  <path class="st2" d="M1105.9,371"/>
   <polygon class="st0" points="54 29.5 151 29.5 151 90.5 54 90.5 54 150.5 147 151.5 227 65.5 95 66.5 54 29.5"/>
-  <path class="st0" d="M30,168.5c6.8-22.6,19.3-49.9,44-60,28.3-11.5,50.1,8.7,78,1,20.5-5.6,45-26.5,63-93"/>
+  <path class="st1" d="M30,168.5c6.8-22.6,19.3-49.9,44-60,28.3-11.5,50.1,8.7,78,1,20.5-5.6,45-26.5,63-93"/>
+  <rect class="st1" x="1.9" y="2.2" width="262.1" height="175.8"/>
 </svg>
