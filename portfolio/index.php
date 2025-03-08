@@ -206,9 +206,9 @@ echo <<<HTML
 				<hr class="horizontal" id="hr5"/>
 				<img
 				class="cover"
-				id="cover-33"
-				src="../assets/img/books-covers/cover-33.jpg"
-				alt="Couverture d'un travail" />
+				id="layout-1"
+				src="../assets/img/woman-day.jpg"
+				alt="Affiche de la journée mondiale des droits des femmes 8 mars" />
 				<hr class="vertical"/>
 				<img
 				class="cover"
@@ -248,14 +248,14 @@ echo <<<HTML
 			<hr class="horizontal" id="hr6"/>
 			<img
 				class="encart"
-				id="encart-1"
-				src="../assets/img/books-covers/encart-1.jpg"
+				id="encart-2"
+				src="../assets/img/books-covers/encart-2.jpg"
 				alt="Premier encart de la revue DO" />
 				<hr class="vertical" />
 				<img
 				class="encart"
-				id="encart-2"
-				src="../assets/img/books-covers/encart-2.jpg"
+				id="encart-1"
+				src="../assets/img/books-covers/encart-1.jpg"
 				alt="Second encart de la revue DO" />
 				<hr class="horizontal"id="hr5" />
 			<img
