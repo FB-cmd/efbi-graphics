@@ -20,11 +20,14 @@
 }
 
 #recipe-1,
-#recipe-2,
-#encart-1,
-#encart-2 {
+#recipe-2 {
 	max-width: 35%;
 	max-height: 25%;
+}
+#encart-1,
+#encart-2 {
+	max-width: 25%;
+	max-height: 15%;
 }
 
 #new-year-card {
