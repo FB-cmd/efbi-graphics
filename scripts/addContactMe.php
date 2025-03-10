@@ -3,7 +3,7 @@ function addContactMe(array $assets) {
 	echo <<<HTML
 		
 		<div class="contact-me"> 
-			<h3>Désirez-vous concrétiser votre publication / support de communication&nbsp;?</h3>
+			<h3>Désirez-vous concrétiser votre projet de publication&nbsp;?</h3>
 			<br>
 			<br>
 			<br>
@@ -15,12 +15,12 @@ function addContactMe(array $assets) {
 								
 				<a class="email-infos" href="mailto:efbi-graphics@outlook.com" target="_blank">
 					<img class="email-icon" src="${assets[0]}" alt="icone de mail en blanc"> 
-					<span id="mail"> Adresse mail&nbsp;: efbi-graphics@outlook.com</span>
+					<span id="mail">efbi-graphics@outlook.com</span>
 				</a>
 			<br>
 			<div class="phone-infos">
 				<img class="phone-icon" class="icon" src="${assets[1]}" alt="icone de téléphone en blanc">
-				<span id="phone"> Téléphone&nbsp;: (+212)6.99.37.92.12 </span>
+				<span id="phone">(+212)6.99.37.92.12 </span>
 			</div>
 		</div>
 		</div>
