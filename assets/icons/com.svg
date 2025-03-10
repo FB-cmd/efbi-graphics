@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 266 180">
-  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 174.3 180">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
       .st0, .st1 {
-        fill: #00008c;
+        fill: #fff;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st1, .st3 {
+        stroke-width: .5px;
       }
 
       .st0, .st2 {
+        stroke: #00008c;
+      }
+
+      .st4, .st5 {
+        fill: #00008c;
+      }
+
+      .st6, .st7 {
+        fill: #ff8c00;
+      }
+
+      .st8, .st5, .st7 {
+        isolation: isolate;
+      }
+
+      .st5, .st7 {
         font-family: MyriadPro-Regular, 'Myriad Pro';
         font-size: 15px;
       }
 
-      .st3 {
-        stroke-width: 2px;
-      }
-
-      .st3, .st4, .st5, .st6 {
-        stroke-miterlimit: 10;
-      }
-
-      .st3, .st5 {
-        stroke: #00008c;
-      }
-
-      .st3, .st6 {
-        fill: none;
-      }
-
-      .st7, .st2 {
-        fill: #ff8c00;
-      }
-
-      .st4 {
+      .st1 {
         stroke: #ff8c00;
       }
 
-      .st4, .st5 {
-        fill: #fff;
+      .st2 {
+        stroke-width: 2px;
       }
 
-      .st4, .st5, .st6 {
-        stroke-width: .5px;
+      .st2, .st3 {
+        fill: none;
       }
 
-      .st6 {
+      .st3 {
         stroke: #42210b;
       }
     </style>
   </defs>
-  <path class="st6" d="M1105.9,371"/>
-  <path class="st3" d="M50,164.9v-91c0-3.4,1.5-6.7,4.2-8.9L125.1,5.9c4.3-3.6,10.5-3.6,14.8,0l71,59.1c2.6,2.2,4.2,5.5,4.2,8.9v91.1c0,6.4-5.2,11.6-11.6,11.6H61.6c-6.4,0-11.6-5.2-11.6-11.6Z"/>
-  <path class="st1" d="M142,47.2c30.3,4.6,51.2,32.8,46.6,63.1-4.6,30.3-32.8,51.2-63.1,46.6"/>
-  <path class="st7" d="M167,146.5c-24.1,19.2-59.2,15.2-78.5-8.9-19.2-24.1-15.2-59.2,8.9-78.5"/>
-  <rect class="st4" x="125.9" y="69.3" width="45.1" height="37.6" rx="5" ry="5"/>
-  <rect class="st5" x="95.8" y="96.9" width="45.1" height="37.6" rx="5" ry="5"/>
-  <polyline class="st4" points="154.6 106.9 167 122.5 160.8 106.9"/>
-  <polyline class="st5" points="123.9 134.6 139 153.6 131.5 134.6"/>
-  <text class="st2" transform="translate(140.4 88.1)"><tspan x="0" y="0">.....</tspan></text>
-  <text class="st0" transform="translate(110.1 118)"><tspan x="0" y="0">.....</tspan></text>
-  <path class="st3" d="M65,154.5v-74.5c0-2.8,1.2-5.5,3.4-7.3l58.1-48.5c3.5-2.9,8.6-2.9,12.1,0l58.1,48.4c2.2,1.8,3.4,4.5,3.4,7.3v74.6c0,5.2-4.2,9.5-9.5,9.5h-116.3c-5.2,0-9.5-4.2-9.5-9.5Z"/>
+  <path class="st3" d="M1061.1,371"/>
+  <path class="st2" d="M5.2,164.9v-91c0-3.4,1.5-6.7,4.2-8.9L80.3,5.9c4.3-3.6,10.5-3.6,14.8,0l71,59.1c2.6,2.2,4.2,5.5,4.2,8.9v91.1c0,6.4-5.2,11.6-11.6,11.6H16.8c-6.4,0-11.6-5.2-11.6-11.6h0Z"/>
+  <path class="st4" d="M97.2,47.2c30.3,4.6,51.2,32.8,46.6,63.1-4.6,30.3-32.8,51.2-63.1,46.6"/>
+  <path class="st6" d="M122.2,146.5c-24.1,19.2-59.2,15.2-78.5-8.9-19.2-24.1-15.2-59.2,8.9-78.5"/>
+  <rect class="st1" x="81.1" y="69.3" width="45.1" height="37.6" rx="5" ry="5"/>
+  <rect class="st0" x="51" y="96.9" width="45.1" height="37.6" rx="5" ry="5"/>
+  <polyline class="st1" points="109.8 106.9 122.2 122.5 116 106.9"/>
+  <polyline class="st0" points="79.1 134.6 94.2 153.6 86.7 134.6"/>
+  <g class="st8">
+    <text class="st7" transform="translate(95.6 88.1)"><tspan x="0" y="0">.....</tspan></text>
+  </g>
+  <g class="st8">
+    <text class="st5" transform="translate(65.3 118)"><tspan x="0" y="0">.....</tspan></text>
+  </g>
+  <path class="st2" d="M20.2,154.5v-74.5c0-2.8,1.2-5.5,3.4-7.3l58.1-48.5c3.5-2.9,8.6-2.9,12.1,0l58.1,48.4c2.2,1.8,3.4,4.5,3.4,7.3v74.6c0,5.2-4.2,9.5-9.5,9.5H29.5c-5.2,0-9.5-4.2-9.5-9.5h.2Z"/>
 </svg>

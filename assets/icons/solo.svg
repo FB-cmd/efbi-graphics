@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 266 180">
-  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 183.1 143.4">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
       .st0 {
         fill: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: .5px;
       }
 
       .st0, .st1 {
         stroke: #00008c;
       }
 
-      .st1 {
-        fill: #00008c;
+      .st0, .st1, .st2 {
+        stroke-miterlimit: 10;
       }
 
-      .st1, .st2 {
-        stroke-miterlimit: 10;
+      .st0, .st2 {
+        stroke-width: .5px;
+      }
+
+      .st1 {
+        fill: #00008c;
       }
 
       .st2 {
         fill: none;
         stroke: #42210b;
-        stroke-width: .5px;
       }
     </style>
   </defs>
-  <path class="st2" d="M1105.9,371"/>
-  <rect class="st1" x="42.1" y="19.2" width="181.8" height="141.6" rx="4.5" ry="4.5"/>
-  <circle class="st0" cx="133.4" cy="88.6" r="8.7"/>
+  <path class="st2" d="M1064.5,352.5"/>
+  <rect class="st1" x=".7" y=".7" width="181.8" height="141.6" rx="4.5" ry="4.5"/>
+  <circle class="st0" cx="92" cy="70.1" r="8.7"/>
 </svg>
