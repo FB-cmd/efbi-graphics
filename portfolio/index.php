@@ -16,67 +16,67 @@ echo <<<HTML
 				class="cover"
 				id="cover-1"
 				src="../assets/img/books-covers/cover-1.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Médecines traditionnelles chinoise et musulmane" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-2"
 				src="../assets/img/books-covers/cover-2.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du numéro DO 544" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-3"
 				src="../assets/img/books-covers/cover-3.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Économie générale 9e édition" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-4"
 				src="../assets/img/books-covers/cover-4.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Par-delà la résilience et l'antifragilité" />
 			<hr class="horizontal" id="hr1"/>
 			<img
 				class="cover"
 				id="cover-5"
 				src="../assets/img/books-covers/cover-5.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Valeurs et fonctionnement psychique" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-6"
 				src="../assets/img/books-covers/cover-6.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Leadership with Soul" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-7"
 				src="../assets/img/books-covers/cover-7.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Les nouvelles organisations hybrides" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-8"
 				src="../assets/img/books-covers/cover-8.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du Vademecum de la sage-femme 2e édition" />
 			<hr class="horizontal" id="hr2"/>
 			<img
 				class="cover"
 				id="cover-9"
 				src="../assets/img/books-covers/cover-9.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre Intelligence artificielle - le prix de la performance" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-10"
 				src="../assets/img/books-covers/cover-10.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du livre MAIF" />
 			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-11"
 				src="../assets/img/books-covers/cover-11.jpg"
-				alt="Couverture d'un travail" />
+				alt="Couverture du numéro MM 258" />
 			<hr class="vertical" />
 			<img
 				class="cover"
