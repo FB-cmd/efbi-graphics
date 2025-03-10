@@ -129,24 +129,14 @@ echo <<<HTML
 		</div>
 		<hr class="horizontal-line" />
 		<h1 class="special-title">Pour qui ?</h1>
-		<div class="targets">
-		<div id="target-1">
-		<img class="graphic-illustrations" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
-			<h2>Maison d'édition</h2>
-		</div>
-		<div id="target-2">
-		<img class="graphic-illustrations" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
-			<h2>Éditeur indépendant</h2>
-		</div>
-		<div id="target-3">
-		<img class="graphic-illustrations" src="../assets/icons/com.svg" alt="icône agence de communication" />
-			<h2>Agence de communication</h2>
-		</div>
-		<div id="target-4">
-		<img class="graphic-illustrations" src="../assets/icons/solo.svg" alt="icône particulier" />
-			<h2>Particulier</h2>
-		</div>
-		</div>
+		<img class="graphic-icon" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
+		<h2>Maison d'édition</h2>
+		<img class="graphic-icon" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
+		<h2>Éditeur indépendant</h2>
+		<img class="graphic-icon" src="../assets/icons/com.svg" alt="icône agence de communication" />
+		<h2>Agence de communication</h2>
+		<img class="graphic-icon" src="../assets/icons/solo.svg" alt="icône client particulier" />
+			<h2>Auteur, Particulier</h2>
 		<div class="btn-container">
 		<a href="./contact">
 					<button id="quote-btn" class="btn">Demander un devis</button>
