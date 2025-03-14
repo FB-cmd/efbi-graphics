@@ -358,4 +358,10 @@ strong {
 			margin-top: 15px;
 		}
 	}
+	@media (max-width: 480px) {
+		.why-job {
+			max-width: 15%;
+			margin: 20px auto;
+		}
+	}
 }
