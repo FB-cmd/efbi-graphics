@@ -2,7 +2,7 @@ h3 {
 	text-align: center;
 	color: var(--textColor);
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: clamp(1.2em, 3vw, 1.8em);
 	font-weight: bold;
 }
 
@@ -44,4 +44,15 @@ h3 {
 #phone {
 	font-style: italic;
 	font-size: 1.2em;
+}
+@media (max-width: 768px) {
+	h3 {
+		font-size: clamp(1.1em, 4vw, 1.5em);
+	}
+}
+
+@media (max-width: 480px) {
+	h3 {
+		font-size: clamp(1em, 5vw, 1.3em);
+	}
 }
