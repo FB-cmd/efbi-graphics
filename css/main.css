@@ -360,8 +360,8 @@ strong {
 	}
 	@media (max-width: 480px) {
 		.why-job {
-			max-width: 15%;
-			margin: 20px auto;
+			min-width: 20%;
+			margin: 10px auto;
 		}
 	}
 }
