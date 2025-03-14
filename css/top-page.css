@@ -157,6 +157,29 @@ a:hover {
 		background: var(--secondaryColor);
 	}
 }
+@media (max-width: 1024px) {
+	#banner {
+		max-width: 90%; /* Adjust width for tablets */
+		margin: 30px auto;
+	}
+}
+
+@media (max-width: 768px) {
+	#banner {
+		max-width: 95%; /* Use almost full width on smaller screens */
+		margin: 20px auto;
+		flex-direction: column; /* Stack elements vertically */
+		padding: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	#banner {
+		max-width: 100%;
+		margin: 10px auto;
+		padding: 10px;
+	}
+}
 
 @media only screen and (min-width: 1000px) {
 	menu {
