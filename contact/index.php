@@ -82,22 +82,22 @@ echo <<<HTML
 				<div class="section" id="section-1">
 					<div>
 						<label for="first-name">Prénom</label>
-						<input name="firstName" type="text" id="first-name" placeholder="Prénom" required/>
+						<input name="firstName" type="text" id="first-name" placeholder="Prénom" required />
 					</div>
 
 					<div>
 						<label for="last-name">Nom</label>
-						<input type="text" name="lastName" id="last-name" placeholder="Nom"required//>
+						<input type="text" name="lastName" id="last-name" placeholder="Nom" required />
 					</div>
 
 					<div>
 						<label for="email">Email</label>
-						<input type="email" name="email" id="email" placeholder="abc@exemple.com"required//>
+						<input type="email" name="email" id="email" placeholder="abc@exemple.com" required />
 					</div>
 
 					<div>
 						<label for="phone-number-field">Numéro de téléphone</label>
-						<input type="tel" name="phoneNumber" id="phone-number-field"required//>
+						<input type="tel" name="phoneNumber" id="phone-number-field" required />
 					</div>
 				</div>
 
@@ -105,7 +105,7 @@ echo <<<HTML
 				<div class="section" id="section-2">
 					<div>
 						<label for="manuscript-type">Type de manuscrit</label>
-						<select name="manuscriptType" id="manuscript-type" required>
+						<select name="manuscriptType" id="manuscript-type" required >
 							<option value="Livre">Livre</option>
 							<option value="Revue">Revue</option>
 							<option value="Revue">Texte littéraire</option>
@@ -116,17 +116,17 @@ echo <<<HTML
 
 					<div>
 						<label for="word-number">Nombre de pages</label>
-						<input type="number" min="0" name="wordNumber" id="word-number"required/ />
+						<input type="number" min="0" name="wordNumber" id="word-number" required />
 					</div>
 
 					<div>
 						<label for="image-number">Nombre d'images</label>
-						<input type="number" min="0" name="imageNumber" id="image-number"required/ />
+						<input type="number" min="0" name="imageNumber" id="image-number" required />
 					</div>
 
 					<div>
 						<label for="table-number">Nombre de tableaux</label>
-						<input type="number" min="0" name="tableNumber" id="table-number"required/ />
+						<input type="number" min="0" name="tableNumber" id="table-number" required />
 					</div>
 				</div>
 
@@ -138,7 +138,8 @@ echo <<<HTML
 					name="message"
 					autocomplete="off"
 					autocorrect="off"
-					spellcheck="off"required/></textarea>
+					spellcheck="off" 
+					required /></textarea>
 
 				<br />
 
