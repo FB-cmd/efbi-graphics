@@ -3,6 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 require '../vendor/autoload.php';
+require("./isValidInputs.php");
+
+if (isValidInputs()) {
 
 $myfile = fopen("{$_POST["firstName"]}-{$_POST["lastName"]}.txt", "w") or die("Unable to open file!");
 
@@ -53,8 +56,26 @@ try {
 
 unlink("./{$_POST["firstName"]}-{$_POST["lastName"]}.txt");
 
+
+
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+} else {
+echo '<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>eFBi-graphics</title>
+	</head>
+	<body>
+	    <span>Un ou plusieurs champs sont invalide(s). Veuillez réessayer !</span>
+	    <br>
+	    <a href="../contact">Retour à la page de Contact</a>
+	</body>
+</html>';
+}
+
+
 
 ?>
