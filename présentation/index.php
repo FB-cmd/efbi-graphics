@@ -49,29 +49,6 @@ echo <<<HTML
 					produire des supports attractifs au niveau stylistique et cohérents au niveau de
 					contenu.
 				</p>
-
-				<div>
-					<p>Les services fournis par ce site concernent&nbsp;:</p>
-					<ul>
-						<li>
-							La mise en page de différents textes et manuscrits (ouvrages généraux et
-							spécialisés, revues et périodiques, publications littéraires, essais,
-							etc.)&nbsp;;
-						</li>
-						<li>
-							La relecture et la correction professionnelle de l’intégralité des
-							manuscrits (erreurs d’orthographe, de grammaire, de sens et de style,
-							gestion des anomalies typographiques)&nbsp;;
-						</li>
-						<li>Le suivi de fabrication avec le client&nbsp;;</li>
-						<li>
-							La création graphique et artistique : dessins vectoriels, illustrations,
-							logos&nbsp;;
-						</li>
-						<li>Le traitement d’images et les retouches photos.</li>
-					</ul>
-				</div>
-
 				<p>
 					<strong>eFBi Graphics<sup>&copy;</sup></strong> vous garantit des prestations
 					rapides et efficaces qui répondent à vos attentes, en respectant les normes et
@@ -81,40 +58,8 @@ echo <<<HTML
 		</div>
 		<div class="values">
 			<h1>Nos valeurs</h1>
+			<img src="../assets/img/values.jpg" alt="image de valeurs du site">
 			<div class="content">
-				<div>
-					<p>
-						<strong>eFBi Graphics<sup>&copy;</sup></strong> s’appuie sur quatre valeurs
-						de travail essentielles&nbsp;:
-						<strong>rapidité, efficacité, créativité, réactivité.</strong>
-					</p>
-					<ul>
-						<li>
-							<strong>RAPIDITÉ&nbsp;:</strong> fournir une expérience client rapide et
-							rationalisée compte tenu des besoins et attentes spécifiques et des
-							délais accordés pour traiter la commande (rapidité d’exécution et de
-							livraison).
-						</li>
-						<li>
-							<strong>EFFICACITÉ&nbsp;:</strong> produire des prestations de meilleure
-							qualité par l’exploitation optimale des différentes fonctionnalités
-							fournies par les applications PAO, tout en les adaptant à la nature du
-							support fabriqué.
-						</li>
-						<li>
-							<strong>CRÉATIVITÉ&nbsp;:</strong> maintenir un style créatif et personnalisé
-							dans chaque production graphique et appliquer une touche artistique
-							originale et unique.
-						</li>
-						<li>
-							<strong>RÉACTIVITÉ&nbsp;:</strong> créer du lien durable avec le client en
-							enrichissant l’échange et le partage tout au long du processus de
-							fabrication, et renforcer la relation client avec des services
-							complémentaires, des promotions et des offres spéciales.
-						</li>
-					</ul>
-				</div>
-
 				<div>
 					<p>
 						Par ses différents services,
