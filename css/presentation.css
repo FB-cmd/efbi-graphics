@@ -12,6 +12,16 @@ h1 {
 	max-width: 92%;
 	margin: 15px auto;
 }
+#values-image {
+	max-width: 50%;
+	margin: 30px auto;
+}
+
+@media screen and (max-width: 480px) {
+	#values-image {
+		max-width: 95%;
+	}
+}
 
 .content {
 	background-color: var(--secondaryColor);
