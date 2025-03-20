@@ -17,7 +17,10 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/icons/phone.svg",
 	"./assets/img/logo.svg",
 	"./assets/icons/show-menu.svg",
-	"./assets/img/banner.svg"
+	"./assets/img/banner.svg",
+	"./assets/icons/facebook-icon.svg",
+	"./assets/icons/instagram-icon.svg",
+
 ];
 $stylesheets= [ 
 	"mainStyle" => "./css/main.css",
@@ -60,8 +63,10 @@ addHead("", $faviconLink, $description, $keywords, $stylesheets);
 addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
+<img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
 <h2 class="second-title">Bienvenue dans mon univers de création graphique&nbsp;! </h2>
 <img class="open-book" src="../assets/img/open-book.svg" alt="image de livre ouvert" />
+<img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
 <h1 class="special-title">Pourquoi ce métier ?</h1>
 <img class="why-job" src="../assets/icons/passion.svg" alt="icône de passion pour le métier" />
 <h2>Passionnée du livre depuis l’enfance
@@ -161,6 +166,7 @@ echo <<<HTML
 					<button id="portfolio-btn" class="btn">Voir les travaux</button>
 		</a>
 		</div>
+		<img id="personal-photo" src="./assets/img/profile-2.jpg" alt="Ma photo personnelle">
 		<img src="../assets/img/line-top.svg" alt="ligne du haut encadrant la présentation" />
 		<div class="presentation-text"> 
 			<p>Je suis Fatima, la créatrice de votre futur projet&nbsp;!</p>
