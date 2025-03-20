@@ -58,7 +58,7 @@ echo <<<HTML
 		</div>
 		<div class="values">
 			<h1>Nos valeurs</h1>
-			<img src="../assets/img/values.jpg" alt="image de valeurs du site">
+			<img id="values-image" src="../assets/img/values.jpg" alt="image de valeurs du site">
 			<div class="content">
 				<div>
 					<p>
