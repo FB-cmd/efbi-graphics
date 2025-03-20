@@ -16,7 +16,9 @@ $assets = [
 	"../assets/icons/phone.svg",
 	"../assets/img/logo.svg",
 	"../assets/icons/show-menu.svg",
-	"../assets/img/banner.svg"
+	"../assets/img/banner.svg",
+	"../assets/icons/facebook-icon.svg",
+	"../assets/icons/instagram-icon.svg",
 ];
 
 $stylesheets = [
