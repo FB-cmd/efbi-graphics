@@ -25,7 +25,9 @@ h3 {
 }
 
 .email-infos,
-.phone-infos {
+.phone-infos,
+.facebook-infos,
+.instagram-infos {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -34,16 +36,24 @@ h3 {
 }
 
 .phone-icon,
-.email-icon {
-	height: 1.5rem;
+.email-icon,
+.facebook-icon,
+.instagram-icon {
+	height: clamp(1rem, 2vw, 1.5rem);
 	width: auto;
 	cursor: pointer;
+	max-width: 100%;
+	margin-bottom: 10px;
 }
 
 #mail,
-#phone {
+#phone,
+#linkedin,
+#facebook,
+#instagram {
 	font-style: italic;
-	font-size: 1.2em;
+	font-size: clamp(1em, 2.5vw, 1.2em);
+	margin-bottom: 10px;
 }
 @media (max-width: 768px) {
 	h3 {
