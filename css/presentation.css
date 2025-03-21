@@ -12,6 +12,7 @@ h1 {
 	max-width: 92%;
 	margin: 15px auto;
 }
+
 #values-image {
 	max-width: 50%;
 	margin: 30px auto;
@@ -19,7 +20,7 @@ h1 {
 
 @media screen and (max-width: 480px) {
 	#values-image {
-		max-width: 95%;
+		max-width: 100%;
 	}
 }
 
@@ -33,6 +34,7 @@ h1 {
 .content > * {
 	color: var(--textColor);
 	margin: 15px;
+	font-size: clamp(1em, 2.5vw, 1.2em);
 }
 
 strong {
