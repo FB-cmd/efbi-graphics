@@ -124,7 +124,7 @@ echo <<<HTML
 <img class="graphic-icon" src="../assets/icons/photo.svg" alt="icône de photographie" />
 <h2>Photographie	
 	<p>
-	<span id="subtitle">Prises de vue, Retouches, Traitement d'images, Adaptation print</span>
+	<span id="subtitle">Prises de vue, Retouches, Traitement d’images, Adaptation print</span>
 	</p>
 	</h2>
 <div class="btn-container">
@@ -135,7 +135,7 @@ echo <<<HTML
 		<hr class="horizontal-line" />
 		<h1 class="special-title">Pour qui ?</h1>
 		<img class="graphic-icon" src="../assets/icons/edition.svg" alt="icône maison d'édition" />
-		<h2>Maison d'édition</h2>
+		<h2>Maison d’édition</h2>
 		<img class="graphic-icon" src="../assets/icons/editor.svg" alt="icône éditeur indépendant" />
 		<h2>Éditeur indépendant</h2>
 		<img class="graphic-icon" src="../assets/icons/com.svg" alt="icône agence de communication" />
@@ -170,8 +170,8 @@ echo <<<HTML
 		<img src="../assets/img/line-top.svg" alt="ligne du haut encadrant la présentation" />
 		<div class="presentation-text"> 
 			<p>Je suis Fatima, la créatrice de votre futur projet&nbsp;!</p>
-			<p>Ma passion pour l'art graphique me pousse à développer ma créativité en continu pour être à la hauteur de vos espérances.</p>
-			<p>Mon expérience professionnelle me permet d'assurer des travaux de qualité qui sont bien appréciés par mes clients.</p> 
+			<p>Ma passion pour l’art graphique me pousse à développer ma créativité en continu pour être à la hauteur de vos espérances.</p>
+			<p>Mon expérience professionnelle me permet d’assurer des travaux de qualité qui sont bien appréciés par mes clients.</p> 
 			<p>Je vous propose, au travers de mon site <strong>eFBi Graphics<sup>&copy;</sup></strong>, une aventure riche et constructive.</p>   
 		</div>
 		<img src="../assets/img/line-bottom.svg" alt="ligne du bas encadrant la présentation" />
