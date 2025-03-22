@@ -4,9 +4,9 @@ function addContactMe(array $assets) {
 		
 		<div class="contact-me"> 
 			<h3>Désirez-vous concrétiser votre projet de publication&nbsp;?</h3>
-			<br>
-			<br>
-			<br>
+			<div class="manuscript">
+			<img id="manuscript"src="../assets/icons/manuscript.svg" alt="icône de manuscrit">
+			</div>
 			<div class="contact-me-message">
 				<span>MERCI DE ME CONTACTER&nbsp;!</span>
 			</div>
