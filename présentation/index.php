@@ -57,7 +57,7 @@ echo <<<HTML
 			<div class="content">
 					<p>
 						Par ses différents services,
-						<strong>eFBi Graphics<sup>&copy;</sup></strong> s'appuie sur une approche collaborative dans le traitement des différents travaux, et cherche à faire véhiculer
+						<strong>eFBi Graphics<sup>&copy;</sup></strong> s’appuie sur une approche collaborative dans le traitement des différents travaux, et cherche à faire véhiculer
 						auprès de la clientèle cible une image crédible et transparente, fondée sur cinq piliers essentiels&nbsp;:
 					</p>
 					<ul>
@@ -83,7 +83,7 @@ echo <<<HTML
 			<h1>Relation client et&nbsp;gestion&nbsp;des commandes</h1>
 			<div class="content">
 				<p>
-					Le traitement de chaque demande passe d'abord par la phase de prise de contact et d'identification des détails de la commande. Dès validation de votre commande,
+					Le traitement de chaque demande passe d’abord par la phase de prise de contact et d'identification des détails de la commande. Dès validation de votre commande,
 					vous serez amené(e) à nous fournir un bon de commande dûment rempli et signé.
 				</p>
 				<p>
@@ -110,7 +110,8 @@ echo <<<HTML
 					<span
 						>* Paiement par virement bancaire à effectuer dans les 3 jours maximum suivant la date d’envoi de
 						la facture, et avant la livraison des fichiers imprimeurs. Dans le cas de
-						certains travaux longs ou complexes, un acompte sera exigé. La totalité des frais de virement sera à votre charge.</span>
+						certains travaux longs ou complexes, un acompte sera exigé. 
+						La totalité des frais de virement sera à votre charge.</span>
 				</div>
 			</div>
 		</div>
