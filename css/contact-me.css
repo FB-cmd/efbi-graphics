@@ -45,7 +45,12 @@ h3 {
 	max-width: 100%;
 	margin-bottom: 10px;
 }
-
+.manuscript {
+	display: block;
+	margin: clamp(20px, 5vw, 40px) auto clamp(5px, 2vw, 20px) auto;
+	max-width: 20%;
+	height: auto;
+}
 #mail,
 #phone,
 #linkedin,
