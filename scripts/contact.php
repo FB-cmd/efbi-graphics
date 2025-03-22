@@ -5,77 +5,90 @@ use PHPMailer\PHPMailer\Exception;
 require '../vendor/autoload.php';
 require("./isValidInputs.php");
 
-if (isValidInputs()) {
+$infos = [
+	"firstName" => $_POST["firstName"],
+	"lastName" => $_POST["lastName"],
+	"email" => $_POST["email"],
+	"phoneNumber" => $_POST["fullPhoneNumber"],
+	"countryCode" => $_POST["countryCode"],
+	"manuscriptType" => $_POST["manuscriptType"],
+	"wordNumber" => $_POST["wordNumber"],
+	"imageNumber" => $_POST["imageNumber"],
+	"tableNumber" => $_POST["tableNumber"],
+	"message" => $_POST["message"]
+];
 
-$myfile = fopen("{$_POST["firstName"]}-{$_POST["lastName"]}.txt", "w") or die("Unable to open file!");
+if (isValidInputs($infos)) {
 
-$line1 = "Nom complet : {$_POST["firstName"]} {$_POST["lastName"]} \n";
-$line2 = "Email : {$_POST["email"]} \n";
-$line3 = "Numéro de téléphone : {$_POST["fullPhoneNumber"]} \n";
-$line4 = "Code du pays : {$_POST["countryCode"]} \n";
-$line5 = "Type de manuscript : {$_POST["manuscriptType"]} \n";
-$line6 = "Nombre de mots : {$_POST["wordNumber"]} \n";
-$line7 = "Nombre d'images : {$_POST["imageNumber"]} \n";
-$line8 = "Nombre de tableaux : {$_POST["tableNumber"]} \n";
-$line9 = "Message : {$_POST["message"]} \n";
+	$fileName = "{$infos["firstName"]}-{$infos["lastName"]}.txt";
+	$filePath = "./" . $fileName;
+	$myfile = fopen($fileName, "w") or die("Unable to open file!");
 
-fwrite($myfile, $line1);
-fwrite($myfile, $line2);
-fwrite($myfile, $line3);
-fwrite($myfile, $line4);
-fwrite($myfile, $line5);
-fwrite($myfile, $line6);
-fwrite($myfile, $line7);
-fwrite($myfile, $line8);
-fwrite($myfile, $line9);
-fclose($myfile);
+	$line1 = "Nom complet : {$infos["firstName"]} {$infos["lastName"]} \n";
+	$line2 = "Email : {$infos["email"]} \n";
+	$line3 = "Numéro de téléphone : {$infos["phoneNumber"]} \n";
+	$line4 = "Code du pays : {$infos["countryCode"]} \n";
+	$line5 = "Type de manuscript : {$infos["manuscriptType"]} \n";
+	$line6 = "Nombre de mots : {$infos["wordNumber"]} \n";
+	$line7 = "Nombre d'images : {$infos["imageNumber"]} \n";
+	$line8 = "Nombre de tableaux : {$infos["tableNumber"]} \n";
+	$line9 = "Message : {$infos["message"]} \n";
 
-$mail = new PHPMailer(true);
+	fwrite($myfile, $line1);
+	fwrite($myfile, $line2);
+	fwrite($myfile, $line3);
+	fwrite($myfile, $line4);
+	fwrite($myfile, $line5);
+	fwrite($myfile, $line6);
+	fwrite($myfile, $line7);
+	fwrite($myfile, $line8);
+	fwrite($myfile, $line9);
+	fclose($myfile);
 
-try {
-    $mail->setFrom('fabirrou@outlook.com', 'Mailer');
-    $mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
+	$mail = new PHPMailer(true);
 
-    $mail->Body    = 'New work is here!';
-    $mail->addAttachment("./{$_POST["firstName"]}-{$_POST["lastName"]}.txt");
+	try {
+		$mail->setFrom('fabirrou@outlook.com', 'Mailer');
+		$mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
 
-    $mail->send();
+		$mail->Body    = 'New work is here!';
+		$mail->addAttachment($filePath);
 
-	echo '<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<title>eFBi-graphics</title>
-	</head>
-	<body>
-	    <span>Votre demande a bien été reçue !</span>
-	    <br>
-	    <a href="../">Retour à l\'accueil</a>
-	</body>
-</html>';
+		$mail->send();
 
-unlink("./{$_POST["firstName"]}-{$_POST["lastName"]}.txt");
+		echo '<!DOCTYPE html>
+			<html lang="fr">
+			<head>
+			<meta charset="UTF-8">
+			<title>eFBi-graphics</title>
+			</head>
+			<body>
+			<span>Votre demande a bien été reçue !</span>
+			<br>
+			<a href="../">Retour à l\'accueil</a>
+			</body>
+			</html>';
+
+		unlink($filePath);
 
 
 
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}
+	} catch (Exception $e) {
+		echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+	}
 } else {
-echo '<!DOCTYPE html>
-<html lang="fr">
-	<head>
+	echo '<!DOCTYPE html>
+		<html lang="fr">
+		<head>
 		<meta charset="UTF-8">
 		<title>eFBi-graphics</title>
-	</head>
-	<body>
-	    <span>Un ou plusieurs champs sont invalide(s). Veuillez réessayer !</span>
-	    <br>
-	    <a href="../contact">Retour à la page de Contact</a>
-	</body>
-</html>';
+		</head>
+		<body>
+		<span>Un ou plusieurs champs sont invalide(s). Veuillez réessayer !</span>
+		<br>
+		<a href="../contact">Retour à la page de Contact</a>
+		</body>
+		</html>';
 }
-
-
 
 ?>
