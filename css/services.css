@@ -1,8 +1,9 @@
 h1 {
 	color: var(--fourthColor);
 	font-weight: bold;
-	font-size: 1.5em;
-	margin-bottom: 20px;
+	font-size: clamp(1.2em, 4vw, 3em);
+	text-align: center;
+	margin-bottom: clamp(10px, 5vh, 40px);
 }
 
 .layout,
