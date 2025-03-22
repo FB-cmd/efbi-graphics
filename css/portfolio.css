@@ -19,17 +19,6 @@
 	max-height: 50%;
 }
 
-#recipe-1,
-#recipe-2 {
-	max-width: 35%;
-	max-height: 25%;
-}
-#encart-1,
-#encart-2 {
-	max-width: 25%;
-	max-height: 15%;
-}
-
 #new-year-card {
 	max-width: 50%;
 	margin-bottom: clamp(2vh, 5vw, 5vh);
