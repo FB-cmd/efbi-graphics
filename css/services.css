@@ -16,11 +16,14 @@ h1 {
 .content {
 	background-color: var(--secondaryColor);
 	padding: 20px;
-	margin: 20px auto;
+	margin: 10px auto;
+	border-radius: 10px;
 }
 
 .content > * {
 	color: var(--textColor);
+	margin: 15px;
+	font-size: clamp(1em, 2.5vw, 1.2em);
 }
 
 .content > p {
