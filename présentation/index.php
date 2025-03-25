@@ -53,7 +53,6 @@ echo <<<HTML
 		</div>
 		<div class="values">
 			<h1>Nos valeurs</h1>
-			<img id="values-image" src="../assets/img/values.svg" alt="image de valeurs du site">
 			<div class="content">
 					<p>
 						Par ses différents services,
@@ -78,6 +77,7 @@ echo <<<HTML
 					</ul>
 			</div>
 		</div>
+		<img id="values-image" src="../assets/img/values.svg" alt="image de valeurs du site">
 
 		<div class="client-relation">
 			<h1>Relation client et&nbsp;gestion&nbsp;des commandes</h1>
