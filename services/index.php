@@ -112,10 +112,7 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-		<img class="demonstration" src="../assets/img/demonstration-creation.jpg" alt="démonstration du service de création graphique"/>
-		<br>
-		<img class="demonstration" src="../assets/img/demonstration-photoediting.jpg" alt="démonstration du service de retouche photos"/>
-		<br>
+		
 HTML;
 addContactMe($assets);
 
