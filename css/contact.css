@@ -1,19 +1,24 @@
 #profile-img {
+	width: 100%;
+	max-width: 1000px;
 	min-width: 40%;
-	width: 1000px;
-	margin: 100px auto 30px auto;
+	margin: 100px auto 10px auto;
+	border-radius: 25px;
+	display: block;
 }
 
 .welcome {
 	margin: 15px auto;
 	padding: 15px;
 	width: 70%;
+	max-width: 1000px;
 }
 
 .welcome > * {
 	color: var(--fourthColor);
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin: 10px auto;
+	text-align: center;
 }
 
 strong {
@@ -29,7 +34,7 @@ strong {
 }
 
 hr {
-	width: 70%;
+	width: 60%;
 	height: 1px;
 	background-color: var(--mainColor);
 	border: none;
@@ -38,8 +43,9 @@ hr {
 
 h1 {
 	text-align: center;
-	margin-top: 80px;
+	margin-top: clamp(20px, 10vh, 40px);
 	color: var(--secondaryColor);
+	font-size: clamp(1.8em, 4vw, 2.5em);
 }
 
 form > * {
@@ -64,8 +70,9 @@ form {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
+	gap: 20px; /* Ajoute un espace entre les éléments */
 }
 
 .section > div {
@@ -73,6 +80,25 @@ form {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: calc(25% - 20px); /* 4 colonnes sur grand écran */
+}
+
+/* Tablettes (2 colonnes) */
+@media (max-width: 1024px) {
+	.section > div {
+		width: calc(50% - 20px); /* 2 colonnes */
+	}
+}
+
+/* Mobiles (1 colonne) */
+@media (max-width: 600px) {
+	.section {
+		flex-direction: column;
+	}
+
+	.section > div {
+		width: 100%; /* 1 colonne sur mobile */
+	}
 }
 
 label {
@@ -140,8 +166,57 @@ input[type="submit"]:focus {
 }
 .center {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: var(--secondaryColor);
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+@media (max-width: 768px) {
+	#profile-img {
+		min-width: unset;
+		width: 80%;
+		margin: 50px auto 20px auto;
+	}
+}
+
+@media (max-width: 480px) {
+	#profile-img {
+		width: 90%;
+		margin: 20px auto 10px auto;
+	}
+}
+@media (max-width: 768px) {
+	.welcome {
+		width: 85%;
+		padding: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.welcome {
+		width: 90%;
+		padding: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.welcome > * {
+		font-size: 1.1em;
+	}
+}
+
+@media (max-width: 480px) {
+	.welcome > * {
+		font-size: 1em;
+	}
+}
+@media (max-width: 768px) {
+	hr {
+		width: 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	hr {
+		width: 90%;
+	}
 }
