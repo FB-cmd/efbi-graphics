@@ -47,8 +47,8 @@ h3 {
 }
 .manuscript {
 	display: block;
-	margin: clamp(20px, 5vw, 40px) auto clamp(5px, 2vw, 20px) auto;
-	max-width: 20%;
+	margin: clamp(20px, 5vw, 40px) auto clamp(20px, 5vw, 40px) auto;
+	max-width: 30%;
 	height: auto;
 }
 #mail,
@@ -69,5 +69,17 @@ h3 {
 @media (max-width: 480px) {
 	h3 {
 		font-size: clamp(1em, 5vw, 1.3em);
+	}
+}
+@media screen and (max-width: 480px) {
+	.manuscript {
+		min-width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.manuscript {
+		min-width: 70%;
+		margin-bottom: 30px;
 	}
 }
