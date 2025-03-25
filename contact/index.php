@@ -38,28 +38,6 @@ echo <<<HTML
 				communication.
 			</p>
 			<p>
-				La construction de mon site professionnel
-				<strong>eFBi Graphics<sup>&copy;</sup></strong> vise à faire connaître mon activité
-				et mes réalisations, ainsi qu'à structurer mon offre de services. Vous y trouverez
-				de l'information nécessaire pour effectuer votre commande en toute sécurité et
-				transparence. Certains menus seront actualisés prochainement (notamment le blog et
-				le shopping).
-			</p>
-			<p>
-				En combinant ma vive passion pour le graphisme et mon expérience professionnelle
-				dans la création de beaux travaux (livres, revues, affiches, dessins, logos, etc.)
-				auprès des éditeurs et particuliers, je vous offre, par l'intermédiaire de ce site,
-				un package complet de solutions et services de PAO qui vous assure créativité,
-				clarté, professionnalisme et visibilité.
-			</p>
-			<p>
-				La collaboration autour d’un projet est une opportunité de rencontre humaine,
-				d’échange et de partage d’idées. Mon approche consiste à construire des relations
-				proches et durables avec mes clients, à satisfaire au mieux leurs attentes et à
-				répondre à toute demande d’assistance ou de conseil, même après clôture de la
-				commande.
-			</p>
-			<p>
 				Si vous désirez vivre une expérience riche et passionnante, je vous invite à me
 				contacter directement par mail ou en remplissant le formulaire de contact ci-dessous
 				pour échanger sur votre projet.
@@ -120,7 +98,7 @@ echo <<<HTML
 					</div>
 
 					<div>
-						<label for="image-number">Nombre d'images</label>
+						<label for="image-number">Nombre d’images</label>
 						<input type="number" min="0" name="imageNumber" id="image-number" required />
 					</div>
 
@@ -139,7 +117,7 @@ echo <<<HTML
 					autocomplete="off"
 					autocorrect="off"
 					spellcheck="off" 
-					required /></textarea>
+					required></textarea>
 
 				<br />
 
