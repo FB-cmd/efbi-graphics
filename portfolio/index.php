@@ -228,12 +228,6 @@ echo <<<HTML
 				src="../assets/img/books-covers/cover-36.jpg"
 				alt="Couverture d'un travail" />
 				<hr class="horizontal" id="hr5"/>
-				<img
-				class="cover"
-				id="cover-22"
-				src="../assets/img/books-covers/cover-22.jpg"
-				alt="Couverture d'un travail" />
-			<hr class="horizontal" id="hr6"/>
 		</div>
 
 		<footer>

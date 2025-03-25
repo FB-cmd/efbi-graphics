@@ -28,7 +28,6 @@ addHeader($linksArr, $contactLink, $assets);
 echo <<<HTML
 <div class="layout">
 			<h1>Mise en page</h1>
-			<hr />
 			<div class="content">
 				<ul>
 					<li>Texte brut&nbsp;: <strong>2-4&nbsp;&#8364;&nbsp;/&nbsp;page</strong></li>
@@ -56,7 +55,6 @@ echo <<<HTML
 
 		<div class="correction">
 			<h1>Relecture, correction intégrale et suivi de fabrication</h1>
-			<hr />
 			<div class="content">
 				<ul>
 					<li>
@@ -87,7 +85,6 @@ echo <<<HTML
 
 		<div class="graphics">
 			<h1>Création graphique et traitement d’images</h1>
-			<hr />
 			<div class="content">
 				<ul>
 					<li>
