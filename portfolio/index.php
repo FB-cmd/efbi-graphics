@@ -207,8 +207,8 @@ echo <<<HTML
 				<img
 				class="cover"
 				id="layout-1"
-				src="../assets/img/woman-day.jpg"
-				alt="Affiche de la journée mondiale des droits des femmes 8 mars" />
+				src="../assets/img/books-covers/cover-37.jpg"
+				alt="Couverture d'un travail" />
 				<hr class="vertical"/>
 				<img
 				class="cover"
