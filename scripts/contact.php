@@ -48,12 +48,21 @@ if (isValidInputs($infos)) {
 	$mail = new PHPMailer(true);
 
 	try {
-		$mail->setFrom('fabirrou@outlook.com', 'Mailer');
-		$mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
+		$mail->isSMTP();
+		$mail->SMTPDebug = 2;
+		$mail->SMTPAuth = true;
+		$mail->Host = "smtp.hostinger.com";
+		$mail->Port = 587;
+		$mail->Username = "fatima@efbi-graphics.com";
+		$mail->Password = "roqxo5-dojjyd-vydZug";
+		$mail->SMTPSecure = "ssl";
 
+
+
+		$mail->setFrom('', 'Mailer');
+		$mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
 		$mail->Body    = 'New work is here!';
 		$mail->addAttachment($filePath);
-
 		$mail->send();
 
 		echo '<!DOCTYPE html>
