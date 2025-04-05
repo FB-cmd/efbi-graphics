@@ -124,6 +124,18 @@ select:focus {
 	outline: none;
 }
 
+input:user-invalid,
+#message:user-invalid,
+select:user-invalid {
+	border: 2px solid red;
+}
+
+input:user-valid,
+#message:user-valid,
+select:user-valid {
+	border: 2px solid green;
+}
+
 select {
 	background: none;
 }
