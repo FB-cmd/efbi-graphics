@@ -72,7 +72,7 @@ form {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 20px; /* Ajoute un espace entre les éléments */
+	gap: 20px;
 }
 
 .section > div {
@@ -80,24 +80,22 @@ form {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: calc(25% - 20px); /* 4 colonnes sur grand écran */
+	width: calc(25% - 20px);
 }
 
-/* Tablettes (2 colonnes) */
 @media (max-width: 1024px) {
 	.section > div {
-		width: calc(50% - 20px); /* 2 colonnes */
+		width: calc(50% - 20px);
 	}
 }
 
-/* Mobiles (1 colonne) */
 @media (max-width: 600px) {
 	.section {
 		flex-direction: column;
 	}
 
 	.section > div {
-		width: 100%; /* 1 colonne sur mobile */
+		width: 100%;
 	}
 }
 
