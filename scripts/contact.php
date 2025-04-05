@@ -49,10 +49,9 @@ if (isValidInputs($infos)) {
 
 	try {
 		$mail->isSMTP();
-		$mail->SMTPDebug = 2;
 		$mail->SMTPAuth = true;
 		$mail->Host = "smtp.hostinger.com";
-		$mail->Port = 587;
+		$mail->Port = 465;
 		$mail->Username = "fatima@efbi-graphics.com";
 		$mail->Password = "roqxo5-dojjyd-vydZug";
 		$mail->SMTPSecure = "ssl";
