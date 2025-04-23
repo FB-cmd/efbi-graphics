@@ -33,7 +33,7 @@ function addContactMe(array $assets) {
 					<img class="instagram-icon" src="${assets[6]}" alt="icone de instagram en blanc"> 
 					<span id="instagram">efbigraphics</span>
 				</a>
-				<a class="linkedin-infos" href="www.linkedin.com/in/efbi-graphics-665bb0353" target="_blank">
+				<a class="linkedin-infos" href="https://www.linkedin.com/in/efbi-graphics-77a276315" target="_blank">
 					<img class="linkedin-icon" src="${assets[7]}" alt="icone de linkedin en blanc"> 
 					<span id="linkedin">efbi Graphics</span>
 				</a>	
