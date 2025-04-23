@@ -20,6 +20,7 @@ $assets = [ "./assets/icons/email.svg",
 	"./assets/img/banner.svg",
 	"./assets/icons/facebook-icon.svg",
 	"./assets/icons/instagram-icon.svg",
+	"./assets/icons/linkedin-icon.svg",
 
 ];
 $stylesheets= [ 

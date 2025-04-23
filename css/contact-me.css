@@ -27,7 +27,8 @@ h3 {
 .email-infos,
 .phone-infos,
 .facebook-infos,
-.instagram-infos {
+.instagram-infos,
+.linkedin-infos {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,7 +39,8 @@ h3 {
 .phone-icon,
 .email-icon,
 .facebook-icon,
-.instagram-icon {
+.instagram-icon,
+.linkedin-icon {
 	height: clamp(1rem, 2vw, 1.5rem);
 	width: auto;
 	cursor: pointer;
