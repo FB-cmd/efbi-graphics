@@ -47,7 +47,7 @@ addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <div class="layout">
-			<h1>Mise en page et&nbsp;suivi de fabrication</h1>
+			<h1>Mise en page et&nbsp;suivi&nbsp;de&nbsp;fabrication</h1>
 			<div class="content">
 				<p>
 					<strong>eFBi Graphics<sup>&copy;</sup></strong> assure la mise en page
