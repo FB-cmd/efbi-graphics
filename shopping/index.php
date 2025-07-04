@@ -17,13 +17,13 @@ echo <<<HTML
   </div>
   <div class="product-info">
     <h1> Ballon Happy Day</h1>
-	<p>Un dessin vectoriel représentant un cœur en forme de ballon, avec l’expression « Happy Day ». Cette illustration évoque l’amour, la joie de vivre et les meilleurs vœux. Parfaite pour illustrer des cartes, des affiches ou des projets numériques festifs (créations joyeuses, romantiques ou décoratives), destinée principalement à l’impression (papeterie ou textile).</p>
+	<p>Un dessin vectoriel représentant un ballon en forme de cœur, avec l’expression « Happy Day ». Cette illustration évoque l’amour, la joie de vivre et les meilleurs vœux. Parfaite pour illustrer des cartes, des affiches ou des projets numériques festifs (créations joyeuses, romantiques ou décoratives), destinée principalement à l’impression (papeterie ou textile).</p>
 	<p>Catégorie : Émotion / Amour / Célébration</p>
 	<p>Format du fichier : SVG + PNG (300 DPI)</p>
-	<p>Taille originale :100 x 200 mm</p>
+	<p>Taille originale : 100 x 200 mm</p>
 	<p>Catégorie : Émotion / Amour / Célébration</p>
 
-    <p class="price">Prix : 20 €</p>
+    <p class="price">Prix : 20,00 €</p>
     <a href="contact.php?ref=ton-dessin1" class="btn">Commander</a>
   </div>
 </div>
