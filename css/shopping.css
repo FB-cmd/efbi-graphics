@@ -34,6 +34,8 @@
 .price {
 	font-weight: bold;
 	color: var(--fourthColor);
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .btn {
@@ -60,7 +62,7 @@
 	opacity: 0.8;
 }
 h1 {
-	color: var(--secondaryColor);
+	color: var(--fourthColor);
 	font-weight: bold;
 	font-style: italic;
 	font-size: clamp(1em, 4vw, 1.5em);
