@@ -11,7 +11,7 @@ addHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
 <main class="blog-container">
-    <section class="glossary">
+<section class="glossary">
         <h2>Glossaire</h2>
         <div class="glossary-grid">
             <article class="glossary-item">
@@ -48,7 +48,7 @@ echo <<<HTML
             </article>
 			<article class="glossary-item">
                 <h3>Haute définition</h3>
-                <p>Une image à haute définition correspond à un nombre élevé de points ou de pixels la composant. À ne pas confondre avec la haute résolution qui désigne un nombre élevé de points ou de pixels par unité de longueur.</p>
+                <p>Une image à haute définition correspond à un nombre élevé de points ou de pixels la composant. À ne pas confondre avec l'expression à haute résolution qui désigne un nombre élevé de points ou de pixels par unité de longueur.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Basse définition</h3>
@@ -131,6 +131,34 @@ echo <<<HTML
                 <p></p>
             </article>
             <!-- Add more terms as needed -->
+        </div>
+    </section>
+	<section class="blog-articles">
+        <h2>Articles</h2>
+        <div class="articles-grid">
+            <article class="article-card">
+                <div class="article-image">
+                    <img src="../assets/images/article1.jpg" alt="Article 1">
+                </div>
+                <div class="article-content">
+                    <h3>Le processus de création graphique</h3>
+                    <p class="article-date">3 Août 2025</p>
+                    <p class="article-excerpt">Découvrez les étapes essentielles de la création graphique, de la conception à la réalisation finale...</p>
+                    <a href="articles/process-creation.php" class="read-more">Lire la suite</a>
+                </div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-image">
+                    <img src="../assets/images/article2.jpg" alt="Article 2">
+                </div>
+                <div class="article-content">
+                    <h3>Tendances design 2025</h3>
+                    <p class="article-date">1 Août 2025</p>
+                    <p class="article-excerpt">Les dernières tendances en matière de design graphique pour cette année...</p>
+                    <a href="articles/tendances-2025.php" class="read-more">Lire la suite</a>
+                </div>
+            </article>
         </div>
     </section>
 </main>
