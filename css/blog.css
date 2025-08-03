@@ -5,3 +5,52 @@
 	margin: auto;
 	margin-bottom: 100px;
 }
+.blog-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.glossary {
+	margin: 2rem 0;
+}
+
+.glossary h2 {
+	text-align: center;
+	margin-bottom: 4rem;
+	color: var(--secondaryColor);
+	font-size: 4rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.glossary-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+}
+
+.glossary-item {
+	background: var(--mainColor);
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px var(--fourthcolor);
+}
+
+.glossary-item h3 {
+	color: var(--secondaryColor);
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.glossary-item p {
+	color: var(--textColor);
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+	.glossary-grid {
+		grid-template-columns: 1fr;
+	}
+}
