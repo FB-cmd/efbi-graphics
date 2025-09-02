@@ -9,7 +9,7 @@ $links = [
 	"Services" => "./services/",
 	"Portfolio" => "./portfolio/",
 	"Tarifs" => "./tarifs/",
-	"Blog" => "./blog/",
+	"Blog" => "./blog/", 
 	"Shopping" => "./shopping/",
 ];
 $contactLink = "./contact/";
