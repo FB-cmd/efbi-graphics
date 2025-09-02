@@ -56,23 +56,23 @@ echo <<<HTML
             </article>
 			<article class="glossary-item">
                 <h3>Titraille</h3>
-                <p></p>
+                <p>Ensemble des éléments qui entourent le texte d’une publication. L’application d’un style typographique donné permet de distinguer ces éléments et de repérer facilement les différents niveaux de la titraille (parties, chapitres, titres, sous-titres, etc.).</p>
             </article>
 			<article class="glossary-item">
                 <h3>Colorimétrie</h3>
-                <p></p>
+                <p>Ensemble des techniques permettant l’utilisation optimale des couleurs dans la création des designs graphiques et des publications, selon des codes colorimétriques donnés (comme le RVB pour l’affichage sur écran ou le CMJN pour l’impression).</p>
             </article>
 			<article class="glossary-item">
                 <h3>Visuel</h3>
-                <p></p>
+                <p>Document ou partie d’un document composé d’images, de représentations graphiques (visuel publicitaire). Un visuel peut être une affiche publicitaire, une page ou partie de page d’un périodique, un prospectus.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Liminaires</h3>
-                <p></p>
+                <p>Les pages liminaires d’un livre incluent la page de titre, le sommaire, la table des matières, la liste des tableaux, des figures, des abréviations et des sigles, la préface, la dédicace, l’épigraphe, les remerciements et l’avant-propos. Elles se placent avant le texte principal qui commence avec l’introduction.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Couverture</h3>
-                <p></p>
+                <p>Partie extérieure d'un livre, qui sert à protéger le corps d’un ouvrage. Elle se compose de la première de couverture, de la deuxième de couverture, de la troisième de couverture, de la quatrième de couverture et du dos.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Impression</h3>
@@ -92,15 +92,15 @@ echo <<<HTML
             </article>
 			<article class="glossary-item">
                 <h3>Maquettiste</h3>
-                <p></p>
+                <p>Spécialiste chargé de concevoir et d’exécuter des maquettes (en publicité, en typographie, en dessin). Typographe chargé de la mise en pages d’après maquette. </p>
             </article>
 			<article class="glossary-item">
                 <h3>Broché</h3>
-                <p></p>
+                <p>Un livre broché est celui dont la couverture comprend une seule pièce de papier fort, qui peut être pelliculée ou non, collée directement sur le dos du livre.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Relié</h3>
-                <p></p>
+                <p>Un livre relié est celui dont la couverture (reliure) est composée de deux plats en carton qui sont fixés à un dos par des mors. Ces éléments réunis peuvent être recouverts de toile ou de cuir. La reliure formée peut être cousue ou collée au corps d’un ouvrage.</p>
             </article>
 			<article class="glossary-item">
                 <h3>Relecture</h3>
@@ -141,10 +141,11 @@ echo <<<HTML
                     <img src="../assets/images/article1.jpg" alt="Article 1">
                 </div>
                 <div class="article-content">
-                    <h3>Le processus de création graphique</h3>
-                    <p class="article-date">3 Août 2025</p>
-                    <p class="article-excerpt">Découvrez les étapes essentielles de la création graphique, de la conception à la réalisation finale...</p>
-                    <a href="articles/process-creation.php" class="read-more">Lire la suite</a>
+                    <h3>Comment mieux formater votre manuscrit pour la fabrication ?</h3>
+                    <p class="article-date">1 Septembre 2025</p>
+                    <span class="reading-time">Temps de lecture : 10 minutes</span>
+                    <p class="article-excerpt">Des conseils pratiques pour bien formater votre manuscrit destiné à la fabrication...</p>
+                    <a href="articles/formater-manuscrit-pour-la-fabrication/" class="read-more">Lire la suite</a>
                 </div>
             </article>
             
