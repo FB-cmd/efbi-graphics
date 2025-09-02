@@ -1,0 +1,154 @@
+<?php
+require("../scriptsArticles/addArticlesHead.php");
+require('../scriptsArticles/addArticlesHeader.php');
+require('../scriptsArticles/links.php');
+
+$keywords = ["manuscrit", "formatage", "édition", "fabrication", "PAO"];
+$description = "Conseils pratiques pour formater votre manuscrit en vue de sa fabrication";
+
+addArticlesHead("Comment mieux formater votre manuscrit pour la fabrication ?", $faviconLink, $description, $keywords, $stylesheets);
+addArticlesHeader($linksArr, $contactLink, $assets);
+
+echo <<<HTML
+<main class="article-container">
+    <article class="blog-article">
+        <header class="article-header">
+            <h1>Comment mieux formater votre manuscrit pour la fabrication ?</h1>
+            <div class="article-meta">
+                <time datetime="2025-09-01">1 Septembre 2025</time>
+                <span class="reading-time">Temps de lecture : 10 minutes</span>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <p class="lead">
+                Vous avez bien reçu l’accord d’édition de votre manuscrit et vous souhaitez affiner sa présentation pour le soumettre à la fabrication ? Vous cherchez des conseils de formatage plus avancés pour faciliter le montage de votre publication par un maquettiste graphiste ?
+            </p>
+
+            <section>
+                <p>Comme auteur, le formatage d’un manuscrit exige de vous la conformité à une panoplie de règles, normes et recommandations pour bien le soumettre auprès d’un éditeur et garantir son accord. Après l’acceptation de l’éditeur vient la phase de fabrication. Lors de cette étape incontournable, d’autres règles de mise en forme du manuscrit s’appliquent pour soutenir la bonne collaboration avec le maquettiste graphiste responsable du montage de votre publication. Découvrons ensemble comment mieux formater votre manuscrit pour l’adapter au processus de fabrication.</p>
+            </section>
+
+            <section>
+                <p>La plupart des sources disponibles sur le formatage d’un manuscrit portent sur des critères de présentation normatifs et des conventions typographiques indispensables pour bien soumettre le travail auprès d’un éditeur. Dans notre article, nous nous focalisons sur des éléments plus techniques qui concernent tant la forme que le contenu du manuscrit, afin de faciliter la phase de production. Après un court rappel des règles usuelles à respecter, nous vous guidons dans les étapes de mise en page du manuscrit destiné à la fabrication.</p>
+            </section>
+
+            <section>
+                <h2>Rappel des règles usuelles à respecter</h2>
+                <h3>Bien présenter la page de titre :</h3>
+                <ul>
+                    <li>Mettre le titre principal en gros et en gras,</li>
+                    <li>Mettre le surtitre ou le sous-titre en taille un peu plus petite que le titre principal,</li>
+                    <li>Ecrire votre nom complet, le nom du coordinateur/directeur de publication, l’année de rédaction, vos coordonnées.</li>
+                </ul>
+
+                <h3>Bien opter pour un style de présentation lisible et clair :</h3>
+                <ul>
+                    <li>Choisir une police standard et neutre : Times New Roman, Arial, Garamond, Calibri,</li>
+                    <li>Choisir la bonne taille de texte : 12 points,</li>
+                    <li>Adapter les espaces : marges de 2,5 cm minimum, interligne 1,5 ou double,</li>
+                    <li>Numéroter les pages.</li>
+                </ul>
+                
+                <h3>Bien respecter les conventions typographiques et les codes éditoriaux :</h3>
+                <ul>
+                    <li>Eviter les doubles espaces entre les mots,</li>
+                    <li>Introduire des espaces insécables devant les signes de ponctuation,</li>
+                    <li>Ecrire correctement les différentes formes de chiffres et nombres,</li>
+                    <li>Intégrer proprement les appels de notes,</li>
+                    <li>Rédiger convenablement les acronymes, sigles et abréviations,</li>
+                    <li>Formater les références bibliographiques selon un système prédéfini adapté à la langue d’écriture (APA, MLA, Chicago, ISO 690, etc.)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Conseils techniques de formatage facilitant la fabrication de votre manuscrit</h2>
+                <h3>Bien établir le sommaire :</h3>
+                <ul>
+                    <li>Faire la distinction entre un sommaire succinct, généralement placé au début de la publication, et la table des matières plus complète et détaillée qui comprend l’ensemble des parties et titres du manuscrit,</li>
+                    <li>Veiller à la révision minutieuse du sommaire en rapport avec le texte du manuscrit pour garantir la conformité des niveaux de titres et des termes utilisés.</li>
+                </ul>
+                
+                <h3>Bien structurer le manuscrit :</h3>
+                <ul>
+                    <li>Organiser la titraille dans le manuscrit : titre de partie, titre de chapitre, titre de sous-chapitre, premier titre, second titre, troisième tire, etc.</li>
+                    <li>Présenter clairement les paragraphes, les listes à puces et numérotées, les citations, les éléments visuels et illustrations,</li>
+                    <li>Préparer la pagination du manuscrit et préciser s’il faut adopter un seul style de folio ou deux styles (pages liminaires / pages ordinaires).</li>
+                </ul>
+
+                <h3>Bien formaliser le style appliqué pour chaque élément :</h3>
+                <ul>
+                    <li>Choisir un style unique pour chaque titre, paragraphe, etc.,</li>
+                    <li>Normaliser son application tout au long du manuscrit.</li>
+                </ul>
+
+                <h3>Bien éviter les éléments inutiles dans le manuscrit :</h3>
+                <ul>
+                    <li>Supprimer les éléments superflus dans le manuscrit : lignes et espaces vides, ponctuation en trop, espaces en double.</li>
+                </ul>
+
+                <h3>Bien appliquer le style de caractères :</h3>
+                <ul>
+                    <li>Choisir les caractères (termes, expressions, citations) à différencier du texte normal,</li>
+                    <li>Appliquer le bon style de caractères (gras, italic, gras italic, souligné).</li>
+                </ul>
+
+                <h3>Bien établir les appels de notes :</h3>
+                <ul>
+                    <li>Intégrer proprement les notes de bas de pages dans le manuscrit,</li>
+                    <li>Eviter les renvois de notes vides ou inutiles,</li>
+                    <li>Choisir des formats d’appel unifiés (numéro, astérisque, etc.)</li>
+                </ul>
+
+                <h3>Bien sélectionner vos visuels :</h3>
+                <ul>
+                    <li>Fournir des visuels (graphiques, images, figures, illustrations) de haute qualité,</li>
+                    <li>Placer les visuels dans le bon endroit du manuscrit.</li>
+                </ul>
+
+                <h3>Bien préparer vos visuels et/ou tableaux :</h3>
+                <ul>
+                    <li>Mettre de préférence les visuels et/ou tableaux sur un fichier distinct,</li>
+                    <li>Respecter l’ordre d’apparition de chaque élément dans le manuscrit,</li>
+                    <li>Préciser pour chaque visuel/tableau son type (figure, graphique, illustration, image, carte, etc.), son numéro, son titre et sa légende,</li>
+                    <li>Indiquer l’emplacement exact de chaque visuel sur le fichier principal (insérer ici…),</li>
+                    <li>Faire attention au rappel des éléments dans le texte et de la numérotation exacte.</li>
+                </ul>
+
+                <h3>Bien anticiper le rajout des éléments en manque :</h3>
+                <ul>
+                    <li>Informer sur les éléments à rajouter ou en cours de préparation (chapitre à inclure, préface, avant-propos, prologue, remerciements, etc.)</li>
+                </ul>
+                
+                <h3>Bien soigner le manuscrit :</h3>
+                <ul>
+                    <li>Apporter plus d’intérêt à la correction des coquilles et fautes typographiques, orthographiques et syntaxiques,</li>
+                    <li>Eviter les anomalies récurrentes,</li>
+                    <li>Donner des précisions utiles et pertinentes sur l’épellation de certains termes et expressions spécifiques,</li>
+                    <li>Faire attention aux règles de ponctuation relatives à la langue d’écriture.</li>
+                </ul>
+                </section>
+            <section class="article-conclusion">
+                <h2>A retenir</h2>
+                <ul>
+                    <li>Un bon manuscrit repose sur l’articulation entre forme et contenu,</li>
+                    <li>La collaboration entre auteur et maquettiste passe par une bonne structure du manuscrit,</li>
+                    <li>Une application rigoureuse de ces conseils permet de produire une publication de qualité et dans les meilleures conditions (économie de temps et d’énergie).</li>
+                </ul>
+            </section>
+            <section>
+                <p>Vous rencontrez des difficultés spécifiques lors de la mise en forme de votre manuscrit ? Communiquez votre expérience en commentaire !</p>
+            </section>
+
+        </div>
+    </article>
+</main>
+
+<footer>
+    <span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
+</footer>
+
+<script src="../../scripts/common.js"></script>
+<script src="../../scripts/responsive-menu.js"></script>
+</body>
+</html>
+HTML;
