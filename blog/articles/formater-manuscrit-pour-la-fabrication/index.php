@@ -13,7 +13,10 @@ echo <<<HTML
 <main class="article-container">
     <article class="blog-article">
         <header class="article-header">
-            <h1>Comment mieux formater votre manuscrit pour la fabrication ?</h1>
+            <div class="title-wrapper">
+                <img src="../../../assets/icons/professional.svg" alt="Icône professionnel" class="header-icon">
+                <h1>Comment mieux formater votre manuscrit pour la fabrication ?</h1>
+            </div>
             <div class="article-meta">
                 <time datetime="2025-09-01">1 Septembre 2025</time>
                 <span class="reading-time">Temps de lecture : 10 minutes</span>
