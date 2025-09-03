@@ -1,0 +1,307 @@
+/* Base styles (mobile first) */
+.article-container {
+	width: 100%;
+	max-width: 95%; /* Increased from default */
+	padding: 1rem;
+	margin: 0 auto;
+	margin-top: 2rem; /* Added top margin */
+}
+
+.blog-article {
+	background: var(--textColor);
+	padding: 2rem 2.5rem; /* Increased left padding to accommodate first character */
+	padding-top: 3rem; /* Extra padding on top */
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Header */
+.article-header {
+	margin-bottom: 2rem;
+	border-bottom: 2px solid var(--mainColor);
+	padding-bottom: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.article-header h1 {
+	text-align: left;
+	color: var(--secondaryColor);
+	font-family: "al-fresco", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2rem; /* Reduced from 2.5rem */
+	margin-bottom: 2rem; /* Increased from 10px to 2rem */
+	line-height: 1; /* Reduced from default to tighten line spacing */
+	white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Adjust margin for larger screens if needed */
+@media screen and (min-width: 768px) {
+	.article-header h1 {
+		margin-bottom: 2.5rem; /* Larger margin for tablet */
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.article-header h1 {
+		margin-bottom: 3rem; /* Even larger margin for desktop */
+	}
+}
+
+.article-meta {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	color: var(--textColor); /* Removed duplicate color declaration */
+	font-size: 0.9rem; /* Consolidated font size */
+	padding: 1rem 1.5rem;
+	background: var(--mainColor);
+	border-radius: 8px;
+	width: fit-content;
+	flex-direction: column;
+}
+
+/* Article Content */
+.article-content {
+	line-height: 1.6;
+	color: var(--fourthColor);
+}
+
+p.lead {
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: var(--fourthColor); /* Changed to fourth color (#0096c8) */
+	margin-bottom: 1.5rem;
+	text-align: justify;
+}
+
+/* Adjust lead size for larger screens */
+@media screen and (min-width: 768px) {
+	p.lead {
+		font-size: 2.2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	p.lead {
+		font-size: 2.4rem;
+	}
+}
+
+.article-content p {
+	font-size: 1.2rem;
+	color: var(--secondaryColor);
+	line-height: 1.5;
+	margin-bottom: 1.25rem;
+	text-align: justify;
+}
+
+.article-content section {
+	margin: 2rem 0;
+}
+
+.article-content h2 {
+	color: var(--secondaryColor);
+	font-size: 1.5rem;
+	margin: 1.5rem 0 1rem;
+	font-weight: 600;
+}
+
+.article-content h3 {
+	color: var(--mainColor);
+	font-size: 1.25rem;
+	margin: 1.25rem 0 0.75rem;
+	font-weight: 500;
+}
+
+.article-content p {
+	margin-bottom: 1.25rem;
+	font-size: 1.2rem; /* Increased from 1.5rem and fixed syntax */
+	text-align: justify;
+	color: var(--secondaryColor); /* Changed color to secondary */
+}
+
+/* Adjust paragraph size for larger screens */
+@media screen and (min-width: 768px) {
+	.article-content p {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.article-content p {
+		font-size: 1.4rem;
+	}
+}
+
+.article-content ul {
+	margin: 1rem 0 1.5rem 1rem;
+}
+
+.article-content li {
+	margin-bottom: 0.5rem;
+	position: relative;
+	padding-left: 1.25rem;
+}
+
+.article-content li::before {
+	content: "•";
+	color: var(--mainColor);
+	position: absolute;
+	left: 0;
+}
+
+/* Article Conclusion */
+.article-conclusion {
+	background: var(--mainColor);
+	color: var(--textColor);
+	padding: 1.5rem;
+	border-radius: 8px;
+	margin: 2rem 0;
+}
+
+/* Title Wrapper */
+.title-wrapper {
+	display: flex;
+	align-items: baseline; /* Changed from center to baseline to align with text */
+	gap: 1rem; /* Reduced from 2rem */
+}
+
+.header-icon {
+	width: 85px; /* Increased from 70px */
+	height: 85px; /* Increased from 70px */
+	fill: var(--mainColor);
+	transform: translateY(18px); /* Adjusted for new size */
+}
+
+/* Responsive adjustments for the icon */
+@media screen and (min-width: 768px) {
+	.header-icon {
+		width: 100px; /* Increased from 85px */
+		height: 100px; /* Increased from 85px */
+		transform: translateY(22px); /* Adjusted for new size */
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.header-icon {
+		width: 110px; /* Increased from 95px */
+		height: 110px; /* Increased from 95px */
+		transform: translateY(25px); /* Adjusted for new size */
+	}
+}
+
+/* Tablet (768px and up) */
+@media screen and (min-width: 768px) {
+	.article-container {
+		max-width: 95%;
+		padding: 2rem;
+		margin-top: 3rem; /* Increased top margin for tablet */
+	}
+
+	.blog-article {
+		padding: 3rem 3.5rem;
+		padding-top: 4rem;
+	}
+
+	.article-header h1 {
+		font-size: 2.8rem; /* Reduced from 3.5rem */
+		line-height: 0.9; /* Slightly tighter for larger text */
+	}
+
+	.article-meta {
+		flex-direction: row;
+		gap: 2rem;
+	}
+
+	.lead {
+		font-size: 1.2rem;
+	}
+
+	.article-content h2 {
+		font-size: 1.75rem;
+	}
+
+	.article-content h3 {
+		font-size: 1.4rem;
+	}
+}
+
+/* Desktop (1024px and up) */
+@media screen and (min-width: 1024px) {
+	.article-container {
+		max-width: 1200px; /* Increased from 1000px */
+		padding: 3rem 2rem;
+		margin-top: 4rem; /* Increased top margin for desktop */
+	}
+
+	.blog-article {
+		padding: 4rem 4.5rem;
+		padding-top: 5rem;
+	}
+
+	.article-header h1 {
+		font-size: 3.5rem; /* Reduced from 4.5rem */
+		line-height: 0.9;
+	}
+
+	.lead {
+		font-size: 1.3rem;
+		line-height: 1.8;
+	}
+
+	.article-content {
+		line-height: 1.8;
+	}
+
+	.article-content h2 {
+		font-size: 2rem;
+		margin: 2rem 0 1.5rem;
+	}
+
+	.article-content h3 {
+		font-size: 1.5rem;
+		margin: 1.5rem 0 1rem;
+	}
+
+	.article-conclusion {
+		padding: 2rem;
+		margin: 3rem 0;
+	}
+}
+
+/* Large Desktop (1440px and up) */
+@media screen and (min-width: 1440px) {
+	.article-container {
+		max-width: 1400px; /* Increased from 1200px */
+	}
+}
+
+/* Print styles */
+@media print {
+	.article-container {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.blog-article {
+		box-shadow: none;
+		padding: 0;
+	}
+
+	.article-content {
+		font-size: 12pt;
+		line-height: 1.5;
+	}
+}
+
+@font-face {
+	font-family: "Al Fresco";
+	src: url("../fonts/AlFresco.woff2") format("woff2"),
+		url("../fonts/AlFresco.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
