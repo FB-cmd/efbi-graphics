@@ -158,10 +158,10 @@ p.lead {
 	color: var(--secondaryColor);
 	position: absolute;
 	left: 0;
-	font-family: "Arial", sans-serif; /* Added Arial font for better bullet rendering */
-	font-size: 1.4rem; /* Increased from 1.2rem */
+	font-family: "Arpona Regular", serif; /* Use Arpona Regular for bullets */
+	font-size: 1rem; /* Reduced from 1.4rem */
 	line-height: 1;
-	top: 0.1rem; /* Adjusted for new size */
+	top: 0.2rem; /* Adjust vertical alignment as needed */
 }
 
 /* Responsive adjustments */
@@ -172,7 +172,7 @@ p.lead {
 	}
 	
 	.article-content li::before {
-		font-size: 1.6rem; /* Increased from 1.3rem */
+		font-size: 1.1rem; /* Reduced from 1.6rem */
 	}
 }
 
@@ -183,7 +183,7 @@ p.lead {
 	}
 	
 	.article-content li::before {
-		font-size: 1.8rem; /* Increased from 1.4rem */
+		font-size: 1.2rem; /* Reduced from 1.8rem */
 	}
 }
 
