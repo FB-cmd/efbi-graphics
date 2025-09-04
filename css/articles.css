@@ -94,7 +94,7 @@ p.lead {
 	font-size: 1.2rem;
 	color: var(--secondaryColor);
 	line-height: 1.5;
-	margin-bottom: 1.25rem;
+	margin-bottom: 0.75rem; /* Reduced from 1.25rem */
 	text-align: justify;
 }
 
@@ -103,21 +103,23 @@ p.lead {
 }
 
 .article-content h2 {
-	color: var(--secondaryColor);
+	color: var(--mainColor); /* Changed from secondaryColor to mainColor */
 	font-size: 1.5rem;
 	margin: 1.5rem 0 1rem;
 	font-weight: 600;
 }
 
 .article-content h3 {
-	color: var(--mainColor);
+	color: var(--fourthColor); /* Changed from mainColor to fourthColor */
 	font-size: 1.25rem;
 	margin: 1.25rem 0 0.75rem;
-	font-weight: 500;
+	font-weight: 700; /* Changed from 500 to 700 for bold */
+	font-style: italic; /* Added italic style */
+	text-align: left; /* Added explicit left alignment */
 }
 
 .article-content p {
-	margin-bottom: 1.25rem;
+	margin-bottom: 0.75rem; /* Reduced from 1.25rem */
 	font-size: 1.2rem; /* Increased from 1.5rem and fixed syntax */
 	text-align: justify;
 	color: var(--secondaryColor); /* Changed color to secondary */
@@ -137,20 +139,52 @@ p.lead {
 }
 
 .article-content ul {
-	margin: 1rem 0 1.5rem 1rem;
+	margin: 1rem 0 1.5rem 2rem; /* Increased left margin for indentation */
+	list-style: none; /* Remove default bullets */
 }
 
 .article-content li {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem; /* Reduced from 1rem */
 	position: relative;
-	padding-left: 1.25rem;
+	padding-left: 2rem;
+	color: var(--secondaryColor);
+	font-size: 1.2rem;
+	font-style: italic;
+	line-height: 1.4; /* Added to control line spacing */
 }
 
 .article-content li::before {
-	content: "•";
-	color: var(--mainColor);
+	content: "\25CF"; /* Unicode for Black Circle ● */
+	color: var(--secondaryColor);
 	position: absolute;
 	left: 0;
+	font-family: "Arial", sans-serif; /* Added Arial font for better bullet rendering */
+	font-size: 1.4rem; /* Increased from 1.2rem */
+	line-height: 1;
+	top: 0.1rem; /* Adjusted for new size */
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 768px) {
+	.article-content li {
+		margin-bottom: 0.6rem; /* Slightly larger for tablet */
+		font-size: 1.3rem;
+	}
+	
+	.article-content li::before {
+		font-size: 1.6rem; /* Increased from 1.3rem */
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.article-content li {
+		margin-bottom: 0.7rem; /* Slightly larger for desktop */
+		font-size: 1.4rem;
+	}
+	
+	.article-content li::before {
+		font-size: 1.8rem; /* Increased from 1.4rem */
+	}
 }
 
 /* Article Conclusion */
@@ -191,6 +225,45 @@ p.lead {
 		height: 110px; /* Increased from 95px */
 		transform: translateY(25px); /* Adjusted for new size */
 	}
+}
+
+/* Introduction specific styles */
+.article-introduction {
+    font-size: 1.4rem;
+    color: var(--fourthColor);
+    line-height: 1.8;
+    margin: 2rem 0 3rem 0;
+    text-align: justify;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0 1rem;
+    position: relative;
+    border-bottom: none; /* Remove full-width border */
+}
+
+.article-introduction::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; /* Increased from 100px */
+    height: 2px;
+    background-color: var(--mainColor);
+    margin-bottom: -1.5rem; /* Add space between line and next content */
+}
+
+/* Adjust line width for larger screens */
+@media screen and (min-width: 768px) {
+    .article-introduction::after {
+        width: 300px; /* Increased from 150px */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .article-introduction::after {
+        width: 400px; /* Increased from 200px */
+    }
 }
 
 /* Tablet (768px and up) */
@@ -305,3 +378,16 @@ p.lead {
 	font-style: normal;
 	font-display: swap;
 }
+<article class="blog-article">
+    <header class="article-header">
+        <!-- ... existing header code ... -->
+    </header>
+    
+    <div class="article-introduction">
+        Vous avez bien reçu l'accord d'édition de votre manuscrit et vous souhaitez affiner sa présentation pour le soumettre à la fabrication ? Vous cherchez des conseils de formatage plus avancés pour faciliter le montage de votre publication par un maquettiste graphiste ?
+    </div>
+    
+    <div class="article-content">
+        <!-- ... rest of your article content ... -->
+    </div>
+</article>
