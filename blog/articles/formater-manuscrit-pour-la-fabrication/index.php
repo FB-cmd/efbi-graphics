@@ -10,6 +10,7 @@ addArticlesHead("Comment mieux formater votre manuscrit pour la fabrication ?", 
 addArticlesHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
+<img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
 <main class="article-container">
     <article class="blog-article">
         <header class="article-header">
@@ -22,14 +23,14 @@ echo <<<HTML
                 <span class="reading-time">Temps de lecture : 10 minutes</span>
             </div>
         </header>
-
+        
+        <div class="article-introduction">
+            Vous avez bien reçu l'accord d'édition de votre manuscrit et vous souhaitez affiner sa présentation pour le soumettre à la fabrication ? Vous cherchez des conseils de formatage plus avancés pour faciliter le montage de votre publication par un maquettiste graphiste ?
+        </div>
+        
         <div class="article-content">
-            <p class="lead">
-                Vous avez bien reçu l’accord d’édition de votre manuscrit et vous souhaitez affiner sa présentation pour le soumettre à la fabrication ? Vous cherchez des conseils de formatage plus avancés pour faciliter le montage de votre publication par un maquettiste graphiste ?
-            </p>
-
             <section>
-                <p>Comme auteur, le formatage d’un manuscrit exige de vous la conformité à une panoplie de règles, normes et recommandations pour bien le soumettre auprès d’un éditeur et garantir son accord. Après l’acceptation de l’éditeur vient la phase de fabrication. Lors de cette étape incontournable, d’autres règles de mise en forme du manuscrit s’appliquent pour soutenir la bonne collaboration avec le maquettiste graphiste responsable du montage de votre publication. Découvrons ensemble comment mieux formater votre manuscrit pour l’adapter au processus de fabrication.</p>
+                <p>Comme auteur, le formatage d’un manuscrit exige de vous la conformité à une panoplie de règles, normes et recommandations pour bien le soumettre auprès d’un éditeur et garantir son accord. Après l’acceptation de l’éditeur vient la phase de fabrication. Lors de cette étape incontournable, d’autres règles de mise en forme du manuscrit s’appliquent pour soutenir la bonne collaboration avec le maquettiste graphiste responsable du montage de votre publication.</p>
             </section>
 
             <section>
