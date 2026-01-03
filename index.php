@@ -5,7 +5,7 @@ require("./scripts/addContactMe.php");
 
 $links = [
 	"Accueil" => "./",
-	"Présentation" => "./présentation/",
+	"Présentation" => "./presentation/",
 	"Services" => "./services/",
 	"Portfolio" => "./portfolio/",
 	"Tarifs" => "./tarifs/",
@@ -92,7 +92,7 @@ echo <<<HTML
 	Construire et maintenir le lien social
 </h2>
 <div class="center-btn">
-		<a href="./présentation">
+		<a href="./presentation">
 					<button id="presentation-btn">Consulter la présentation</button>
 		</a>
 		</div>
