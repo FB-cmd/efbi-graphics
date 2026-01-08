@@ -178,12 +178,14 @@ h3 {
 	border: 2px solid var(--mainColor);
 	border-radius: 15px;
 	background-color: white;
+	background-clip: padding-box;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	flex-shrink: 0;
 	display: block;
 	padding: 10px;
+	box-sizing: border-box;
 }
 
 /* Fallback for loading images */
