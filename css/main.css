@@ -151,27 +151,19 @@ h3 {
 .works-container {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	max-width: 100%;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-	-webkit-mask-image: linear-gradient(
-		to right,
-		transparent 0%,
-		black 10%,
-		black 90%,
-		transparent 100%
-	);
+	padding: 20px 0;
 }
 
 .carousel-track {
 	display: flex;
 	align-items: center;
 	gap: 20px;
-	animation: smoothScroll 25s linear infinite;
-	will-change: transform;
-	backface-visibility: hidden;
+	animation: smoothScroll 20s linear infinite;
 }
 
 .carousel-track:hover {
@@ -179,8 +171,7 @@ h3 {
 }
 
 .works-container img {
-	max-width: 280px;
-	min-width: 280px;
+	width: 280px;
 	height: 350px;
 	object-fit: cover;
 	border: 2px solid var(--mainColor);
@@ -190,13 +181,22 @@ h3 {
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	flex-shrink: 0;
+	display: block;
+}
+
+/* Fallback for loading images */
+.works-container img[src*="cover-"] {
+	background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+		linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+		linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+		linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+	background-size: 20px 20px;
+	background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
 .works-container img:hover {
-	transform: scale(1.05) translateZ(0);
+	transform: scale(1.05);
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-	z-index: 2;
-	position: relative;
 }
 
 @keyframes smoothScroll {
@@ -204,7 +204,7 @@ h3 {
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(-50%);
+		transform: translateX(-1800px);
 	}
 }
 
