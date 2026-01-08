@@ -173,7 +173,8 @@ h3 {
 .works-container img {
 	width: 280px;
 	height: 350px;
-	object-fit: cover;
+	object-fit: contain;
+	object-position: center;
 	border: 2px solid var(--mainColor);
 	border-radius: 15px;
 	background-color: white;
@@ -182,6 +183,7 @@ h3 {
 	cursor: pointer;
 	flex-shrink: 0;
 	display: block;
+	padding: 10px;
 }
 
 /* Fallback for loading images */
@@ -228,9 +230,9 @@ h3 {
 	}
 
 	.works-container img {
-		max-width: 200px;
-		min-width: 200px;
+		width: 200px;
 		height: 250px;
+		padding: 8px;
 	}
 
 	.carousel-track {
@@ -241,9 +243,9 @@ h3 {
 
 @media (max-width: 480px) {
 	.works-container img {
-		max-width: 160px;
-		min-width: 160px;
+		width: 160px;
 		height: 200px;
+		padding: 6px;
 	}
 
 	.carousel-track {
