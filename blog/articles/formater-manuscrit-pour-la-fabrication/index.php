@@ -10,7 +10,7 @@ addArticlesHead("Comment mieux formater votre manuscrit pour la fabrication ?", 
 addArticlesHeader($linksArr, $contactLink, $assets);
 
 echo <<<HTML
-<img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
+<img src="../../../assets/img/line-top-central.svg" alt="ligne du haut central" />
 <main class="article-container">
     <article class="blog-article">
         <header class="article-header">
@@ -72,7 +72,10 @@ echo <<<HTML
                     <li>Faire la distinction entre un sommaire succinct, généralement placé au début de la publication, et la table des matières plus complète et détaillée qui comprend l’ensemble des parties et titres du manuscrit,</li>
                     <li>Veiller à la révision minutieuse du sommaire en rapport avec le texte du manuscrit pour garantir la conformité des niveaux de titres et des termes utilisés.</li>
                 </ul>
-                <section>Un sommaire bien établi est un repère primordial pour le maquettiste graphiste en cas d’ambiguïté, d’un doute ou d’une détection erronée du niveau de titre lors de la fabrication de votre livre.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    Un sommaire bien établi est un repère primordial pour le maquettiste graphiste en cas d’ambiguïté, d’un doute ou d’une détection erronée du niveau de titre lors de la fabrication de votre livre.
+                </section>
                 Visuel : Exemple de sommaire
                 <h3>Bien structurer le manuscrit :</h3>
                 <ul>
@@ -80,39 +83,57 @@ echo <<<HTML
                     <li>Présenter clairement les paragraphes, les listes à puces et numérotées, les citations, les éléments visuels et illustrations,</li>
                     <li>Préparer la pagination du manuscrit et préciser s’il faut adopter un seul style de folio ou deux styles (pages liminaires / pages ordinaires).</li>
                 </ul>
-                <section>Une structure bien soignée favorise le repérage des différents éléments de votre manuscrit et permet d’éviter les modifications inutiles et d’économiser du temps lors du processus de fabrication.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    Une structure bien soignée favorise le repérage des différents éléments de votre manuscrit et permet d’éviter les modifications inutiles et d’économiser du temps lors du processus de fabrication.
+                </section>
                 Visuel : Exemple de titraille organisée / Exemple de présentation du texte / Exemple de pagination simple ou double
                 <h3>Bien formaliser le style appliqué pour chaque élément :</h3>
                 <ul>
                     <li>Choisir un style unique pour chaque titre, paragraphe, etc.,</li>
                     <li>Normaliser son application tout au long du manuscrit.</li>
                 </ul>
-                <section>Une application systématique des styles sur votre manuscrit permet au fabricant de bien attacher le bon style correspondant au niveau de titre et au paragraphe lors de la production.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    Une application systématique des styles sur votre manuscrit permet au fabricant de bien attacher le bon style correspondant au niveau de titre et au paragraphe lors de la production.
+                </section>
                 Visuel : Exemple de styles unifiés
                 <h3>Bien éviter les éléments inutiles dans le manuscrit :</h3>
                 <ul>
                     <li>Supprimer les éléments superflus dans le manuscrit : lignes et espaces vides, ponctuation en trop, espaces en double.</li>
                 </ul>
-                <section>La suppression des éléments inutiles sert à préserver la continuité fluide et cohérente de votre manuscrit.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    La suppression des éléments inutiles sert à préserver la continuité fluide et cohérente de votre manuscrit.
+                </section>
                 <h3>Bien appliquer le style de caractères :</h3>
                 <ul>
                     <li>Choisir les caractères (termes, expressions, citations) à différencier du texte normal,</li>
                     <li>Appliquer le bon style de caractères (gras, italic, gras italic, souligné).</li>
                 </ul>
-                <section>Le bon choix du style de caractères permet au maquettiste de détecter les mots et expressions que vous désirez mettre en avant.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    Le bon choix du style de caractères permet au maquettiste de détecter les mots et expressions que vous désirez mettre en avant.
+                </section>
                 <h3>Bien établir les appels de notes :</h3>
                 <ul>
                     <li>Intégrer proprement les notes de bas de pages dans le manuscrit,</li>
                     <li>Eviter les renvois de notes vides ou inutiles,</li>
                     <li>Choisir des formats d’appel unifiés (numéro, astérisque, etc.)</li>
                 </ul>
-                <section>L’intégration soignée des appels de notes est une tâche essentielle pour déterminer le bon emplacement des renvois dans votre manuscrit.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    L’intégration soignée des appels de notes est une tâche essentielle pour déterminer le bon emplacement des renvois dans votre manuscrit.
+                </section>
                 <h3>Bien sélectionner vos visuels :</h3>
                 <ul>
                     <li>Fournir des visuels (graphiques, images, figures, illustrations) de haute qualité,</li>
                     <li>Placer les visuels dans le bon endroit du manuscrit.</li>
                 </ul>
-                <section>Le choix des visuels de haute qualité assure la clarté, la netteté, la lisibilité et la visibilité de votre publication et aide le maquettiste à adapter les fichiers pour impression / publication électronique.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    Le choix des visuels de haute qualité assure la clarté, la netteté, la lisibilité et la visibilité de votre publication et aide le maquettiste à adapter les fichiers pour impression / publication électronique.
+                </section>
                 <h3>Bien préparer vos visuels et/ou tableaux :</h3>
                 <ul>
                     <li>Mettre de préférence les visuels et/ou tableaux sur un fichier distinct,</li>
@@ -121,12 +142,18 @@ echo <<<HTML
                     <li>Indiquer l’emplacement exact de chaque visuel sur le fichier principal (insérer ici…),</li>
                     <li>Faire attention au rappel des éléments dans le texte et de la numérotation exacte.</li>
                 </ul>
-                <section>La séparation des visuels/tableaux de votre text brut permet au fabricant de bien structurer le montage et d’anticiper leur agencement sur les pages et leur rapport au texte.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    La séparation des visuels/tableaux de votre text brut permet au fabricant de bien structurer le montage et d’anticiper leur agencement sur les pages et leur rapport au texte.
+                </section>
                 <h3>Bien anticiper le rajout des éléments en manque :</h3>
                 <ul>
                     <li>Informer sur les éléments à rajouter ou en cours de préparation (chapitre à inclure, préface, avant-propos, prologue, remerciements, etc.)</li>
                 </ul>
-                <section>L’anticipation des éventuels rajouts autorise au maquettiste de leur accorder de l’espace en avance et de bien répartir le travail.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    L’anticipation des éventuels rajouts autorise au maquettiste de leur accorder de l’espace en avance et de bien répartir le travail.
+                </section>
                 <h3>Bien soigner le manuscrit :</h3>
                 <ul>
                     <li>Apporter plus d’intérêt à la correction des coquilles et fautes typographiques, orthographiques et syntaxiques,</li>
@@ -135,7 +162,10 @@ echo <<<HTML
                     <li>Faire attention aux règles de ponctuation relatives à la langue d’écriture.</li>
                 </ul>
                 </section>
-                <section>La relecture soigneuse et la correction scrupuleuse de votre manuscrit aident à écarter en avance les coquilles et anomalies qui peuvent nuire à la qualité du contenu.</section>
+                <section class="centered-bordered-note">
+                    <img src="../../../assets/icons/ampoule.svg" alt="Astuce" class="note-icon-left" />
+                    La relecture soigneuse et la correction scrupuleuse de votre manuscrit aident à écarter en avance les coquilles et anomalies qui peuvent nuire à la qualité du contenu.
+                </section>
                 Voir notre article sur les anomalies récurrentes à éliminer de votre manuscrit
             <section class="article-conclusion">
                 <h2>A retenir</h2>

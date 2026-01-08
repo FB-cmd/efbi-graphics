@@ -137,9 +137,6 @@ echo <<<HTML
         <h2>Articles</h2>
         <div class="articles-grid">
             <article class="article-card">
-                <div class="article-image">
-                    <img src="../assets/images/article1.jpg" alt="Article 1">
-                </div>
                 <div class="article-content">
                     <h3>Comment mieux formater votre manuscrit pour la fabrication ?</h3>
                     <p class="article-date">1 Septembre 2025</p>
@@ -150,9 +147,6 @@ echo <<<HTML
             </article>
             
             <article class="article-card">
-                <div class="article-image">
-                    <img src="../assets/images/article2.jpg" alt="Article 2">
-                </div>
                 <div class="article-content">
                     <h3>Tendances design 2025</h3>
                     <p class="article-date">1 Août 2025</p>
@@ -172,4 +166,4 @@ echo <<<HTML
 <script src="../scripts/responsive-menu.js"></script>
 </body>
 </html>
-HTML; 
+HTML;
