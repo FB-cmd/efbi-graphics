@@ -164,18 +164,26 @@ h3 {
 	border: 1px solid var(--mainColor);
 	border-radius: 10px;
 	background-color: white;
-	animation: translateCards 30s linear infinite;
+	animation: translateCards 25s linear infinite;
+}
+
+.works-container:hover > * {
+	animation-play-state: paused;
 }
 
 @keyframes translateCards {
 	0% {
 		transform: translateX(0);
 	}
-
-	50% {
-		transform: translateX(-1000px);
+	100% {
+		transform: translateX(-1800px);
 	}
+}
 
+#new-year-card {
+	min-width: 50%;
+	width: 1000px;
+	margin: 5px auto;
 	min-height: 200px;
 	border: 1px solid var(--secondaryColor);
 	border-radius: 10px;
