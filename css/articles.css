@@ -24,6 +24,37 @@
 	flex-direction: column;
 }
 
+/* Centered bordered note section */
+.centered-bordered-note {
+	border: 2px solid var(--mainColor);
+	border-radius: 10px;
+	background: #fff;
+		padding: 1.3em 1.5em 1.5em 4.5em;
+		width: 1200px;
+		max-width: 99vw;
+	margin: 2em auto;
+	text-align: justify;
+	font-size: 1.4em;
+	font-style: italic;
+	font-weight: bold;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+	display: block;
+	position: relative;
+}
+
+.note-icon-left {
+	position: absolute;
+	top: -1.2em;
+	left: -1.2em;
+	width: 5em;
+	height: 5em;
+	vertical-align: middle;
+	display: block;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
 .article-header h1 {
 	text-align: left;
 	color: var(--secondaryColor);
@@ -66,6 +97,7 @@
 .article-content {
 	line-height: 1.6;
 	color: var(--fourthColor);
+	/* Removed flexbox centering for better note centering */
 }
 
 p.lead {
@@ -141,6 +173,7 @@ p.lead {
 .article-content ul {
 	margin: 1rem 0 1.5rem 2rem; /* Increased left margin for indentation */
 	list-style: none; /* Remove default bullets */
+	align-self: stretch;
 }
 
 .article-content li {
@@ -189,8 +222,8 @@ p.lead {
 
 /* Article Conclusion */
 .article-conclusion {
-	background: var(--mainColor);
-	color: var(--textColor);
+	background: var(--secondaryColor);
+	color: var(--secondaryColor);
 	padding: 1.5rem;
 	border-radius: 8px;
 	margin: 2rem 0;
