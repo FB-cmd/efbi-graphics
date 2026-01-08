@@ -154,12 +154,22 @@ echo <<<HTML
 		</div>
 		<div class="portfolio">
 			<div class="works-container">
-				<img id="work24" src="./assets/img/books-covers/cover-24.jpg" alt="work24">
-				<img id="work1" src="./assets/img/books-covers/cover-1.jpg" alt="work1"> 
-				<img id="work12" src="./assets/img/books-covers/cover-12.jpg" alt="work12"> 
-				<img id="work3" src="./assets/img/books-covers/cover-3.jpg" alt="work3">
-				<img id="work6" src="./assets/img/books-covers/cover-6.jpg" alt="work6">
-				<img id="work26" src="./assets/img/books-covers/cover-26.jpg" alt="work26">  
+				<div class="carousel-track">
+					<!-- Original set -->
+					<img src="./assets/img/books-covers/cover-24.jpg" alt="Couverture de livre - Travail 24" loading="lazy">
+					<img src="./assets/img/books-covers/cover-1.jpg" alt="Couverture de livre - Travail 1" loading="lazy"> 
+					<img src="./assets/img/books-covers/cover-12.jpg" alt="Couverture de livre - Travail 12" loading="lazy"> 
+					<img src="./assets/img/books-covers/cover-3.jpg" alt="Couverture de livre - Travail 3" loading="lazy">
+					<img src="./assets/img/books-covers/cover-6.jpg" alt="Couverture de livre - Travail 6" loading="lazy">
+					<img src="./assets/img/books-covers/cover-26.jpg" alt="Couverture de livre - Travail 26" loading="lazy">
+					<!-- Duplicated set for seamless loop -->
+					<img src="./assets/img/books-covers/cover-24.jpg" alt="Couverture de livre - Travail 24" loading="lazy">
+					<img src="./assets/img/books-covers/cover-1.jpg" alt="Couverture de livre - Travail 1" loading="lazy"> 
+					<img src="./assets/img/books-covers/cover-12.jpg" alt="Couverture de livre - Travail 12" loading="lazy"> 
+					<img src="./assets/img/books-covers/cover-3.jpg" alt="Couverture de livre - Travail 3" loading="lazy">
+					<img src="./assets/img/books-covers/cover-6.jpg" alt="Couverture de livre - Travail 6" loading="lazy">
+					<img src="./assets/img/books-covers/cover-26.jpg" alt="Couverture de livre - Travail 26" loading="lazy">
+				</div>
 			</div>
 		</div>
 		<div class="btn-container">

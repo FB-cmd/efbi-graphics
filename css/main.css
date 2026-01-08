@@ -151,29 +151,119 @@ h3 {
 .works-container {
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
-	max-width: 50%;
+	max-width: 100%;
+	width: 100%;
 	overflow: hidden;
+	position: relative;
+	mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+	-webkit-mask-image: linear-gradient(
+		to right,
+		transparent 0%,
+		black 10%,
+		black 90%,
+		transparent 100%
+	);
 }
 
-.works-container > * {
-	max-width: 300px;
-	margin: 5px;
-	min-height: 300px;
-	padding: 10px;
-	border: 1px solid var(--mainColor);
-	border-radius: 10px;
+.carousel-track {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	animation: smoothScroll 25s linear infinite;
+	will-change: transform;
+	backface-visibility: hidden;
+}
+
+.carousel-track:hover {
+	animation-play-state: paused;
+}
+
+.works-container img {
+	max-width: 280px;
+	min-width: 280px;
+	height: 350px;
+	object-fit: cover;
+	border: 2px solid var(--mainColor);
+	border-radius: 15px;
 	background-color: white;
-	animation: translateCards 30s linear infinite;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	flex-shrink: 0;
 }
 
-@keyframes translateCards {
+.works-container img:hover {
+	transform: scale(1.05) translateZ(0);
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+	position: relative;
+}
+
+@keyframes smoothScroll {
 	0% {
 		transform: translateX(0);
 	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
 
-	50% {
-		transform: translateX(-1000px);
+/* Responsive carousel adjustments */
+@media (max-width: 768px) {
+	.works-container {
+		mask-image: linear-gradient(
+			to right,
+			transparent 0%,
+			black 5%,
+			black 95%,
+			transparent 100%
+		);
+		-webkit-mask-image: linear-gradient(
+			to right,
+			transparent 0%,
+			black 5%,
+			black 95%,
+			transparent 100%
+		);
+	}
+
+	.works-container img {
+		max-width: 200px;
+		min-width: 200px;
+		height: 250px;
+	}
+
+	.carousel-track {
+		gap: 15px;
+		animation-duration: 20s;
+	}
+}
+
+@media (max-width: 480px) {
+	.works-container img {
+		max-width: 160px;
+		min-width: 160px;
+		height: 200px;
+	}
+
+	.carousel-track {
+		gap: 10px;
+		animation-duration: 18s;
+	}
+}
+
+/* Accessibility: respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+	.carousel-track {
+		animation: none;
+	}
+
+	.works-container img {
+		transition: none;
+	}
+
+	.works-container img:hover {
+		transform: none;
 	}
 }
 
