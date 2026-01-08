@@ -171,25 +171,34 @@ h3 {
 }
 
 .works-container img {
-	width: 280px;
-	height: 350px;
+	width: 100%;
+	height: 100%;
 	object-fit: contain;
 	object-position: center;
-	border: 2px solid var(--mainColor);
-	border-radius: 15px;
-	background-color: white;
-	background-clip: padding-box;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 0;
+	background: none;
+	transition: none;
 	cursor: pointer;
 	flex-shrink: 0;
 	display: block;
+}
+
+.carousel-track > img {
+	width: 280px;
+	height: 350px;
+	border: 2px solid var(--mainColor);
+	border-radius: 15px;
+	background-color: white !important;
+	background-clip: padding-box;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 	padding: 10px;
 	box-sizing: border-box;
 }
 
 /* Fallback for loading images */
-.works-container img[src*="cover-"] {
+.carousel-track > img[src*="cover-"] {
 	background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
 		linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
 		linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
@@ -198,7 +207,7 @@ h3 {
 	background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
-.works-container img:hover {
+.carousel-track > img:hover {
 	transform: scale(1.05);
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
