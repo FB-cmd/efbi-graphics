@@ -65,7 +65,7 @@ addHeader($links, $contactLink, $assets);
 
 echo <<<HTML
 <img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
-<h2 class="second-title">ienvenue dans mon univers de création graphique&nbsp;! </h2>
+<h2 class="second-title">Bienvenue dans mon univers de création graphique&nbsp;! </h2>
 <img class="open-book" src="../assets/img/open-book.svg" alt="image de livre ouvert" />
 <img src="../assets/img/line-top-central.svg" alt="ligne du haut central" />
 <h1 class="special-title">Pourquoi ce métier ?</h1>
