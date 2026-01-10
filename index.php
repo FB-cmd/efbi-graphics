@@ -5,7 +5,7 @@ require("./scripts/addContactMe.php");
 
 $links = [
 	"Accueil" => "./",
-	"Présentation" => "./présentation/",
+	"Présentation" => "./presentation/",
 	"Services" => "./services/",
 	"Portfolio" => "./portfolio/",
 	"Tarifs" => "./tarifs/",
