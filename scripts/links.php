@@ -1,7 +1,7 @@
 <?php
 $linksArr = [
 		"Accueil" => "../",
-		"Présentation" => "../presentation/",
+		"Présentation" => "../présentation/",
 		"Services" => "../services/",
 		"Portfolio" => "../portfolio/",
 		"Tarifs" => "../tarifs/",
