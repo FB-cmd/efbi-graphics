@@ -1,18 +1,50 @@
-<?php
-require("../scripts/addHead.php");
-require('../scripts/addHeader.php');
-require('../scripts/links.php');
-$linksArr["Portfolio"] = "./";
-$stylesheets["mainStyle"] = "../css/portfolio.css";
-$description="eFBi Graphics\U+000A9 vous présente une sélection raffinée des travaux et réalisations effectués auprès des clients de renommée, témoignant de la diversité des supports et thématiques traités. Passez une commande au plus vite !"; 
-$keywords = [];
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="eFBi Graphics\U+000A9 vous présente une sélection raffinée des travaux et réalisations effectués auprès des clients de renommée, témoignant de la diversité des supports et thématiques traités. Passez une commande au plus vite !" />
+		<meta name="keywords" content="" />
+		<title>eFBi Graphics | Portfolio</title>
+		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css" />
+		<link rel="stylesheet" href="../css/portfolio.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/top-page.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/contact-me.css" />
+		<link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg" />
+	</head>
+	<body>
+		<div class="line-top"></div>
+		<header>
+			<img id="logo" src="../assets/img/logo.svg" alt="Logo du site" />
+			<div id="menu-container">
+				<button id="activate-menu-btn">
+					<img src="../assets/icons/show-menu.svg" id="show-menu-icon" />
+				</button>
+				<menu>
+					<a href="../">Accueil</a>
+					<a href="../presentation/">Présentation</a>
+					<a href="../services/">Services</a>
+					<a href="./">Portfolio</a>
+					<a href="../tarifs/">Tarifs</a>
+					<a href="../blog/">Blog</a>
+					<a href="../shopping/">Shopping</a>
+					<a id="virtual-contact-btn" href="../contact/">Contact</a>
+				</menu>
+			</div>
+			<div class="left-side">
+				<a href="../contact/">
+					<button id="contact-btn">Contact</button>
+				</a>
+			</div>
+		</header>
+		<img id="banner" src="../assets/img/banner.svg" alt="Bannière du site" />
 
-addHead("Portfolio", $faviconLink, $description, $keywords, $stylesheets);
-addHeader($linksArr, $contactLink, $assets);
-
-echo <<<HTML
-<div class="gallery">
-<img
+		<div class="gallery">
+			<img
 				class="cover"
 				id="cover-1"
 				src="../assets/img/books-covers/cover-1.jpg"
@@ -35,7 +67,7 @@ echo <<<HTML
 				id="cover-4"
 				src="../assets/img/books-covers/cover-4.jpg"
 				alt="Couverture du livre Par-delà la résilience et l'antifragilité" />
-			<hr class="horizontal" id="hr1"/>
+			<hr class="horizontal" id="hr1" />
 			<img
 				class="cover"
 				id="cover-5"
@@ -59,7 +91,7 @@ echo <<<HTML
 				id="cover-8"
 				src="../assets/img/books-covers/cover-8.jpg"
 				alt="Couverture du Vademecum de la sage-femme 2e édition" />
-			<hr class="horizontal" id="hr2"/>
+			<hr class="horizontal" id="hr2" />
 			<img
 				class="cover"
 				id="cover-9"
@@ -83,7 +115,7 @@ echo <<<HTML
 				id="cover-12"
 				src="../assets/img/books-covers/cover-12.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" id="hr3"/>
+			<hr class="horizontal" id="hr3" />
 			<img
 				class="cover"
 				id="cover-13"
@@ -107,7 +139,7 @@ echo <<<HTML
 				id="cover-16"
 				src="../assets/img/books-covers/cover-16.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" id="hr4"/>
+			<hr class="horizontal" id="hr4" />
 			<img
 				class="cover"
 				id="cover-17"
@@ -131,103 +163,103 @@ echo <<<HTML
 				id="cover-20"
 				src="../assets/img/books-covers/cover-20.jpg"
 				alt="Couverture d'un travail" />
-			<hr class="horizontal" id="hr5"/>
+			<hr class="horizontal" id="hr5" />
 			<img
 				class="cover"
 				id="cover-21"
 				src="../assets/img/books-covers/cover-21.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
+			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-24"
 				src="../assets/img/books-covers/cover-24.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
+			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-25"
 				src="../assets/img/books-covers/cover-25.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
+			<hr class="vertical" />
 			<img
 				class="cover"
 				id="cover-26"
 				src="../assets/img/books-covers/cover-26.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="horizontal" id="hr5"/>
-				<img
+			<hr class="horizontal" id="hr5" />
+			<img
 				class="cover"
 				id="affiche-1"
 				src="../assets/img/books-covers/affiche-1.jpg"
 				alt="Affiche d'un congrès" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="affiche-2"
 				src="../assets/img/books-covers/affiche-2.jpg"
 				alt="Affiche d'un congrès" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-27"
 				src="../assets/img/books-covers/cover-27.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-28"
 				src="../assets/img/books-covers/cover-28.jpeg"
 				alt="Couverture d'un travail" />
-				<hr class="horizontal" id="hr5"/>
-				<img
+			<hr class="horizontal" id="hr5" />
+			<img
 				class="cover"
 				id="cover-30"
 				src="../assets/img/books-covers/cover-30.jpeg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-31"
 				src="../assets/img/books-covers/cover-31.jpeg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-29"
 				src="../assets/img/books-covers/cover-29.jpeg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical" />
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-32"
 				src="../assets/img/books-covers/cover-32.jpeg"
 				alt="Couverture d'un travail" />
-				<hr class="horizontal" id="hr5"/>
-				<img
+			<hr class="horizontal" id="hr5" />
+			<img
 				class="cover"
 				id="layout-1"
 				src="../assets/img/books-covers/cover-37.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical"/>
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-34"
 				src="../assets/img/books-covers/cover-34.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical"/>
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-35"
 				src="../assets/img/books-covers/cover-35.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="vertical"/>
-				<img
+			<hr class="vertical" />
+			<img
 				class="cover"
 				id="cover-36"
 				src="../assets/img/books-covers/cover-36.jpg"
 				alt="Couverture d'un travail" />
-				<hr class="horizontal" id="hr5"/>
+			<hr class="horizontal" id="hr5" />
 		</div>
 
 		<footer>
@@ -238,5 +270,3 @@ echo <<<HTML
 		<script src="../scripts/responsive-menu.js"></script>
 	</body>
 </html>
-HTML;
-?>

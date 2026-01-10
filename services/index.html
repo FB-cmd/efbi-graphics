@@ -1,52 +1,81 @@
-<?php
-require("../scripts/addHead.php");
-require('../scripts/addHeader.php');
-require('../scripts/addContactMe.php');
-require('../scripts/links.php');
-
-$linksArr["Services"] = "./";
-$stylesheets["mainStyle"] = "../css/services.css";
-$description = "Plongez dans l'univers de la conception graphique au travers de nos services sécialisés et de nos solutions sur mesure de mise en page, de création et de fabrication de sublimes publications et supports de communication !";
-$keywords = [
-	"offre graphiste",
-	"services graphisme",
-	"service graphisme",
-	"mise en page",
-	"service mise en page",
-	"services mise en page",
-	"mise en page manuscrit",
-	"mise en page livre",
-	"mise en page revue",
-	"mise en page magazine",
-	"mise en page photo",
-	"mise en page texte",
-	"service graphiste",
-	"services graphiste",
-	"retouche photo",
-	"création graphique",
-	"creation graphique",
-	"dessin vectoriel",
-	"support de communication",
-	"création logo",
-	"creation logo",
-	"suivi de fabrication",
-	"communication visuelle",
-	"correction professionnelle",
-	"création illustration",
-	"creation illustration",
-	"typographie",
-	"Indesign",
-	"Illustrator",
-	"Photoshop",
-	"style graphqiue",
-	"traitement image",
-];
-
-addHead("Services", $faviconLink, $description, $keywords, $stylesheets);
-addHeader($linksArr, $contactLink, $assets);
-
-echo <<<HTML
-<div class="layout">
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Plongez dans l'univers de la conception graphique au travers de nos services sécialisés et de nos solutions sur mesure de mise en page, de création et de fabrication de sublimes publications et supports de communication !" />
+		<meta
+			name="keywords"
+			content="offre graphiste,
+	services graphisme,
+	service graphisme,
+	mise en page,
+	service mise en page,
+	services mise en page,
+	mise en page manuscrit,
+	mise en page livre,
+	mise en page revue,
+	mise en page magazine,
+	mise en page photo,
+	mise en page texte,
+	service graphiste,
+	services graphiste,
+	retouche photo,
+	création graphique,
+	creation graphique,
+	dessin vectoriel,
+	support de communication,
+	création logo,
+	creation logo,
+	suivi de fabrication,
+	communication visuelle,
+	correction professionnelle,
+	création illustration,
+	creation illustration,
+	typographie,
+	Indesign,
+	Illustrator,
+	Photoshop,
+	style graphqiue,
+	traitement image" />
+		<title>eFBi Graphics | Services</title>
+		<link rel="stylesheet" href="https://use.typekit.net/nql6qqc.css" />
+		<link rel="stylesheet" href="../css/services.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/top-page.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/contact-me.css" />
+		<link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg" />
+	</head>
+	<body>
+		<div class="line-top"></div>
+		<header>
+			<img id="logo" src="../assets/img/logo.svg" alt="Logo du site" />
+			<div id="menu-container">
+				<button id="activate-menu-btn">
+					<img src="../assets/icons/show-menu.svg" id="show-menu-icon" />
+				</button>
+				<menu>
+					<a href="../">Accueil</a>
+					<a href="../presentation/">Présentation</a>
+					<a href="./">Services</a>
+					<a href="../portfolio/">Portfolio</a>
+					<a href="../tarifs/">Tarifs</a>
+					<a href="../blog/">Blog</a>
+					<a href="../shopping/">Shopping</a>
+					<a id="virtual-contact-btn" href="../contact/">Contact</a>
+				</menu>
+			</div>
+			<div class="left-side">
+				<a href="../contact/">
+					<button id="contact-btn">Contact</button>
+				</a>
+			</div>
+		</header>
+		<img id="banner" src="../assets/img/banner.svg" alt="Bannière du site" />
+        <div class="layout">
 			<h1>Mise en page et&nbsp;suivi&nbsp;de&nbsp;fabrication</h1>
 			<div class="content">
 				<p>
@@ -112,18 +141,52 @@ echo <<<HTML
 				</p>
 			</div>
 		</div>
-		
-HTML;
-addContactMe($assets);
 
-echo <<<HTML
+        <div class="contact-me"> 
+			<h3>Désirez-vous concrétiser votre projet de publication&nbsp;?</h3>
+			<div class="manuscript">
+			<img id="manuscript"src="../assets/icons/manuscript.svg" alt="icône de manuscrit">
+			</div>
+			<div class="contact-me-message">
+				<span>MERCI DE ME CONTACTER&nbsp;!</span>
+			</div>
+			<br>					
+				<a class="email-infos" href="mailto:efbi-graphics@outlook.com" target="_blank">
+					<img class="email-icon" src="../assets/icons/email.svg" alt="icone de mail en blanc"> 
+					<span id="mail">efbi-graphics@outlook.com</span>
+				</a>
+			<div class="phone-infos">
+				<img class="phone-icon" class="icon" src="../assets/icons/phone.svg" alt="icone de téléphone en blanc">
+				<span id="phone">(+212)6.99.37.92.12 </span>	
+			</div>
+			<br>
+			<div class="contact-me-message">
+				<span>Me suivre</span>
+			</div>
+			<br>
+				</a>
+			<a class="facebook-infos" href="https://www.facebook.com/share/1BfWtHS8my/?mibextid=qi2Omg" target="_blank">
+					<img class="facebook-icon" src="../assets/icons/facebook-icon.svg" alt="icone de facebook en blanc"> 
+					<span id="facebook">EFBI Graphics</span>
+				</a>
+				<a class="instagram-infos" href="https://www.instagram.com/efbigraphics?igsh=Znk1YWg4bG1rdG5w" target="_blank">
+					<img class="instagram-icon" src="../assets/icons/instagram-icon.svg" alt="icone de instagram en blanc"> 
+					<span id="instagram">efbigraphics</span>
+				</a>
+				<a class="linkedin-infos" href="https://www.linkedin.com/in/efbi-graphics-77a276315" target="_blank">
+					<img class="linkedin-icon" src="../assets/icons/linkedin-icon.svg" alt="icone de linkedin en blanc"> 
+					<span id="linkedin">efbi Graphics</span>
+				</a>	
+		</div>
+		</div>
+		
+
 		<footer>
 			<span>Tous droits réservés - 2025 eFBi Graphics<sup>&copy;</sup></span>
 		</footer>
 
 		<script src="../scripts/common.js"></script>
 		<script src="../scripts/responsive-menu.js"></script>
+
 	</body>
 </html>
-HTML;
-?>
