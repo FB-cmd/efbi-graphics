@@ -223,10 +223,59 @@ p.lead {
 /* Article Conclusion */
 .article-conclusion {
 	background: var(--secondaryColor);
-	color: var(--secondaryColor);
-	padding: 1.5rem;
+	border: 2px solid var(--secondaryColor);
+	color: var(--textColor);
+	padding: 0.3rem 2rem 1.5rem 6rem;
 	border-radius: 8px;
 	margin: 2rem 0;
+	position: relative;
+}
+
+.conclusion-icon {
+	position: absolute;
+	top: -1.5em;
+	left: -1.5em;
+	width: 7em;
+	height: 7em;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.article-conclusion h2 {
+	color: var(--textColor);
+	font-family: "al-fresco", sans-serif;
+	font-weight: 700;
+	font-size: 5rem !important;
+	margin: 0 0 0.3rem 0;
+	padding-left: 2.5rem;
+	line-height: 1;
+}
+
+.article-conclusion ul {
+	margin: 0;
+	padding-left: 2rem;
+	list-style: none;
+}
+
+.article-conclusion li {
+	color: var(--textColor);
+	margin-bottom: 0.8rem;
+	font-weight: 500;
+	font-size: 1.3rem;
+	position: relative;
+	padding-left: 1.5rem;
+}
+
+.article-conclusion li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.5em;
+	width: 10px;
+	height: 10px;
+	background: var(--textColor);
+	border-radius: 50%;
 }
 
 /* Title Wrapper */
@@ -405,7 +454,8 @@ p.lead {
 
 @font-face {
 	font-family: "Al Fresco";
-	src: url("../fonts/AlFresco.woff2") format("woff2"),
+	src:
+		url("../fonts/AlFresco.woff2") format("woff2"),
 		url("../fonts/AlFresco.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
