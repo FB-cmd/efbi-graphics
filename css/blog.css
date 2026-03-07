@@ -261,3 +261,164 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+/* Tablet responsive styles */
+@media screen and (max-width: 1024px) {
+	.blog-container {
+		padding: 1.5rem;
+	}
+
+	.glossary h2,
+	.blog-articles h2 {
+		font-size: 3rem;
+	}
+
+	.alphabet-nav {
+		gap: 0.4rem;
+		padding: 0.8rem;
+	}
+
+	.alphabet-nav a {
+		width: 2.2rem;
+		height: 2.2rem;
+		font-size: 1.1rem;
+	}
+
+	.glossary-grid {
+		gap: 1.5rem;
+	}
+
+	.articles-grid {
+		gap: 1.5rem;
+	}
+}
+
+/* Small tablet / large mobile additional styles */
+@media screen and (max-width: 768px) {
+	.blog-container {
+		padding: 1rem;
+	}
+
+	.glossary h2,
+	.blog-articles h2 {
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.alphabet-nav {
+		gap: 0.3rem;
+		padding: 0.6rem;
+	}
+
+	.alphabet-nav a {
+		width: 2rem;
+		height: 2rem;
+		font-size: 1rem;
+	}
+
+	.letter-header {
+		font-size: 1.6rem;
+		margin-top: 1.5rem;
+	}
+
+	.glossary-item {
+		padding: 0.8rem;
+	}
+
+	.glossary-item h3 {
+		font-size: 1.3rem;
+	}
+
+	.article-content {
+		padding: 0.8rem;
+	}
+
+	.article-content h3 {
+		font-size: 1.1rem;
+	}
+
+	.article-excerpt {
+		font-size: 0.95rem;
+		margin-bottom: 1rem;
+	}
+}
+
+/* Mobile specific styles */
+@media screen and (max-width: 480px) {
+	.blog-container {
+		padding: 0.8rem;
+	}
+
+	.glossary h2,
+	.blog-articles h2 {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.alphabet-nav {
+		gap: 0.2rem;
+		padding: 0.5rem;
+		border-radius: 6px;
+	}
+
+	.alphabet-nav a {
+		width: 1.8rem;
+		height: 1.8rem;
+		font-size: 0.9rem;
+		border-radius: 3px;
+	}
+
+	.letter-header {
+		font-size: 1.4rem;
+		margin-top: 1rem;
+		padding: 0.8rem 0 0.4rem;
+	}
+
+	.glossary-item {
+		padding: 0.6rem;
+		border-radius: 6px;
+	}
+
+	.glossary-item h3 {
+		font-size: 1.2rem;
+	}
+
+	.glossary-item p {
+		font-size: 0.95rem;
+	}
+
+	.article-card {
+		border-radius: 6px;
+	}
+
+	.article-content {
+		padding: 0.6rem;
+	}
+
+	.article-content h3 {
+		font-size: 1rem;
+	}
+
+	.article-date {
+		font-size: 0.85rem;
+	}
+
+	.article-excerpt {
+		font-size: 0.9rem;
+		line-height: 1.5;
+	}
+
+	.read-more {
+		padding: 0.4rem 0.8rem;
+		font-size: 0.9rem;
+	}
+
+	.article-icon {
+		width: 56px;
+		height: 56px;
+	}
+
+	.soon {
+		margin-bottom: 60px;
+	}
+}

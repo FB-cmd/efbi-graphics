@@ -43,21 +43,69 @@ strong {
 	color: var(--textColor);
 	font-style: italic;
 }
-@media screen and (max-width: 480px) {
+
+/* Tablet responsive styles */
+@media screen and (max-width: 1024px) {
+	.content {
+		width: 85%;
+		padding: 18px;
+	}
+
+	.layout,
+	.correction,
+	.graphics {
+		padding: 15px;
+	}
+
+	li {
+		margin-left: 25px;
+	}
+}
+
+/* Small tablet / large mobile */
+@media screen and (max-width: 768px) {
 	.content {
 		background-color: var(--secondaryColor);
-		padding: 20px;
+		padding: 15px;
 		border-radius: 10px;
 		width: 95%;
 		margin-top: 0;
 	}
+
+	.layout,
+	.correction,
+	.graphics {
+		padding: 10px;
+	}
+
+	li {
+		margin-left: 20px;
+		font-size: 1em;
+	}
 }
-@media screen and (max-width: 768px) {
+
+/* Mobile specific */
+@media screen and (max-width: 480px) {
 	.content {
 		background-color: var(--secondaryColor);
-		padding: 20px;
-		border-radius: 10px;
-		width: 95%;
+		padding: 12px;
+		border-radius: 8px;
+		width: 98%;
 		margin-top: 0;
+	}
+
+	.layout,
+	.correction,
+	.graphics {
+		padding: 8px;
+	}
+
+	li {
+		margin-left: 15px;
+		font-size: 0.95em;
+	}
+
+	.notes {
+		margin-top: 15px;
 	}
 }

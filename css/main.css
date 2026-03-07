@@ -419,3 +419,98 @@ strong {
 		min-width: 200px;
 	}
 }
+
+/* Tablet responsive styles */
+@media screen and (max-width: 1024px) {
+	.services > div,
+	.targets > div {
+		max-width: 80%;
+		padding: 15px;
+	}
+
+	.services > div {
+		height: auto;
+		min-height: 280px;
+	}
+
+	.targets > div {
+		height: auto;
+		min-height: 200px;
+	}
+
+	.works-container {
+		max-width: 70%;
+	}
+
+	#new-year-card {
+		width: 90%;
+		min-width: unset;
+	}
+
+	.btn {
+		min-width: 120px;
+		padding: 8px 15px;
+	}
+}
+
+/* Small tablet / large mobile */
+@media screen and (max-width: 768px) {
+	.services > div,
+	.targets > div {
+		max-width: 95%;
+		width: 95%;
+	}
+
+	.services > div > img,
+	.targets > div > img {
+		width: 120px;
+		height: 80px;
+	}
+
+	.works-container {
+		max-width: 90%;
+	}
+
+	#new-year-card {
+		width: 95%;
+		min-height: 150px;
+	}
+
+	.btn-container {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/* Mobile specific */
+@media screen and (max-width: 480px) {
+	.services > div,
+	.targets > div {
+		max-width: 100%;
+		padding: 10px;
+	}
+
+	.services > div > img,
+	.targets > div > img {
+		width: 100px;
+		height: 70px;
+	}
+
+	.works-container {
+		max-width: 95%;
+	}
+
+	#new-year-card {
+		width: 100%;
+		min-height: 120px;
+	}
+
+	.promotion {
+		margin-top: 50px;
+	}
+
+	.promotion > p {
+		font-size: 1em;
+		padding: 0 10px;
+	}
+}

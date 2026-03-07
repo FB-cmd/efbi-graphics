@@ -117,3 +117,95 @@
 	height: 500px;
 	flex: 0 0 1px;
 }
+
+/* Tablet responsive styles */
+@media screen and (max-width: 1024px) {
+	.gallery {
+		padding: 0 3%;
+		gap: 15px;
+	}
+
+	.gallery > img,
+	.cover-container {
+		flex: 1 1 30%;
+		min-width: 180px;
+	}
+
+	.cover-container .cover {
+		max-height: 400px;
+	}
+
+	#new-year-card {
+		max-width: 70%;
+	}
+}
+
+/* Small tablet / large mobile */
+@media screen and (max-width: 768px) {
+	.gallery {
+		padding: 0 2%;
+		gap: 12px;
+		justify-content: center;
+	}
+
+	.gallery > img,
+	.cover-container {
+		flex: 1 1 45%;
+		min-width: 150px;
+	}
+
+	.cover-container .cover {
+		max-height: 350px;
+	}
+
+	.cover-overlay h4 {
+		font-size: 1rem;
+	}
+
+	.cover-overlay p {
+		font-size: 0.85rem;
+	}
+
+	#new-year-card {
+		max-width: 90%;
+	}
+
+	.vertical {
+		display: none;
+	}
+}
+
+/* Mobile specific */
+@media screen and (max-width: 480px) {
+	.gallery {
+		padding: 0 10px;
+		gap: 10px;
+	}
+
+	.gallery > img,
+	.cover-container {
+		flex: 1 1 100%;
+		min-width: unset;
+		max-width: 100%;
+	}
+
+	.cover-container .cover {
+		max-height: 300px;
+	}
+
+	.cover-overlay {
+		padding: 20px 15px 15px;
+	}
+
+	.cover-overlay h4 {
+		font-size: 0.95rem;
+	}
+
+	.cover-overlay p {
+		font-size: 0.8rem;
+	}
+
+	#new-year-card {
+		max-width: 100%;
+	}
+}

@@ -60,3 +60,84 @@ li {
 	color: var(--textColor);
 	font-style: italic;
 }
+
+/* Tablet responsive styles */
+@media screen and (max-width: 1024px) {
+	.about,
+	.values,
+	.client-relation {
+		max-width: 95%;
+		padding: 15px;
+	}
+
+	#values-image {
+		max-width: 70%;
+	}
+
+	.content {
+		padding: 15px;
+	}
+}
+
+/* Small tablet / large mobile */
+@media screen and (max-width: 768px) {
+	.about,
+	.values,
+	.client-relation {
+		max-width: 100%;
+		padding: 10px;
+		margin: 8px auto;
+	}
+
+	#values-image {
+		max-width: 85%;
+		margin: 20px auto;
+	}
+
+	.content {
+		padding: 12px;
+		margin: 8px auto;
+	}
+
+	.content > * {
+		margin: 10px;
+		font-size: 1em;
+	}
+
+	li {
+		margin: 0 8px;
+	}
+}
+
+/* Mobile specific */
+@media screen and (max-width: 480px) {
+	.about,
+	.values,
+	.client-relation {
+		padding: 8px;
+		margin: 5px auto;
+	}
+
+	#values-image {
+		max-width: 95%;
+		margin: 15px auto;
+	}
+
+	.content {
+		padding: 10px;
+		border-radius: 8px;
+	}
+
+	.content > * {
+		margin: 8px;
+		font-size: 0.95em;
+	}
+
+	li {
+		margin: 0 5px;
+	}
+
+	.notes {
+		margin-top: 15px;
+	}
+}
