@@ -47,6 +47,26 @@ header {
 	width: 50%;
 }
 
+.language-control {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin: 5px;
+	color: var(--secondaryColor);
+	font-size: 0.85rem;
+}
+
+#site-language {
+	border: none;
+	border-radius: 4px;
+	width: auto;
+	height: auto;
+	padding: 3px 6px;
+	color: white;
+	background-color: var(--fourthColor);
+	font-size: 0.85rem;
+}
+
 menu {
 	display: flex;
 	background: linear-gradient(0deg, var(--mainColor) 5%, var(--secondaryColor) 5%);
@@ -189,6 +209,10 @@ a:hover {
 
 @media only screen and (max-width: 480px) {
 	.left-side {
+		display: flex;
+	}
+
+	.left-side > a {
 		display: none;
 	}
 

@@ -59,7 +59,7 @@ if (isValidInputs($infos)) {
 
 
 		$mail->setFrom('fatima@efbi-graphics.com', 'Mailer');
-		$mail->addAddress('efbi-graphics@outlook.com', 'abc abc');
+		$mail->addAddress('fabirrou@efbi-graphics.com', 'abc abc');
 		$mail->Body    = 'New work is here!';
 		$mail->addAttachment($filePath);
 		$mail->send();
