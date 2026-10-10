@@ -217,7 +217,7 @@ h3 {
 	}
 
 	.contact-infos .separator {
-		display: inline;
+		display: none;
 	}
 
 	.social-infos {
