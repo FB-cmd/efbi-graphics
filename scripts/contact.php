@@ -1,6 +1,5 @@
 <?php 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 require '../vendor/autoload.php';
 require("./isValidInputs.php");
@@ -19,11 +18,6 @@ $infos = [
 ];
 
 if (isValidInputs($infos)) {
-
-	$fileName = "{$infos["firstName"]}-{$infos["lastName"]}.txt";
-	$filePath = "./" . $fileName;
-	$myfile = fopen($fileName, "w") or die("Unable to open file!");
-
 	$line1 = "Nom complet : {$infos["firstName"]} {$infos["lastName"]} \n";
 	$line2 = "Email : {$infos["email"]} \n";
 	$line3 = "Numéro de téléphone : {$infos["phoneNumber"]} \n";
@@ -33,17 +27,41 @@ if (isValidInputs($infos)) {
 	$line7 = "Nombre d'images : {$infos["imageNumber"]} \n";
 	$line8 = "Nombre de tableaux : {$infos["tableNumber"]} \n";
 	$line9 = "Message : {$infos["message"]} \n";
+	$attachmentContent = implode("", [
+		$line1,
+		$line2,
+		$line3,
+		$line4,
+		$line5,
+		$line6,
+		$line7,
+		$line8,
+		$line9,
+	]);
+	$smtpUsername = getenv("SMTP_USERNAME");
+	$smtpPassword = getenv("SMTP_PASSWORD");
 
-	fwrite($myfile, $line1);
-	fwrite($myfile, $line2);
-	fwrite($myfile, $line3);
-	fwrite($myfile, $line4);
-	fwrite($myfile, $line5);
-	fwrite($myfile, $line6);
-	fwrite($myfile, $line7);
-	fwrite($myfile, $line8);
-	fwrite($myfile, $line9);
-	fclose($myfile);
+	if ($smtpUsername === false || $smtpUsername === "" || $smtpPassword === false || $smtpPassword === "") {
+		error_log("Contact form email is not configured: SMTP_USERNAME and SMTP_PASSWORD must be set.");
+		http_response_code(500);
+		echo "The contact form is temporarily unavailable. Please try again later.";
+		exit;
+	}
+
+	$filePath = tempnam(sys_get_temp_dir(), "contact-request-");
+	if ($filePath === false) {
+		error_log("Contact form email failed: could not create request attachment.");
+		http_response_code(500);
+		echo "Your request could not be sent. Please try again later.";
+		exit;
+	}
+	if (file_put_contents($filePath, $attachmentContent) === false) {
+		unlink($filePath);
+		error_log("Contact form email failed: could not write request attachment.");
+		http_response_code(500);
+		echo "Your request could not be sent. Please try again later.";
+		exit;
+	}
 
 	$mail = new PHPMailer(true);
 
@@ -52,16 +70,16 @@ if (isValidInputs($infos)) {
 		$mail->SMTPAuth = true;
 		$mail->Host = "smtp.hostinger.com";
 		$mail->Port = 465;
-		$mail->Username = "fatima@efbi-graphics.com";
-		$mail->Password = "roqxo5-dojjyd-vydZug";
-		$mail->SMTPSecure = "ssl";
+		$mail->Username = $smtpUsername;
+		$mail->Password = $smtpPassword;
+		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 
 
 
-		$mail->setFrom('fatima@efbi-graphics.com', 'Mailer');
+		$mail->setFrom($smtpUsername, 'Mailer');
 		$mail->addAddress('fabirrou@efbi-graphics.com', 'abc abc');
 		$mail->Body    = 'New work is here!';
-		$mail->addAttachment($filePath);
+		$mail->addAttachment($filePath, "contact-request.txt");
 		$mail->send();
 
 		echo '<!DOCTYPE html>
@@ -77,12 +95,14 @@ if (isValidInputs($infos)) {
 			</body>
 			</html>';
 
-		unlink($filePath);
-
-
-
 	} catch (Exception $e) {
-		echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+		error_log("Contact form email failed: {$mail->ErrorInfo}");
+		http_response_code(500);
+		echo "Your request could not be sent. Please try again later.";
+	} finally {
+		if (is_file($filePath) && !unlink($filePath)) {
+			error_log("Contact form cleanup failed for temporary request attachment.");
+		}
 	}
 } else {
 	echo '<!DOCTYPE html>
