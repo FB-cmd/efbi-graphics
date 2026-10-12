@@ -31,9 +31,19 @@
 		transform 0.3s ease;
 }
 
+.future-cover-slot {
+	aspect-ratio: 2 / 3;
+	box-shadow: none;
+}
+
 .cover-container:hover {
 	box-shadow: 0 8px 30px rgba(255, 140, 0, 0.35);
 	transform: translateY(-5px);
+}
+
+.future-cover-slot:hover {
+	box-shadow: none;
+	transform: none;
 }
 
 .cover-container .cover {
