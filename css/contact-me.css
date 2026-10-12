@@ -239,3 +239,254 @@ h3 {
 		display: block;
 	}
 }
+
+/* Flat, tile-based look matching the services and home tiles */
+.contact-me {
+	background: #fff;
+	border-top: 8px solid var(--mainColor);
+	margin-top: 60px;
+	padding: clamp(30px, 6vw, 60px) clamp(20px, 5vw, 50px);
+}
+
+.contact-me h3 {
+	color: var(--secondaryColor);
+}
+
+.manuscript {
+	display: block;
+	width: clamp(200px, 30vw, 340px);
+	max-width: none;
+	min-width: 0;
+	margin: clamp(20px, 4vw, 36px) auto;
+}
+
+.manuscript img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.contact-header,
+.contact-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 1000px;
+	margin: 0 auto;
+	gap: 0 24px;
+	align-items: stretch;
+}
+
+.contact-header {
+	margin-bottom: 0;
+}
+
+.contact-header .contact-me-message {
+	justify-content: center;
+	padding: 14px 10px;
+	background: var(--secondaryColor);
+}
+
+.contact-header .contact-me-message.desktop-only {
+	background: var(--mainColor);
+}
+
+.contact-me-message > span {
+	font-size: clamp(1em, 1.8vw, 1.25em);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.contact-infos,
+.social-wrapper {
+	justify-content: center;
+	align-content: center;
+	padding: 26px 16px;
+	gap: 14px 28px;
+	color: #fff;
+	transition: transform 250ms ease;
+}
+
+.contact-infos {
+	background: var(--secondaryColor);
+}
+
+.social-wrapper {
+	background: var(--mainColor);
+}
+
+.contact-infos:hover,
+.social-wrapper:hover {
+	transform: translateY(-4px);
+}
+
+.contact-infos .separator,
+.social-infos .separator {
+	display: none;
+}
+
+.contact-infos,
+.social-infos {
+	column-gap: 28px;
+	row-gap: 12px;
+}
+
+.contact-infos .email-icon,
+.contact-infos .phone-icon {
+	margin-bottom: 0;
+	filter: brightness(0) invert(1);
+}
+
+.social-infos .instagram-icon {
+	margin-bottom: 0;
+}
+
+.social-infos .linkedin-icon {
+	margin-bottom: 0;
+	border-radius: 3px;
+	box-shadow: 0 0 0 2px var(--secondaryColor);
+}
+
+@media screen and (max-width: 768px) {
+	.contact-header,
+	.contact-row {
+		grid-template-columns: 1fr;
+		gap: 16px 0;
+	}
+
+	.contact-header .contact-me-message.desktop-only {
+		display: none;
+	}
+
+	.contact-header {
+		margin-bottom: 0;
+	}
+
+	.social-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.social-wrapper .contact-me-message {
+		display: block;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.contact-infos,
+	.social-wrapper {
+		transition: none;
+	}
+}
+
+/* Manuscript first, above the title */
+.contact-me {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-me .manuscript {
+	order: -1;
+	margin: 0 auto 20px;
+}
+
+.contact-me h3 {
+	margin-bottom: 28px;
+}
+
+@media screen and (min-width: 769px) {
+	.contact-me {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 24px;
+	}
+
+	.contact-me .manuscript,
+	.contact-me h3 {
+		grid-column: 1 / -1;
+	}
+
+	.contact-header,
+	.contact-row {
+		display: contents;
+	}
+
+	.contact-header .contact-me-message:first-child {
+		grid-column: 1;
+	}
+
+	.contact-header .contact-me-message.desktop-only {
+		grid-column: 2;
+	}
+
+	.contact-infos {
+		grid-column: 1;
+	}
+
+	.social-wrapper {
+		grid-column: 2;
+	}
+}
+
+/* Compact tiles */
+.contact-infos,
+.social-wrapper {
+	padding: 14px 12px;
+	gap: 8px 20px;
+}
+
+.contact-header .contact-me-message {
+	padding: 8px 10px;
+}
+
+.contact-me-message > span {
+	font-size: clamp(0.9em, 1.4vw, 1.05em);
+}
+
+#mail,
+#phone,
+#instagram,
+#linkedin {
+	font-size: clamp(0.9em, 1.6vw, 1.05em);
+}
+
+@media screen and (min-width: 769px) {
+	.contact-me {
+		padding-left: max(50px, calc((100% - 760px) / 2));
+		padding-right: max(50px, calc((100% - 760px) / 2));
+	}
+}
+
+/* Dynamic manuscript: gentle float and sway, lively on hover */
+.manuscript {
+	perspective: 800px;
+}
+
+.manuscript img {
+	animation: manuscript-float 4.5s ease-in-out infinite;
+	filter: drop-shadow(0 14px 14px rgba(0, 0, 140, 0.25));
+	transition: scale 300ms ease;
+}
+
+.manuscript:hover img {
+	scale: 1.08;
+	animation-duration: 2s;
+}
+
+@keyframes manuscript-float {
+	0%,
+	100% {
+		transform: translateY(0) rotate(-3deg) rotateY(-8deg);
+	}
+	50% {
+		transform: translateY(-14px) rotate(3deg) rotateY(8deg);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.manuscript img {
+		animation: none;
+		transition: none;
+	}
+}
