@@ -14,7 +14,7 @@
     .pgR, .pgL { transform-origin: 144px 150px; animation: book-pages 6.5s ease-in-out infinite; }
     .logo-on { opacity: 0; animation: logo-show 6.5s ease-in-out infinite; }
     @keyframes book-pages { 0%, 12%, 100% { transform: scaleX(1); } 30%, 60% { transform: scaleX(.12); } 80% { transform: scaleX(1); } }
-    @keyframes logo-show { 0%, 28%, 70%, 100% { opacity: 0; } 36%, 56% { opacity: 1; } }
+    @keyframes logo-show { 0%, 12%, 72%, 100% { opacity: 0; } 30%, 60% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .pgR, .pgL, .logo-on { animation: none; } .logo-on { opacity: 0; } }
   </style>
   <defs>
