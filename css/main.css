@@ -514,3 +514,133 @@ strong {
 		padding: 0 10px;
 	}
 }
+
+/* Bande annonce nouveautés 2027 */
+.announcement-banner {
+	width: 100%;
+	padding: 14px 16px;
+	margin: 18px 0 24px;
+	background: linear-gradient(135deg, var(--secondaryColor) 0%, #06065f 100%);
+	border-top: 2px solid var(--mainColor);
+	border-bottom: 2px solid var(--mainColor);
+	box-shadow: 0 4px 18px rgba(0, 0, 140, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.announcement-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	text-decoration: none;
+	color: var(--textColor);
+	padding: 6px 12px;
+	border-radius: 999px;
+	transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.announcement-link:hover {
+	transform: scale(1.02);
+	opacity: 0.95;
+}
+
+.announcement-badge {
+	position: relative;
+	display: inline-block;
+	background: linear-gradient(135deg, #ff9e1f 0%, #ff6b00 100%);
+	color: #fff;
+	font-weight: 700;
+	font-size: clamp(0.75em, 1.8vw, 0.9em);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 6px 14px;
+	border-radius: 999px;
+	overflow: hidden;
+	box-shadow: 0 0 0 0 rgba(255, 140, 0, 0.6);
+	animation: banner-badge-pulse 2.2s infinite ease-in-out;
+}
+
+.announcement-badge::after {
+	content: "";
+	position: absolute;
+	top: -50%;
+	left: -120%;
+	width: 80%;
+	height: 200%;
+	background: linear-gradient(
+		120deg,
+		transparent 20%,
+		rgba(255, 255, 255, 0.75) 50%,
+		transparent 80%
+	);
+	transform: rotate(25deg);
+	animation: banner-badge-shimmer 2.8s infinite ease-in-out;
+	pointer-events: none;
+}
+
+.announcement-text {
+	font-size: clamp(1.05em, 2.3vw, 1.35em);
+	font-weight: bold;
+	color: var(--textColor);
+	letter-spacing: 0.02em;
+}
+
+.announcement-cta {
+	font-size: clamp(0.85em, 1.8vw, 1em);
+	font-weight: 600;
+	color: var(--mainColor);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+@keyframes banner-badge-pulse {
+	0%,
+	100% {
+		box-shadow:
+			0 0 0 0 rgba(255, 140, 0, 0.7),
+			0 4px 14px rgba(255, 110, 0, 0.45);
+		transform: scale(1);
+	}
+	50% {
+		box-shadow:
+			0 0 16px 4px rgba(255, 160, 0, 0.85),
+			0 0 28px 8px rgba(255, 120, 0, 0.4);
+		transform: scale(1.04);
+	}
+}
+
+@keyframes banner-badge-shimmer {
+	0%,
+	20% {
+		left: -120%;
+	}
+	60%,
+	100% {
+		left: 160%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.announcement-banner {
+		padding: 12px 10px;
+	}
+
+	.announcement-link {
+		gap: 6px;
+		text-align: center;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.announcement-badge,
+	.announcement-badge::after {
+		animation: none;
+	}
+
+	.announcement-link {
+		transition: none;
+	}
+}
