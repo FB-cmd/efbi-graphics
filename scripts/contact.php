@@ -1,7 +1,10 @@
 <?php 
+require '../vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-require '../vendor/autoload.php';
+
 require("./isValidInputs.php");
 
 $infos = [
@@ -38,13 +41,13 @@ if (isValidInputs($infos)) {
 		$line8,
 		$line9,
 	]);
-	$smtpUsername = getenv("SMTP_USERNAME");
-	$smtpPassword = getenv("SMTP_PASSWORD");
+	$smtpUsername = $_ENV["SMTP_USERNAME"];
+	$smtpPassword = $_ENV["SMTP_PASSWORD"];
 
 	if ($smtpUsername === false || $smtpUsername === "" || $smtpPassword === false || $smtpPassword === "") {
 		error_log("Contact form email is not configured: SMTP_USERNAME and SMTP_PASSWORD must be set.");
 		http_response_code(500);
-		echo "The contact form is temporarily unavailable. Please try again later.";
+		echo $smtpUsername ."The contact form is temporarily unavailable. Please try again later.";
 		exit;
 	}
 
